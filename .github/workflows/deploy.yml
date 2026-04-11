@@ -22,9 +22,14 @@ jobs:
       fail-fast: false
       matrix:
         collection:
-          - { name: 'r060', dir: 'collections/r060', title: 'OIML R 60' }
-          # r138-e07 temporarily disabled: content error in anafero-cli
-          # - { name: 'r138-e07', dir: 'collections/r138-e07', title: 'OIML R 138 E.07' }
+          - { name: 'r060', dir: 'collections/r060', xml: 'collection.presentation.xml', title: 'OIML R 60' }
+          - { name: 'r138-e07', dir: 'collections/r138-e07', xml: 'collection.presentation.xml', title: 'OIML R 138 E.07' }
+          - { name: 'b022-e23', dir: 'collections/b022-e23', xml: 'document.presentation.xml', title: 'OIML B 022 E.23' }
+          - { name: 'd036-e20', dir: 'collections/d036-e20', xml: 'document.presentation.xml', title: 'OIML D 036 E.20' }
+          - { name: 'e006-e11', dir: 'collections/e006-e11', xml: 'document.presentation.xml', title: 'OIML E 006 E.11' }
+          - { name: 'g021-e17', dir: 'collections/g021-e17', xml: 'document.presentation.xml', title: 'OIML G 021 E.17' }
+          - { name: 'r007-e79', dir: 'collections/r007-e79', xml: 'document.presentation.xml', title: 'OIML R 007 E.79' }
+          - { name: 'r144-3', dir: 'collections/r144/3', xml: 'document.presentation.xml', title: 'OIML R 144-3' }
     name: Build ${{ matrix.collection.name }}
 
     steps:
@@ -38,7 +43,7 @@ jobs:
           git config --global init.defaultBranch main
           rm -rf .git
           git init .
-          git add ${{ matrix.collection.dir }}/collection.presentation.xml
+          git add ${{ matrix.collection.dir }}/${{ matrix.collection.xml }}
           git commit -m "Add presentation XML for ${{ matrix.collection.name }}"
 
       - name: Create anafero config
@@ -46,7 +51,7 @@ jobs:
           cat <<EOF > anafero-config.json
           {
             "version": "0.1",
-            "entryPoint": "file:${{ matrix.collection.dir }}/collection.presentation.xml",
+            "entryPoint": "file:${{ matrix.collection.dir }}/${{ matrix.collection.xml }}",
             "storeAdapters": [
               "git+https://github.com/metanorma/firelight#main/packages/metanorma-xml-store"
             ],
@@ -106,8 +111,9 @@ jobs:
               body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 800px; margin: 50px auto; padding: 0 20px; }
               h1 { margin-bottom: 30px; }
               .collection { border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
-              .collection h2 { margin: 0 0 10px 0; }
-              .collection a { font-size: 18px; }
+              .collection h2 { margin: 0 0 10px 0; font-size: 18px; }
+              .collection p { margin: 0 0 10px 0; color: #555; }
+              .collection a { font-size: 16px; }
             </style>
           </head>
           <body>
@@ -117,13 +123,41 @@ jobs:
               <p>Metrological regulation for load cells</p>
               <a href="/oiml-firelight/r060/">Open R 60</a>
             </div>
-            <!-- r138-e07 disabled: content processing error, to be re-enabled
             <div class="collection">
               <h2>OIML R 138 E.07</h2>
-              <p>Metrological and technical requirements</p>
+              <p>Vessels for commercial transactions</p>
               <a href="/oiml-firelight/r138-e07/">Open R 138 E.07</a>
             </div>
-            -->
+            <div class="collection">
+              <h2>OIML B 022 E.23</h2>
+              <p>Policy and rules for the reimbursement of travel expenses incurred by the CIML President</p>
+              <a href="/oiml-firelight/b022-e23/">Open B 022 E.23</a>
+            </div>
+            <div class="collection">
+              <h2>OIML D 036 E.20</h2>
+              <p>Pipe provers for verification and calibration of measuring systems for liquids</p>
+              <a href="/oiml-firelight/d036-e20/">Open D 036 E.20</a>
+            </div>
+            <div class="collection">
+              <h2>OIML E 006 E.11</h2>
+              <p>Guidance on the selection and implementation of performance requirements for utility meters</p>
+              <a href="/oiml-firelight/e006-e11/">Open E 006 E.11</a>
+            </div>
+            <div class="collection">
+              <h2>OIML G 021 E.17</h2>
+              <p>Guidance for defining the requirements for a certification system for prepackages</p>
+              <a href="/oiml-firelight/g021-e17/">Open G 021 E.17</a>
+            </div>
+            <div class="collection">
+              <h2>OIML R 007 E.79</h2>
+              <p>Clinical thermometers (mercury-in-glass, with maximum device)</p>
+              <a href="/oiml-firelight/r007-e79/">Open R 007 E.79</a>
+            </div>
+            <div class="collection">
+              <h2>OIML R 144-3</h2>
+              <p>Instruments for continuous measurement of CO, NOx in stationary source emissions &mdash; Test report format</p>
+              <a href="/oiml-firelight/r144-3/">Open R 144-3</a>
+            </div>
           </body>
           </html>
           EOF
