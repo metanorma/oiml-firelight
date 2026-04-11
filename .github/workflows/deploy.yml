@@ -23,7 +23,8 @@ jobs:
       matrix:
         collection:
           - { name: 'r060', dir: 'collections/r060', title: 'OIML R 60' }
-          - { name: 'r138-e07', dir: 'collections/r138-e07', title: 'OIML R 138 E.07' }
+          # r138-e07 temporarily disabled: content error in anafero-cli
+          # - { name: 'r138-e07', dir: 'collections/r138-e07', title: 'OIML R 138 E.07' }
     name: Build ${{ matrix.collection.name }}
 
     steps:
@@ -116,11 +117,13 @@ jobs:
               <p>Metrological regulation for load cells</p>
               <a href="/oiml-firelight/r060/">Open R 60</a>
             </div>
+            <!-- r138-e07 disabled: content processing error, to be re-enabled
             <div class="collection">
               <h2>OIML R 138 E.07</h2>
               <p>Metrological and technical requirements</p>
               <a href="/oiml-firelight/r138-e07/">Open R 138 E.07</a>
             </div>
+            -->
           </body>
           </html>
           EOF
