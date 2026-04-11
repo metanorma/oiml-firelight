@@ -29,6 +29,15 @@ jobs:
           mv fl/* .
           rmdir fl
 
+      - name: Rewrite HTML paths for subdirectory deployment
+        run: |
+          # Replace absolute paths with relative paths for GitHub Pages subdirectory deployment
+          find . -name "*.html" -exec sed -i \
+            -e 's|href="/|href="./|g' \
+            -e 's|src="/|src="./|g' \
+            -e 's|src="http://localhost:8097"></script>||g' \
+            {} +
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
