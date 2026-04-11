@@ -64,7 +64,7 @@ jobs:
           NODE_OPTIONS: "--max_old_space_size=8192"
         run: |
           npx --node-options='--experimental-vm-modules --max_old_space_size=6144' \
-            -y @riboseinc/anafero-cli@0.0.67 build-site \
+            -y @riboseinc/anafero-cli@0.0.70 build-site \
             --target-dir dist/${{ matrix.collection.name }} \
             --path-prefix /oiml-firelight \
             --current-rev main
