@@ -40,42 +40,24 @@ jobs:
         env:
           REPO_NAME: ${{ github.event.repository.name }}
         run: |
+          # Only set data-path-prefix on <html> tag - the React app uses this
+          # to know its deployment subdirectory. No other changes needed because
+          # GitHub Pages serves files from repo root, so absolute paths like
+          # /bootstrap.css work correctly.
           bundle exec ruby <<'RUBY'
             repo = ENV["REPO_NAME"] || "oiml-firelight"
             prefix = "/#{repo}"
 
-            ASSET_PATTERNS = %w[
-              versions.json dependencies.json dependency-index.json
-              resource-descriptions.json resource-map.json search-index.json
-            ]
-
-            # Fix HTML files using raw string replacement to preserve exact structure
             Dir.glob("**/*.html").each do |file|
               content = File.read(file)
 
-              # Add data-path-prefix to <html> tag
+              # Add data-path-prefix so React app knows its subdirectory
               content = content.sub(/(<html\b[^>]*?)(>)/, "\\1 data-path-prefix=\"#{prefix}\"")
 
-              # Remove localhost dev server script
-              content = content.gsub(/<script\s+src="http:\/\/localhost:\d+"><\/script>/, "")
-
-              # Rewrite absolute paths in attributes (skip protocol URLs like //cdn...)
-              content = content.gsub(/(href|src)="\/(?!\/)/, "\\1=\"#{prefix}/")
+              # Remove localhost dev server script (breaks production)
+              content = content.gsub(/<script\s+src="http:\/\/localhost:\d+"><\/script>\s*/, "")
 
               File.write(file, content)
-            end
-
-            # Fix JS files - only target known asset path strings
-            Dir.glob("**/*.js").each do |file|
-              content = File.read(file)
-              updated = content
-              ASSET_PATTERNS.each do |asset|
-                updated = updated.gsub(
-                  /"\/(#{Regexp.escape(asset)})"/,
-                  "\"#{prefix}/#{asset}\""
-                )
-              end
-              File.write(file, updated) if updated != content
             end
           RUBY
 
