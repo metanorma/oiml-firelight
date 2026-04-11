@@ -1,0 +1,23 @@
+= OIML Firelight Viewer
+
+This repository hosts the https://github.com/metanorma/firelight[Firelight] interactive viewer for OIML standards, deployed via GitHub Pages.
+
+== Content
+
+* `fl.zip` - Contains the pre-generated static site (the `fl/` directory extracts from the zip)
+* `.github/workflows/deploy.yml` - Deploys `fl.zip` content to GitHub Pages on push to `main`
+
+== Deployment
+
+The site is automatically deployed to GitHub Pages via the `deploy.yml` workflow:
+
+. On push to `main`, the workflow extracts `fl.zip`
+. Uploads the `fl/` directory as a pages artifact
+. Deploys to GitHub Pages
+
+To manually trigger a deployment, use the `workflow_dispatch` event in the Actions tab.
+
+== Site URL
+
+Once deployed, the site is available at:
+`https://<org>.github.io/oiml-firelight/fl/`
