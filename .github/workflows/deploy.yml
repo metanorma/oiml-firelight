@@ -34,8 +34,9 @@ jobs:
           git config --global user.email "ci@metanorma.org"
           git config --global user.name "Metanorma CI"
           git config --global init.defaultBranch main
+          rm -rf .git
           git init .
-          git add -f ${{ matrix.collection.dir }}/collection.presentation.xml
+          git add ${{ matrix.collection.dir }}/collection.presentation.xml
           git commit -m "Add presentation XML for ${{ matrix.collection.name }}"
 
       - name: Create anafero config
