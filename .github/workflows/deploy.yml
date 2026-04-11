@@ -74,7 +74,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: fl-${{ matrix.collection.name }}
-          path: dist/${{ matrix.collection.name }}
+          path: dist
 
   deploy:
     if: github.ref == 'refs/heads/main'
