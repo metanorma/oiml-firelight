@@ -23,8 +23,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Extract site from fl.zip
-        run: unzip -o fl.zip
+      - name: Extract and prepare site
+        run: |
+          unzip -o fl.zip
+          mv fl/* .
+          rmdir fl
 
       - name: Setup Pages
         id: pages
@@ -33,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: fl
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
