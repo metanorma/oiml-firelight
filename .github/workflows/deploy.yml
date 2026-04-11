@@ -36,36 +36,63 @@ jobs:
           bundler-cache: true
           cache-version: 0
 
-      - name: Rewrite HTML paths for subdirectory deployment
+      - name: Rewrite paths for subdirectory deployment
         env:
-          GITHUB_REPOSITORY: ${{ github.event.repository.full_name }}
+          REPO_NAME: ${{ github.event.repository.name }}
         run: |
-          # Use Nokogiri for robust HTML path rewriting
-          # Prefix absolute paths with repository name for correct GitHub Pages subdirectory resolution
-          REPO_NAME="${{ github.event.repository.name }}"
-          bundle exec ruby -e '
+          bundle exec ruby <<'RUBY'
             require "nokogiri"
             require "fileutils"
 
             repo = ENV["REPO_NAME"] || "oiml-firelight"
 
+            # Known asset paths loaded dynamically by the app
+            ASSET_PATTERNS = %w[
+              versions.json
+              dependencies.json
+              dependency-index.json
+              resource-descriptions.json
+              resource-map.json
+              search-index.json
+              resource-content.json
+              resource.json
+              resource-nav.json
+              active-version.json
+            ]
+
+            # Fix HTML files with Nokogiri
             Dir.glob("**/*.html").each do |file|
               doc = Nokogiri::HTML(File.read(file))
 
               # Remove localhost dev server script
-              doc.css("script[src^=\"http://localhost\"]").each(&:remove)
+              doc.css('script[src^="http://localhost"]').each(&:remove)
 
               # Fix absolute paths to include repository prefix
-              doc.css("[href^=\"/\"]").each do |node|
+              doc.css('[href^="/"]').each do |node|
                 node["href"] = "/#{repo}#{node["href"]}"
               end
-              doc.css("[src^=\"/\"]").each do |node|
+              doc.css('[src^="/"]').each do |node|
                 node["src"] = "/#{repo}#{node["src"]}"
               end
 
               File.write(file, doc.to_html)
             end
-          '
+
+            # Fix JS files - only target specific known asset paths
+            Dir.glob("**/*.js").each do |file|
+              content = File.read(file)
+              updated = content
+
+              ASSET_PATTERNS.each do |asset|
+                updated = updated.gsub(
+                  /"\/(#{Regexp.escape(asset)})"/,
+                  "\"/#{repo}/#{asset}\""
+                )
+              end
+
+              File.write(file, updated) if updated != content
+            end
+          RUBY
 
       - name: Setup Pages
         id: pages
