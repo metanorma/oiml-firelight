@@ -6,18 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Deployment repository for the Firelight Metanorma interactive viewer. Contains presentation XML collections and a GitHub Actions workflow that builds and deploys them to GitHub Pages using the Firelight (anafero-cli) build tool.
 
-## Repository Structure
-
-- `collections/r060/` - OIML R 60 collection (load cells)
-- `collections/r138-e07/` - OIML R 138 E.07 collection (disabled: content processing error)
-- `.github/workflows/deploy.yml` - Build and deploy workflow
-- `generate-to-ghp.yml` - Reference workflow (not active, uses Metanorma CLI to generate XML first)
-
 ## Deployment Workflow
 
-`deploy.yml` triggers on push to `main`, PRs, and `workflow_dispatch`. For each collection in the matrix:
+`.github/workflows/deploy.yml` triggers on push to `main`, PRs, and `workflow_dispatch`. For each collection in the matrix:
 
-1. Creates a fresh git repo with the collection's `collection.presentation.xml`
+1. Creates a fresh git repo with the collection's presentation XML
 2. Creates `anafero-config.json` pointing to Firelight packages on GitHub
 3. Runs `npx @riboseinc/anafero-cli@0.0.70 build-site` with `--path-prefix /oiml-firelight/<collection-name>`
 4. Uploads artifact preserving subdirectory structure
@@ -25,18 +18,17 @@ Deployment repository for the Firelight Metanorma interactive viewer. Contains p
 
 ## Critical: Path Prefix
 
-Firelight `--path-prefix` must have a leading `/` and NO trailing `/`. Each collection needs its own prefix including the collection name:
-- `--path-prefix /oiml-firelight/r060` for the r060 collection
-- The prefix is set via `data-path-prefix` on the `<html>` element
+Firelight `--path-prefix` must have a leading `/` and NO trailing `/`. Each collection needs its own prefix including the collection name. The prefix is set via `data-path-prefix` on the `<html>` element.
 
 ## Critical: Artifact Structure
 
 `actions/upload-artifact@v4` strips the `path` prefix from uploaded files. Use `path: dist` (not `path: dist/r060`) to preserve subdirectory structure. Combine with `merge-multiple: true` on download.
 
-## Sites
+## Collections
 
-- Landing page: `https://metanorma.github.io/oiml-firelight/`
-- OIML R 60: `https://metanorma.github.io/oiml-firelight/r060/`
+Collections use either `collection.presentation.xml` (multi-document) or `document.presentation.xml` (single document). The matrix parameterizes `xml` for this. New collections must have their presentation XML committed to git.
+
+Landing page: `https://metanorma.github.io/oiml-firelight/`
 
 ## Notes
 
@@ -44,3 +36,5 @@ Firelight `--path-prefix` must have a leading `/` and NO trailing `/`. Each coll
 - Use `rm -rf .git && git init .` to create a fresh repo in CI (avoid conflicts with checkout)
 - `--experimental-vm-modules` node flag is required for anafero-cli
 - The Firelight source is at https://github.com/metanorma/firelight
+- Firelight loads content adapters from `git+https://github.com/metanorma/firelight#main` at build time, so fixes to that repo take effect immediately
+- Known Firelight console warning: `Non-slash-prepended path after getSiteRootRelativePath` — cosmetic, the viewer still works
