@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="3.2.3" schema-version="v2.1.5" flavor="iso">
+<bibdata type="standard">
+<title language="en" type="main">Policy and rules for the reimbursement of travel expenses incurred by the CIML President in attending legal metrology related events</title>
+
+<title language="en" type="title-main">Policy and rules for the reimbursement of travel expenses incurred by the CIML President in attending legal metrology related events</title>
+
+<title language="fr" type="main">Politique et règles relatives au remboursement des frais de voyage encourus par le Président du CIML pour participer à des événements liés à la métrologie légale</title>
+
+<title language="fr" type="title-main">Politique et règles relatives au remboursement des frais de voyage encourus par le Président du CIML pour participer à des événements liés à la métrologie légale</title>
+<docidentifier type="ISO" primary="true">OIML B 22</docidentifier><docnumber>22</docnumber><contributor><role type="author"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="/Users/mulgogi/src/mn/metanorma-taste/lib/metanorma/../../data/oiml/oiml-logo.svg" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm" semx-id="Layer_1" preserveaspectratio="xMidYMin slice">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_0);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_0" semx-id="clippath_inject_0">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+</organization></contributor><contributor><role type="author"><description>secretariat</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Secretariat">
+<name>International Bureau of Legal Metrology</name>
+</subdivision><abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="/Users/mulgogi/src/mn/metanorma-taste/lib/metanorma/../../data/oiml/oiml-logo.svg" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_inject_1" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm" semx-id="Layer_1_inject_1" preserveaspectratio="xMidYMin slice">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_1);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_1" semx-id="clippath_inject_1">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></contributor><edition language="">2023</edition><edition language="en">two thousand twenty-third edition</edition><version><revision-date>2023-10-01</revision-date></version><language current="true">en</language><script current="true">Latn</script><status><stage abbreviation="IS" language="">60</stage><stage abbreviation="IS" language="en">International Standard</stage><substage>60</substage></status><copyright><from>2023</from><owner><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="/Users/mulgogi/src/mn/metanorma-taste/lib/metanorma/../../data/oiml/oiml-logo.svg" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_inject_2" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm" semx-id="Layer_1_inject_2" preserveaspectratio="xMidYMin slice">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_2);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_2" semx-id="clippath_inject_2">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></owner></copyright><ext><doctype>international-standard</doctype><flavor>iso</flavor><structuredidentifier><project-number>OIML 22</project-number></structuredidentifier><stagename abbreviation="IS">International Standard</stagename></ext></bibdata><localized-strings><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviations</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="executivesummary" language="en">Executive summary</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">Bibliography</localized-string><localized-string key="index" language="en">Index</localized-string><localized-string key="see" language="en">see</localized-string><localized-string key="see_also" language="en">see also</localized-string><localized-string key="preface" language="en">Preface</localized-string><localized-string key="section" language="en">Section</localized-string><localized-string key="clause" language="en">Clause</localized-string><localized-string key="annex" language="en">Annex</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="continued" language="en">continued</localized-string><localized-string key="no_terms_boilerplate" language="en">No terms and definitions are listed in this document.
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % apply.
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % and the following apply.
+</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 <conn>and</conn> %2</localized-string><localized-string key="multiple_and" language="en">%1 <span class="fmt-conn">and</span> %2</localized-string><localized-string key="binary_or" language="en">%1 <conn>or</conn> %2</localized-string><localized-string key="multiple_or" language="en">%1 <span class="fmt-conn">or</span> %2</localized-string><localized-string key="chain_and" language="en">%1 <conn>and</conn> %2</localized-string><localized-string key="chain_or" language="en">%1 <conn>or</conn> %2</localized-string><localized-string key="chain_from" language="en">%1 <conn>from</conn> %2</localized-string><localized-string key="chain_to" language="en">%1 <conn>to</conn> %2</localized-string><localized-string key="nested_xref" language="en">%1<comma>,</comma> %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">Note</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Formula</localized-string><localized-string key="inequality" language="en">Formula</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="no_identifier" language="en">(NO ID)</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">Example</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">SOURCE</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition_cardinal" language="en">edition {{ var1 }}</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of figures</localized-string><localized-string key="toc_tables" language="en">List of tables</localized-string><localized-string key="toc_recommendations" language="en">List of recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="locality.appendix" language="en">Appendix</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="Provision.sg" language="en">Provision</localized-string><localized-string key="Provision.pl" language="en">Provisions</localized-string><localized-string key="Statement.sg" language="en">Statement</localized-string><localized-string key="Statement.pl" language="en">Statements</localized-string><localized-string key="Descriptor.sg" language="en">Descriptor</localized-string><localized-string key="Descriptor.pl" language="en">Descriptors</localized-string><localized-string key="Reference.sg" language="en">Reference</localized-string><localized-string key="Reference.pl" language="en">References</localized-string><localized-string key="punct.colon" language="en">:</localized-string><localized-string key="punct.comma" language="en">,</localized-string><localized-string key="punct.enum-comma" language="en">,</localized-string><localized-string key="punct.semicolon" language="en">;</localized-string><localized-string key="punct.period" language="en">.</localized-string><localized-string key="punct.close-paren" language="en">)</localized-string><localized-string key="punct.open-paren" language="en">(</localized-string><localized-string key="punct.close-bracket" language="en">]</localized-string><localized-string key="punct.open-bracket" language="en">[</localized-string><localized-string key="punct.question-mark" language="en">?</localized-string><localized-string key="punct.exclamation-mark" language="en">!</localized-string><localized-string key="punct.em-dash" language="en">—</localized-string><localized-string key="punct.en-dash" language="en">–</localized-string><localized-string key="punct.number-en-dash" language="en">–</localized-string><localized-string key="punct.open-quote" language="en">“</localized-string><localized-string key="punct.close-quote" language="en">”</localized-string><localized-string key="punct.open-nested-quote" language="en">‘</localized-string><localized-string key="punct.close-nested-quote" language="en">’</localized-string><localized-string key="punct.ellipse" language="en">…</localized-string><localized-string key="all_rights_reserved" language="en">All rights reserved</localized-string><localized-string key="reference_number" language="en">Reference number</localized-string><localized-string key="reference_number_abbrev" language="en">Ref. No.</localized-string><localized-string key="price_based_on" language="en">Price based on % pages</localized-string><localized-string key="price" language="en">Price</localized-string><localized-string key="date_first_printing" language="en">Date of the first printing</localized-string><localized-string key="date_printing" language="en">Date of the {{ var1 | ordinal_word: '', '' }} printing</localized-string><localized-string key="descriptor" language="en">Descriptor</localized-string><localized-string key="reference" language="en">Reference</localized-string><localized-string key="under_preparation" language="en">Under preparation. Stage at the time of publication: %.</localized-string><localized-string key="withdrawn" language="en">Withdrawn.</localized-string><localized-string key="cancelled_and_replaced" language="en">Cancelled and replaced by %.</localized-string><localized-string key="date" language="en">Date</localized-string><localized-string key="secretariat" language="en">Secretariat</localized-string><localized-string key="edition_ordinal_old" language="en">{{ var1 | ordinal_num: 'edition', '' }} EDITION</localized-string><localized-string key="edition_replacement" language="en">This {{ var1 | ordinal_word: 'edition', '' }} edition supersedes the {{ var2 | ordinal_word: 'edition', '' }} edition</localized-string><localized-string key="termsrelated" language="en">Terms related to</localized-string><localized-string key="availablefrom" language="en">Available at</localized-string><localized-string key="voting_begins_on" language="en">Voting begins on</localized-string><localized-string key="voting_terminates_on" language="en">Voting terminates on</localized-string><localized-string key="corrected_version" language="en">Corrected version</localized-string><localized-string key="fast-track-procedure" language="en">Fast track procedure</localized-string><localized-string key="classification-UDC" language="en">UDC</localized-string><localized-string key="website" language="en">website</localized-string><localized-string key="formerly_id" language="en">(formerly %)</localized-string><localized-string key="was_developed_by" language="en">%1 was developed by %2</localized-string><localized-string key="iso-cen-parallel" language="en">ISO/CEN PARALLEL PROCESSING</localized-string><localized-string key="draft_comment_1" language="en">This document is a draft circulated for comments and approval. It is therefore subject to change and may not be referred to as an international standard until published as such.</localized-string><localized-string key="draft_comment_2" language="en">In addition to their evaluation as being acceptable for industrial, technological, commercial and user purposes, draft international standards may on occasion have to be considered in the light of their potential to become standards to which reference may be made in national regulations.</localized-string><localized-string key="draft_comment_3" language="en">Recipients of this draft are invited to submit, with their comments, notification of any relevant patent rights of which they are aware and to provide supporting documentation.</localized-string><localized-string key="doctype_dict.international-standard" language="en">International Standard</localized-string><localized-string key="doctype_dict.technical-specification" language="en">Technical Specification</localized-string><localized-string key="doctype_dict.technical-report" language="en">Technical Report</localized-string><localized-string key="doctype_dict.publicly-available-specification" language="en">Publicly Available Specification</localized-string><localized-string key="doctype_dict.international-workshop-agreement" language="en">International Workshop Agreement</localized-string><localized-string key="doctype_dict.guide" language="en">Guide</localized-string><localized-string key="doctype_dict.amendment" language="en">Amendment</localized-string><localized-string key="doctype_dict.addendum" language="en">Addendum</localized-string><localized-string key="doctype_dict.technical-corrigendum" language="en">Technical Corrigendum</localized-string><localized-string key="doctype_dict.directive" language="en">Directive</localized-string><localized-string key="doctype_dict.committee-document" language="en">Committee Document</localized-string><localized-string key="doctype_dict.recommendation" language="en">Recommendation</localized-string><localized-string key="doctype_dict.standard" language="en">Standard</localized-string><localized-string key="contributor_role_desc_dict.Technical_committee" language="en">Technical committee</localized-string><localized-string key="stage_dict.00" language="en">Preliminary work item</localized-string><localized-string key="stage_dict.10" language="en">New work item proposal</localized-string><localized-string key="stage_dict.20" language="en">Working draft</localized-string><localized-string key="stage_dict.30" language="en">Committee draft</localized-string><localized-string key="40.international-standard" language="en">Draft International Standard</localized-string><localized-string key="40.technical-specification" language="en">Draft Technical Specification</localized-string><localized-string key="40.technical-report" language="en">Draft Technical Report</localized-string><localized-string key="40.publicly-available-specification" language="en">Draft Publicly Available Specification</localized-string><localized-string key="40.international-workshop-agreement" language="en">Draft International Workshop Agreement</localized-string><localized-string key="40.guide" language="en">Draft Guide</localized-string><localized-string key="40.amendment" language="en">Draft Amendment</localized-string><localized-string key="40.technical-corrigendum" language="en">Draft Technical Corrigendum</localized-string><localized-string key="40.directive" language="en">Draft Directive</localized-string><localized-string key="50.international-standard" language="en">Final Draft International Standard</localized-string><localized-string key="50.technical-specification" language="en">Final Draft Technical Specification</localized-string><localized-string key="50.technical-report" language="en">Final Draft Technical Report</localized-string><localized-string key="50.publicly-available-specification" language="en">Final Draft Publicly Available Specification</localized-string><localized-string key="50.international-workshop-agreement" language="en">Final Draft International Workshop Agreement</localized-string><localized-string key="50.guide" language="en">Final Draft Guide</localized-string><localized-string key="50.amendment" language="en">Final Draft Amendment</localized-string><localized-string key="50.technical-corrigendum" language="en">Final Draft Technical Corrigendum</localized-string><localized-string key="50.directive" language="en">Final Draft Directive</localized-string><localized-string key="60.international-standard" language="en">International Standard</localized-string><localized-string key="60.technical-specification" language="en">Technical Specification</localized-string><localized-string key="60.technical-report" language="en">Technical Report</localized-string><localized-string key="60.publicly-available-specification" language="en">Publicly Available Specification</localized-string><localized-string key="60.international-workshop-agreement" language="en">International Workshop Agreement</localized-string><localized-string key="60.guide" language="en">Guide</localized-string><localized-string key="60.amendment" language="en">Amendment</localized-string><localized-string key="60.technical-corrigendum" language="en">Technical Corrigendum</localized-string><localized-string key="60.directive" language="en">Directive</localized-string><localized-string key="stage_dict.90" language="en">Review</localized-string><localized-string key="stage_dict.95" language="en">Withdrawal</localized-string><localized-string key="Draft_International_Standard.coverpage" language="en">DRAFT<br/>International Standard</localized-string><localized-string key="Draft_International_Standard.firstpage" language="en">DRAFT International Standard</localized-string><localized-string key="Draft_Technical_Specification.coverpage" language="en">DRAFT<br/>Technical Specification</localized-string><localized-string key="Draft_Technical_Specification.firstpage" language="en">DRAFT Technical Specification</localized-string><localized-string key="Draft_Technical_Report.coverpage" language="en">DRAFT<br/>Technical Report</localized-string><localized-string key="Draft_Technical_Report.firstpage" language="en">DRAFT Technical Report</localized-string><localized-string key="Draft_Publicly_Available_Specification.coverpage" language="en">DRAFT<br/>Publicly Available Specification</localized-string><localized-string key="Draft_Publicly_Available_Specification.firstpage" language="en">DRAFT Publicly Available Specification</localized-string><localized-string key="Draft_International_Workshop_Agreement.coverpage" language="en">DRAFT<br/>International Workshop Agreement</localized-string><localized-string key="Draft_International_Workshop_Agreement.firstpage" language="en">DRAFT International Workshop Agreement</localized-string><localized-string key="Draft_Guide.coverpage" language="en">DRAFT<br/>Guide</localized-string><localized-string key="Draft_Guide.firstpage" language="en">DRAFT Guide</localized-string><localized-string key="Draft_Amendment.coverpage" language="en">DRAFT<br/>Amendment</localized-string><localized-string key="Draft_Amendment.firstpage" language="en">DRAFT Amendment</localized-string><localized-string key="Draft_Technical_Corrigendum.coverpage" language="en">DRAFT<br/>Technical Corrigendum</localized-string><localized-string key="Draft_Technical_Corrigendum.firstpage" language="en">DRAFT Technical Corrigendum</localized-string><localized-string key="Draft_Directive.coverpage" language="en">DRAFT<br/>Directive</localized-string><localized-string key="Draft_Directive.firstpage" language="en">DRAFT Directive</localized-string><localized-string key="Final_Draft_International_Standard.coverpage" language="en">FINAL DRAFT<br/>International Standard</localized-string><localized-string key="Final_Draft_International_Standard.firstpage" language="en">FINAL DRAFT International Standard</localized-string><localized-string key="Final_Draft_Technical_Specification.coverpage" language="en">FINAL DRAFT<br/>Technical Specification</localized-string><localized-string key="Final_Draft_Technical_Specification.firstpage" language="en">FINAL DRAFT Technical Specification</localized-string><localized-string key="Final_Draft_Technical_Report.coverpage" language="en">FINAL DRAFT<br/>Technical Report</localized-string><localized-string key="Final_Draft_Technical_Report.firstpage" language="en">FINAL DRAFT Technical Report</localized-string><localized-string key="Final_Draft_Publicly_Available_Specification.coverpage" language="en">FINAL DRAFT<br/>Publicly Available Specification</localized-string><localized-string key="Final_Draft_Publicly_Available_Specification.firstpage" language="en">FINAL DRAFT Publicly Available Specification</localized-string><localized-string key="Final_Draft_International_Workshop_Agreement.coverpage" language="en">FINAL DRAFT<br/>International Workshop Agreement</localized-string><localized-string key="Final_Draft_International_Workshop_Agreement.firstpage" language="en">FINAL DRAFT International Workshop Agreement</localized-string><localized-string key="Final_Draft_Guide.coverpage" language="en">FINAL DRAFT<br/>Guide</localized-string><localized-string key="Final_Draft_Guide.firstpage" language="en">FINAL DRAFT Guide</localized-string><localized-string key="Final_Draft_Amendment.coverpage" language="en">FINAL DRAFT<br/>Amendment</localized-string><localized-string key="Final_Draft_Amendment.firstpage" language="en">FINAL DRAFT Amendment</localized-string><localized-string key="Final_Draft_Technical_Corrigendum.coverpage" language="en">FINAL DRAFT<br/>Technical Corrigendum</localized-string><localized-string key="Final_Draft_Technical_Corrigendum.firstpage" language="en">FINAL DRAFT Technical Corrigendum</localized-string><localized-string key="Final_Draft_Directive.coverpage" language="en">FINAL DRAFT<br/>Directive</localized-string><localized-string key="Final_Draft_Directive.firstpage" language="en">FINAL DRAFT Directive</localized-string><localized-string key="modspec.provision" language="en">Provision</localized-string><localized-string key="modspec.conformancetest" language="en">Conformance test</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<presentation-metadata><doctype-alias>international-basic-publication</doctype-alias></presentation-metadata><presentation-metadata><name>document-scheme</name><value>2013</value></presentation-metadata><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata><source-highlighter-css>sourcecode table td { padding: 5px; }
+sourcecode table pre { margin: 0; }
+sourcecode, sourcecode .w {
+  color: #444444;
+}
+sourcecode .cp {
+  color: #CC00A3;
+}
+sourcecode .cs {
+  color: #CC00A3;
+}
+sourcecode .c, sourcecode .ch, sourcecode .cd, sourcecode .cm, sourcecode .cpf, sourcecode .c1 {
+  color: #FF0000;
+}
+sourcecode .kc {
+  color: #C34E00;
+}
+sourcecode .kd {
+  color: #0000FF;
+}
+sourcecode .kr {
+  color: #007575;
+}
+sourcecode .k, sourcecode .kn, sourcecode .kp, sourcecode .kt, sourcecode .kv {
+  color: #0000FF;
+}
+sourcecode .s, sourcecode .sb, sourcecode .sc, sourcecode .ld, sourcecode .sd, sourcecode .s2, sourcecode .se, sourcecode .sh, sourcecode .si, sourcecode .sx, sourcecode .sr, sourcecode .s1, sourcecode .ss {
+  color: #009C00;
+}
+sourcecode .sa {
+  color: #0000FF;
+}
+sourcecode .nb, sourcecode .bp {
+  color: #C34E00;
+}
+sourcecode .nt {
+  color: #0000FF;
+}
+
+</source-highlighter-css></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_6e4e75e3-4554-5ebe-4038-cbd03b5cb695" inline-header="true" obligation="normative" semx-id="_6e4e75e3-4554-5ebe-4038-cbd03b5cb695"><p id="_62aafa30-8412-58ea-40c3-5ca772685c66" semx-id="_62aafa30-8412-58ea-40c3-5ca772685c66">© OIML 2023</p>
+
+<p id="_6711e67c-7bc3-b668-a67f-ec68c6b24d99" align="left" semx-id="_6711e67c-7bc3-b668-a67f-ec68c6b24d99">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org" id="_86ab01e8-8769-2bf6-93a6-cf6e7227ec9d">www.oiml.org</link><semx element="link" source="_86ab01e8-8769-2bf6-93a6-cf6e7227ec9d"><fmt-link target="https://www.oiml.org">www.oiml.org</fmt-link></semx></p>
+</clause>
+</copyright-statement>
+<feedback-statement>
+
+<clause id="_78778e0b-9d1e-e0ad-1272-7268592fc427" inline-header="true" obligation="normative" semx-id="_78778e0b-9d1e-e0ad-1272-7268592fc427"><p id="_d0a674b7-3667-12e4-81ba-deec26ebe4bb" semx-id="_d0a674b7-3667-12e4-81ba-deec26ebe4bb">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organisation’s headquarters:</p>
+
+<p id="_4242e451-d3c4-e8c0-4883-3b88240ca76c" align="left" semx-id="_4242e451-d3c4-e8c0-4883-3b88240ca76c">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org" id="_379f507c-fed6-54aa-070b-e2ffc7369134">www.oiml.org</link><semx element="link" source="_379f507c-fed6-54aa-070b-e2ffc7369134"><fmt-link target="https://www.oiml.org">www.oiml.org</fmt-link></semx></p>
+</clause>
+</feedback-statement></boilerplate><preface><clause type="toc" id="_13d7055e-30fc-845a-c60e-8972faf092d9" displayorder="1"><fmt-title depth="1" id="_b7371af6-75a1-52fa-2891-5c5f9a06aa7c">Contents</fmt-title></clause>
+<foreword id="_709d2f9b-ff2e-2e89-4ea2-497b38c3594c" obligation="informative" semx-id="_709d2f9b-ff2e-2e89-4ea2-497b38c3594c" displayorder="2">
+<title id="_39f555c2-f081-1181-eab4-26637491561a" semx-id="_41c9fad3-d4c1-eecc-4fad-f91704acc026">Foreword</title><fmt-title depth="1" id="_e21d5a0d-5d7c-f27a-d0d4-780199a274bb"><semx element="title" source="_39f555c2-f081-1181-eab4-26637491561a">Foreword</semx></fmt-title>
+<p id="_2b867313-5899-6efb-c709-75d101e8d094" semx-id="_2b867313-5899-6efb-c709-75d101e8d094">The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental organisation whose primary aim is to harmonise the regulations and metrological controls applied by the national metrological services, or related organisations, of its Member States. The main categories of OIML publications are:</p>
+
+<ul id="_4f820a64-f515-3c5e-cf17-f88f7689f579" semx-id="_4f820a64-f515-3c5e-cf17-f88f7689f579"><li id="_8e6d9ebd-9b81-8586-364b-5c92d2d12aaf"><fmt-name id="_76aecf67-8c4f-b811-3084-24d5674cbb57"><semx element="autonum" source="_8e6d9ebd-9b81-8586-364b-5c92d2d12aaf">—</semx></fmt-name><p id="_d372c31f-bfd7-7fbb-535a-ed45152cf8ca" semx-id="_d372c31f-bfd7-7fbb-535a-ed45152cf8ca"><strong>International Recommendations (OIML R)</strong>, which are model regulations that establish the metrological characteristics required of certain measuring instruments and which specify methods and equipment for checking their conformity. OIML Member States shall implement these Recommendations to the greatest possible extent;</p>
+</li>
+<li id="_015ba13f-651e-cf59-c4cf-ba51718cd4f1"><fmt-name id="_56685958-8b20-2dc2-866a-bbad693c6145"><semx element="autonum" source="_015ba13f-651e-cf59-c4cf-ba51718cd4f1">—</semx></fmt-name><p id="_82dedfa9-31e2-ffd7-34db-ed3d3913cc6b" semx-id="_82dedfa9-31e2-ffd7-34db-ed3d3913cc6b"><strong>International Documents (OIML D)</strong>, which are informative in nature and which are intended to harmonise and improve work in the field of legal metrology;</p>
+</li>
+<li id="_82b47b30-4b14-8c2e-c4b2-0f12693df38d"><fmt-name id="_39b22535-3631-5d66-aebe-a712d82be304"><semx element="autonum" source="_82b47b30-4b14-8c2e-c4b2-0f12693df38d">—</semx></fmt-name><p id="_d0c20f2d-127a-b5bd-a238-7454decfcac5" semx-id="_d0c20f2d-127a-b5bd-a238-7454decfcac5"><strong>International Guides (OIML G)</strong>, which are also informative in nature and which are intended to give guidelines for the application of certain requirements to legal metrology; and</p>
+</li>
+<li id="_a2652c24-7734-1092-9827-4653e7d37745"><fmt-name id="_568c0229-8042-58a7-d97a-e8f52e28c96a"><semx element="autonum" source="_a2652c24-7734-1092-9827-4653e7d37745">—</semx></fmt-name><p id="_9a623d5d-7950-60e7-1649-808e78aeacee" semx-id="_9a623d5d-7950-60e7-1649-808e78aeacee"><strong>International Basic Publications (OIML B)</strong>, which define the operating rules of the various OIML structures and systems.</p>
+</li>
+</ul>
+
+<p id="_0be69df8-5ff3-5678-8945-66a921bc4e81" semx-id="_0be69df8-5ff3-5678-8945-66a921bc4e81">OIML Draft Recommendations, Documents and Guides are developed by Project Groups linked to Technical Committees or Subcommittees which comprise representatives from OIML Member States. Certain international and regional institutions also participate on a consultation basis. Cooperative agreements have been established between the OIML and certain institutions, such as ISO and the IEC, with the objective of avoiding contradictory requirements. Consequently, manufacturers and users of measuring instruments, test laboratories, etc. may simultaneously apply OIML publications and those of other institutions.</p>
+
+<p id="_ba13e892-20b5-80a9-312e-a25da604a959" semx-id="_ba13e892-20b5-80a9-312e-a25da604a959">International Recommendations, Documents, Guides and Basic Publications are published in English (E) and translated into French (F) and are subject to periodic revision.</p>
+
+<p id="_d650d26d-915d-9241-ce50-efd8c1c2b707" semx-id="_d650d26d-915d-9241-ce50-efd8c1c2b707">Additionally, the OIML publishes or participates in the publication of <strong>Vocabularies (OIML V)</strong> and periodically commissions legal metrology experts to write  <strong>Expert Reports (OIML E)</strong>. Expert Reports are intended to provide information and advice, and are written solely from the viewpoint of their author, without the involvement of a Technical Committee or Subcommittee, nor that of the CIML. Thus, they do not necessarily represent the views of the OIML.</p>
+
+<p id="_88ca4224-6060-e9cd-6b20-38c7bdc1eb7f" semx-id="_88ca4224-6060-e9cd-6b20-38c7bdc1eb7f">This publication — reference OIML B 22:2023 (E) — was developed by the BIML. It was approved for final publication by the International Committee of Legal Metrology at its 58th meeting in October 2023.</p>
+
+<p id="_11b84470-0cde-5f67-5e2c-0a00ce0bef60" semx-id="_11b84470-0cde-5f67-5e2c-0a00ce0bef60">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organization’s headquarters:</p>
+
+<p id="_751e9754-4918-f7bc-6597-17b5f66ca306" semx-id="_751e9754-4918-f7bc-6597-17b5f66ca306">Bureau International de Métrologie Légale<br/> 11, rue Turgot — 75009 Paris — France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail:  <link target="mailto:biml@oiml.org" id="_e70494a2-a3dd-463c-647b-2a9783e3c237"/><semx element="link" source="_e70494a2-a3dd-463c-647b-2a9783e3c237"><fmt-link target="mailto:biml@oiml.org"/></semx><br/> Internet: www.oiml.org</p>
+</foreword></preface><sections><p class="zzSTDTitle1" displayorder="3"><span class="boldtitle">Policy and rules for the reimbursement of travel expenses incurred by the CIML President in attending legal metrology related events</span></p>
+
+
+
+<clause id="_207f8ac4-205a-e559-c31e-a13c81e19d4c" type="scope" inline-header="false" obligation="normative" semx-id="_207f8ac4-205a-e559-c31e-a13c81e19d4c" displayorder="4">
+<title id="_ef5612fb-1e47-1246-b392-69a921308fcb" semx-id="_f70b6ff6-6131-0e24-81e1-850dbe94b63d">Scope</title><fmt-title depth="1" id="_58af5d1a-79fa-3676-3b52-26615cc3d4d7"><span class="fmt-caption-label"><semx element="autonum" source="_207f8ac4-205a-e559-c31e-a13c81e19d4c">1</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_ef5612fb-1e47-1246-b392-69a921308fcb">Scope</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Clause</span> <semx element="autonum" source="_207f8ac4-205a-e559-c31e-a13c81e19d4c">1</semx></fmt-xref-label>
+<p id="_c02290a6-006d-f088-fe50-9caa7211c798" semx-id="_c02290a6-006d-f088-fe50-9caa7211c798">This Basic Publication lays down the policy and rules for the reimbursement of travel expenses incurred by the CIML President attending legal metrology related events.</p>
+</clause>
+
+<clause id="_a1e3b6ba-42fb-a1cb-51f4-e3886d07a262" inline-header="false" obligation="normative" semx-id="_a1e3b6ba-42fb-a1cb-51f4-e3886d07a262" displayorder="5">
+<title id="_1ee61016-5d0f-d231-015c-543d16e3172a" semx-id="_0b8905f7-41c9-490c-3c8b-4ccc2d445d55">Policy</title><fmt-title depth="1" id="_71df2dfc-d196-7929-91fb-693786b60d92"><span class="fmt-caption-label"><semx element="autonum" source="_a1e3b6ba-42fb-a1cb-51f4-e3886d07a262">2</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_1ee61016-5d0f-d231-015c-543d16e3172a">Policy</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Clause</span> <semx element="autonum" source="_a1e3b6ba-42fb-a1cb-51f4-e3886d07a262">2</semx></fmt-xref-label>
+<p id="_297f9394-3a6e-ddc5-9fc9-3fe34162e15c" semx-id="_297f9394-3a6e-ddc5-9fc9-3fe34162e15c">Travel expenses incurred by the CIML President in attending legal metrology related events to which they have been invited to represent the OIML may be paid or reimbursed by the BIML. Attendance at a legal metrology related event includes meetings of regional metrology organisations, legal metrology organisations, and international organisations (in liaison with the OIML), normally with the intention of providing a report / presentation (e.g. about current activities of the OIML).</p>
+
+<p id="_5f73cf18-55ee-225a-1899-fa9e8b11e299" semx-id="_5f73cf18-55ee-225a-1899-fa9e8b11e299">Where the CIML President is unable to attend a legal metrology related event to which they have been invited, this policy will apply to the person nominated by the CIML President to attend on their behalf.</p>
+
+<p id="_eedb7981-526b-d621-d4d1-7790f3d0f7bc" semx-id="_eedb7981-526b-d621-d4d1-7790f3d0f7bc">Travel by the CIML President will follow the guidelines listed below.<note id="_71a6401e-a2f3-c729-46c4-5d5ebbf8c1e6" semx-id="_71a6401e-a2f3-c729-46c4-5d5ebbf8c1e6" autonum=""><fmt-name id="_a6e5bd2b-3327-febf-8d4c-2638f14c8241"><span class="fmt-caption-label"><span class="fmt-element-name">Note</span></span><span class="fmt-label-delim"><tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">Note</span></fmt-xref-label><fmt-xref-label container="_a1e3b6ba-42fb-a1cb-51f4-e3886d07a262"><span class="fmt-xref-container"><span class="fmt-element-name">Clause</span> <semx element="autonum" source="_a1e3b6ba-42fb-a1cb-51f4-e3886d07a262">2</semx></span><span class="fmt-comma">,</span> <span class="fmt-element-name">Note</span></fmt-xref-label><p id="_573dbe17-b33e-dba5-6d1c-c6bfc51e8e45" semx-id="_573dbe17-b33e-dba5-6d1c-c6bfc51e8e45">This policy does not cover travel undertaken by the CIML President when attending an International Conference on Legal Metrology, a CIML meeting, or a Presidential Council meeting.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32" inline-header="false" obligation="normative" semx-id="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32" displayorder="6">
+<title id="_d7360013-480c-1fe8-6b76-30d1bc60f789" semx-id="_7c06fe42-550d-d42f-ab15-84529b99816f">Rules</title><fmt-title depth="1" id="_408f7e78-28a8-44a6-3fbf-4d39186e0d16"><span class="fmt-caption-label"><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_d7360013-480c-1fe8-6b76-30d1bc60f789">Rules</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Clause</span> <semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx></fmt-xref-label>
+<clause id="_fd434956-f795-182c-fdd1-bda3316caa35" inline-header="false" obligation="normative" semx-id="_fd434956-f795-182c-fdd1-bda3316caa35">
+<title id="_cf227c6a-f9ce-af2d-f33f-c32a6f36396e" semx-id="_47c6af59-e5c6-c3a3-d5df-04ae0f94a09f">Travel</title><fmt-title depth="2" id="_e9235339-9dce-5256-7378-fca6a304b3d0"><span class="fmt-caption-label"><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_fd434956-f795-182c-fdd1-bda3316caa35">1</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_cf227c6a-f9ce-af2d-f33f-c32a6f36396e">Travel</semx></fmt-title><fmt-xref-label><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_fd434956-f795-182c-fdd1-bda3316caa35">1</semx></fmt-xref-label>
+<p id="_0b8f45f9-0580-e023-ff1f-16801d0d9fec" semx-id="_0b8f45f9-0580-e023-ff1f-16801d0d9fec">As soon as the CIML President is informed of the planned travel, the CIML President shall submit to the BIML Director the following information:</p>
+
+<ol id="_316e8be0-4d83-3c12-4b82-6cbde13fa024" semx-id="_316e8be0-4d83-3c12-4b82-6cbde13fa024" type="alphabet"><li id="_e5c31c28-a2df-04ad-722b-b56c11496ef0"><fmt-name id="_4e858366-678b-ccf1-a250-afc6d40ffbb9"><semx element="autonum" source="_e5c31c28-a2df-04ad-722b-b56c11496ef0">a</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_9e456d3d-fd19-4084-7c30-82e796c4b13d" semx-id="_9e456d3d-fd19-4084-7c30-82e796c4b13d">the foreseen dates of the travel (outward and return journeys);</p>
+</li>
+<li id="_ef48e81c-8426-77e0-0e83-c8ae77bbcde7"><fmt-name id="_eb5983f8-2d7c-891f-c7c8-f2c683120461"><semx element="autonum" source="_ef48e81c-8426-77e0-0e83-c8ae77bbcde7">b</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_c7cc15e8-7588-ffba-3f50-405a4fbe5358" semx-id="_c7cc15e8-7588-ffba-3f50-405a4fbe5358">the means of travel (air, train, car);</p>
+</li>
+<li id="_7335152b-b3f5-3a67-8b42-f9d63f658198"><fmt-name id="_6e967615-1c75-0f6f-d56a-014d048c4edb"><semx element="autonum" source="_7335152b-b3f5-3a67-8b42-f9d63f658198">c</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_92d930d8-fa66-e1da-2e2a-0dec0c3a9370" semx-id="_92d930d8-fa66-e1da-2e2a-0dec0c3a9370">any need to purchase a modifiable ticket and the motivation for such a request;</p>
+</li>
+<li id="_ee0722b5-2216-77ed-423f-540f0cfc2511"><fmt-name id="_4f05a725-d6cd-e012-f9df-ddc3d3af9f43"><semx element="autonum" source="_ee0722b5-2216-77ed-423f-540f0cfc2511">d</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_2469fa5e-32f7-2941-b4df-85b82695829c" semx-id="_2469fa5e-32f7-2941-b4df-85b82695829c">the reduced fares, if any, to which the CIML President is entitled on a personal basis;</p>
+</li>
+<li id="_498a1d99-df39-5ea7-aca0-c116c6c588d4"><fmt-name id="_cf9587d5-0005-298c-c530-3f629041c26d"><semx element="autonum" source="_498a1d99-df39-5ea7-aca0-c116c6c588d4">e</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_310b413d-61f2-bfc9-1db0-a038d8f5803f" semx-id="_310b413d-61f2-bfc9-1db0-a038d8f5803f">the accommodation already identified or suggested to him by the welcoming body and the rate per night (specifying if partial-board is included).</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_f49887d1-67b5-f921-074a-6eeb0e7a96ee" inline-header="false" obligation="normative" semx-id="_f49887d1-67b5-f921-074a-6eeb0e7a96ee">
+<title id="_2288c2e6-8aa0-4e9e-6e97-0f913072d65c" semx-id="_8ede7b40-6f49-bd91-bea8-cd7e9e2945fb">Validation</title><fmt-title depth="2" id="_ab8e5500-584f-3510-a0fd-898c900f6435"><span class="fmt-caption-label"><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_f49887d1-67b5-f921-074a-6eeb0e7a96ee">2</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_2288c2e6-8aa0-4e9e-6e97-0f913072d65c">Validation</semx></fmt-title><fmt-xref-label><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_f49887d1-67b5-f921-074a-6eeb0e7a96ee">2</semx></fmt-xref-label>
+<p id="_bee90e5c-36a6-264f-1fea-a112c5239423" semx-id="_bee90e5c-36a6-264f-1fea-a112c5239423">The BIML Director shall validate the travel.</p>
+
+<p id="_0c3acda0-8b5f-c1b2-8128-5deb38ea57c8" semx-id="_0c3acda0-8b5f-c1b2-8128-5deb38ea57c8">When validating, the BIML Director, or their representative, may modify the parameters of the travel, in agreement with the person travelling.</p>
+</clause>
+
+<clause id="_e806b21c-5943-94d4-9b3d-25d5910ba266" inline-header="false" obligation="normative" semx-id="_e806b21c-5943-94d4-9b3d-25d5910ba266">
+<title id="_24333944-612a-67d0-7c95-bd939d2f64ec" semx-id="_64a5e745-7ce6-b65f-98e9-ccb939a18186">Conditions</title><fmt-title depth="2" id="_8050e59d-0456-2143-7497-49eb21d7f496"><span class="fmt-caption-label"><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_e806b21c-5943-94d4-9b3d-25d5910ba266">3</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_24333944-612a-67d0-7c95-bd939d2f64ec">Conditions</semx></fmt-title><fmt-xref-label><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_e806b21c-5943-94d4-9b3d-25d5910ba266">3</semx></fmt-xref-label>
+<p id="_412efd94-49a5-40de-b25a-2d4dbd44ac22" semx-id="_412efd94-49a5-40de-b25a-2d4dbd44ac22">The CIML President shall propose the transportation mode, accommodation, timetable, and fares following the principles below:</p>
+
+<ol id="_d728ef3b-03e6-54d0-9f39-692bad69f384" semx-id="_d728ef3b-03e6-54d0-9f39-692bad69f384" type="alphabet"><li id="_581259d8-f331-a091-0217-78eb5ef44a92"><fmt-name id="_0cf391d7-346e-898f-ab07-9f906d11a549"><semx element="autonum" source="_581259d8-f331-a091-0217-78eb5ef44a92">a</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_9aa33354-315e-4332-2fe8-ab3922de3faf" semx-id="_9aa33354-315e-4332-2fe8-ab3922de3faf">the most economical journey is preferred, taking into account all modes of travel, travelling time and modifiable tickets;</p>
+</li>
+<li id="_dd97b44b-0246-d3d6-dca5-c8352bfc93aa"><fmt-name id="_2d54a143-7356-8790-1427-b35579a4f0c6"><semx element="autonum" source="_dd97b44b-0246-d3d6-dca5-c8352bfc93aa">b</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_11992acc-dce3-e060-2da5-68f45cf280b2" semx-id="_11992acc-dce3-e060-2da5-68f45cf280b2">the journey shall include no stops between the stations or airports servicing the CIML President’s departure point and the destination’s nearest airport or station other than those required by the trip connections, unless justified by professional motives or they allow a reduction of the expenses incurred and the journey’s length is not substantially modified;</p>
+</li>
+<li id="_aecf6378-83bc-90ec-2761-91474e09102f"><fmt-name id="_c69f8e85-9174-4523-0309-a58dc667f6ef"><semx element="autonum" source="_aecf6378-83bc-90ec-2761-91474e09102f">c</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_c0909000-6243-a275-a41f-d48e9da530e4" semx-id="_c0909000-6243-a275-a41f-d48e9da530e4">the journey may be extended, if this results in a reduction in overall costs which may include additional accommodation and transportation;</p>
+</li>
+<li id="_964baee7-0b05-37c9-9c9d-f80843b7ec18"><fmt-name id="_5a538b2e-7e81-498b-277f-cf346c4d0711"><semx element="autonum" source="_964baee7-0b05-37c9-9c9d-f80843b7ec18">d</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_43023a71-807d-05d9-a4f6-6e682bcc44a9" semx-id="_43023a71-807d-05d9-a4f6-6e682bcc44a9">the journey, by rail when the connection exists, may be in first class;</p>
+</li>
+<li id="_e281cd86-e981-76fa-9010-5acf094f213e"><fmt-name id="_c23f2fa6-5200-c99d-75a4-bda977075c84"><semx element="autonum" source="_e281cd86-e981-76fa-9010-5acf094f213e">e</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_959653bd-f0ae-a747-461d-10c49ca7ef18" semx-id="_959653bd-f0ae-a747-461d-10c49ca7ef18">the journey by airplane shall be in economy class, except when any one section airtime of the journey’s duration is over seven hours. In this case, economy plus, when available, may be authorised;</p>
+</li>
+<li id="_9960b412-8be9-fa9c-4179-f866677f1211"><fmt-name id="_91a79a0f-65c0-8258-db00-d9b83f83dc26"><semx element="autonum" source="_9960b412-8be9-fa9c-4179-f866677f1211">f</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_bc2e22e5-7079-45ab-b1eb-628aa033094b" semx-id="_bc2e22e5-7079-45ab-b1eb-628aa033094b">a modifiable ticket may be granted where there is an actual uncertainty about the dates and/or duration of the mission. Incurred taxes shall be paid by the BIML;</p>
+</li>
+<li id="_0d050c1a-3373-0057-8369-a85ebb937e0d"><fmt-name id="_a1be7ec4-fa05-5f0c-6670-6cca51d4d0e3"><semx element="autonum" source="_0d050c1a-3373-0057-8369-a85ebb937e0d">g</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_e9529db4-84ea-b47e-48d1-79f610f651bb" semx-id="_e9529db4-84ea-b47e-48d1-79f610f651bb">luggage in excess of allowances shall be paid by the CIML President;</p>
+</li>
+<li id="_3867d980-df2f-b8dc-7b60-9936596cf43f"><fmt-name id="_4ac45db5-7bf0-9bf2-f848-32b7d3586f31"><semx element="autonum" source="_3867d980-df2f-b8dc-7b60-9936596cf43f">h</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_fa642747-9a8d-4874-10d7-45ad7560e2e0" semx-id="_fa642747-9a8d-4874-10d7-45ad7560e2e0">the air and rail companies are selected in accordance with the above-mentioned principles and after due consideration of the list of airlines banned within the European Union;</p>
+</li>
+<li id="_4873ff6d-0175-19f7-16d3-adf041157358"><fmt-name id="_53b294ea-c8e2-6dd2-d9d2-88f3ee4ff4d6"><semx element="autonum" source="_4873ff6d-0175-19f7-16d3-adf041157358">i</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_5124a7bb-625d-c21f-9335-845ac52bba5f" semx-id="_5124a7bb-625d-c21f-9335-845ac52bba5f">the accommodation shall take into account the accommodations already identified or suggested by the welcoming body and the nightly rate;</p>
+</li>
+<li id="_514e45b5-fc59-359c-7c54-070684e7d846"><fmt-name id="_dee4894c-2111-a6b2-a6fe-f6d054674527"><semx element="autonum" source="_514e45b5-fc59-359c-7c54-070684e7d846">j</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_85d39686-c066-c8c7-625d-91510abafc6d" semx-id="_85d39686-c066-c8c7-625d-91510abafc6d">a journey for personal motives may be combined with a mission. In this case, any extra fare for the journey for personal motives shall not be paid or reimbursed by the BIML to the CIML President;</p>
+</li>
+<li id="_f35a513e-a2bd-e98f-5c07-d82945fff7fa"><fmt-name id="_313e1d6f-11ac-5157-35b2-fbecf5e81a65"><semx element="autonum" source="_f35a513e-a2bd-e98f-5c07-d82945fff7fa">k</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_01efa604-4c58-8976-79a3-77bd72d667a4" semx-id="_01efa604-4c58-8976-79a3-77bd72d667a4">in the case that the CIML President is accompanied by other persons (spouse, parent, children, etc., on a personal basis only), the costs incurred on the journey directly attributable to the companion(s) will not be paid or reimbursed to the CIML President by the BIML. No liability for the companion of the CIML President on travel during any journey is incurred by the BIML.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_dd5c6c79-bdd4-c378-a817-96403f715e33" inline-header="false" obligation="normative" semx-id="_dd5c6c79-bdd4-c378-a817-96403f715e33">
+<title id="_659aaac3-2b19-4f49-892c-72c37d67fd56" semx-id="_abd8462d-1ab6-4a51-0d5c-89f01c18f8da">Cancelled journeys</title><fmt-title depth="2" id="_b9449e9c-4430-b533-e925-ce20aa0ac0f6"><span class="fmt-caption-label"><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_dd5c6c79-bdd4-c378-a817-96403f715e33">4</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_659aaac3-2b19-4f49-892c-72c37d67fd56">Cancelled journeys</semx></fmt-title><fmt-xref-label><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_dd5c6c79-bdd4-c378-a817-96403f715e33">4</semx></fmt-xref-label>
+<p id="_b0eccfd5-5cfa-e4b9-b760-d1de7afb97e5" semx-id="_b0eccfd5-5cfa-e4b9-b760-d1de7afb97e5">The BIML shall pay for cancelled tickets and may pay for new tickets in the following cases:</p>
+
+<ol id="_39d7ca49-472a-b619-2bad-2fa8e6c9e1d1" semx-id="_39d7ca49-472a-b619-2bad-2fa8e6c9e1d1" type="alphabet"><li id="_ce375e84-90d1-85d0-d2c9-b854ab432edf"><fmt-name id="_b4eebe09-1719-a114-7d4e-5623f8e828d4"><semx element="autonum" source="_ce375e84-90d1-85d0-d2c9-b854ab432edf">a</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_0ceb5e00-a37d-adac-cd2b-6be162b9188e" semx-id="_0ceb5e00-a37d-adac-cd2b-6be162b9188e">if the cancellation of the travel is decided by the Director or by the welcoming body and new travel is required;</p>
+</li>
+<li id="_f330774b-440f-c6fb-da25-13f3bf036085"><fmt-name id="_957310b8-c4ad-fd6e-17b5-32ab84a16721"><semx element="autonum" source="_f330774b-440f-c6fb-da25-13f3bf036085">b</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_2db48e08-a059-4dbf-858f-0264d1de8ba7" semx-id="_2db48e08-a059-4dbf-858f-0264d1de8ba7">if a force majeure event has occurred, i.e. unpredictable and beyond the control of the CIML President, having prevented them from travelling and new travel is required;</p>
+</li>
+<li id="_7094787d-46cb-cd2d-c7af-d0bbe1041c18"><fmt-name id="_8be965cd-04bb-7546-58d8-1d9042ecedc6"><semx element="autonum" source="_7094787d-46cb-cd2d-c7af-d0bbe1041c18">c</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_794730aa-1378-c74d-50dc-5ac5e630f871" semx-id="_794730aa-1378-c74d-50dc-5ac5e630f871">if the CIML President is unable to obtain a visa and new travel is required;</p>
+</li>
+<li id="_c105317c-ea72-b5c3-ad1c-9f72d75eec67"><fmt-name id="_9abb8bd5-f3df-81ca-f637-ab96d0ccf630"><semx element="autonum" source="_c105317c-ea72-b5c3-ad1c-9f72d75eec67">d</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_b547be61-93d2-68fb-3040-4bc7ff9af8b8" semx-id="_b547be61-93d2-68fb-3040-4bc7ff9af8b8">if the flight or journey is cancelled by the airline or the rail company;</p>
+</li>
+<li id="_e31363d2-8f2e-b825-e79e-9085e24c992a"><fmt-name id="_45b68d07-cbb4-29ea-45ba-30fc20a1e800"><semx element="autonum" source="_e31363d2-8f2e-b825-e79e-9085e24c992a">e</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_4b125fe0-a381-0acf-c4ee-098e552f9a23" semx-id="_4b125fe0-a381-0acf-c4ee-098e552f9a23">if the planned connecting flights were rendered impossible by airline or rail company delays.</p>
+</li>
+</ol>
+
+<p id="_c86e6110-d0de-9f59-a46e-bbd09e29ef04" semx-id="_c86e6110-d0de-9f59-a46e-bbd09e29ef04">However, if the need to purchase new tickets originates solely as a result of the decision of the CIML President, the BIML reserves the right to claim reimbursement from the CIML President of such tickets.</p>
+</clause>
+
+<clause id="_70707320-3cc2-a7d0-c560-a11a8aff2695" inline-header="false" obligation="normative" semx-id="_70707320-3cc2-a7d0-c560-a11a8aff2695">
+<title id="_7a6b11e5-8c92-39bf-87cd-f5e76bdd8960" semx-id="_039742d5-903e-b589-3788-35e111a129d7">Per diem and reimbursable fees</title><fmt-title depth="2" id="_0ad98cf6-9300-5f95-4acc-2e4ec0aefb43"><span class="fmt-caption-label"><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_70707320-3cc2-a7d0-c560-a11a8aff2695">5</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_7a6b11e5-8c92-39bf-87cd-f5e76bdd8960">Per diem and reimbursable fees</semx></fmt-title><fmt-xref-label><semx element="autonum" source="_ec2e46e4-0dc7-6943-7bfb-9b7a5213fd32">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_70707320-3cc2-a7d0-c560-a11a8aff2695">5</semx></fmt-xref-label>
+<p id="_5f47b751-add1-fee8-f4c9-122cffbdda81" semx-id="_5f47b751-add1-fee8-f4c9-122cffbdda81">According to the BIML Travel Policy, per diem may be provided to the CIML President when on travel to a legal metrology related event.</p>
+
+<p id="_7768ebad-643e-e4a4-f0d1-2d68586fdde9" semx-id="_7768ebad-643e-e4a4-f0d1-2d68586fdde9">The following fees shall be reimbursed, subject to the submission of receipts within thirty working days following the day on which the CIML President returns from travel:</p>
+
+<ol id="_a2f7bc05-63dd-3b3a-5452-fbf34bdd67d6" semx-id="_a2f7bc05-63dd-3b3a-5452-fbf34bdd67d6" type="alphabet"><li id="_774cf100-792f-ee22-c4a3-0779246b09b6"><fmt-name id="_cb12b2f8-1ee2-3f9d-6ad8-67897c8ffe03"><semx element="autonum" source="_774cf100-792f-ee22-c4a3-0779246b09b6">a</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_ddec31b8-c894-f203-2fa2-77f9cf95911c" semx-id="_ddec31b8-c894-f203-2fa2-77f9cf95911c">the fees related to receptions and dinners organised in the attended event, if not included in the general fees paid by the BIML before the travel;</p>
+</li>
+<li id="_d062909f-f1ef-bffb-50b3-0b61c7cdf28a"><fmt-name id="_2d507716-0d42-4964-0c6f-999a1cb4a878"><semx element="autonum" source="_d062909f-f1ef-bffb-50b3-0b61c7cdf28a">b</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_5ebfd3e3-7a9a-3707-ca73-39b98e3fd71a" semx-id="_5ebfd3e3-7a9a-3707-ca73-39b98e3fd71a">registration fees to attend the event to which the CIML President is invited;</p>
+</li>
+<li id="_7fb39016-c8ff-77a8-5483-4ab4bbf614be"><fmt-name id="_da8ad2f9-6293-0c27-b248-7cd88a294909"><semx element="autonum" source="_7fb39016-c8ff-77a8-5483-4ab4bbf614be">c</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_6ffdf38f-3412-c396-e7c7-7c9aaeee0540" semx-id="_6ffdf38f-3412-c396-e7c7-7c9aaeee0540">accommodation fees (including breakfast);</p>
+</li>
+<li id="_63dd4795-298f-cda1-f2b4-8bb36c182e61"><fmt-name id="_e85710c7-07bd-5988-2d1e-506cdd67f9e1"><semx element="autonum" source="_63dd4795-298f-cda1-f2b4-8bb36c182e61">d</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_6279ff91-9909-c559-6bc2-288cf2d7b6cc" semx-id="_6279ff91-9909-c559-6bc2-288cf2d7b6cc">local transportation fees.</p>
+</li>
+</ol>
+
+<p id="_5acfe1bd-6b6e-6c78-9423-17d0b3af6944" semx-id="_5acfe1bd-6b6e-6c78-9423-17d0b3af6944">Expenses incurred in a currency other than the Euro are reimbursed at the exchange rate on the date of payment of the actual expense. Refer to  <link target="http://www.xe.com/ucc/" id="_94f08403-378e-66f8-38e0-e90ad963ad85"/><semx element="link" source="_94f08403-378e-66f8-38e0-e90ad963ad85"><fmt-link target="http://www.xe.com/ucc/"/></semx> . If paid with a credit card belonging to the CIML President, an adjustment may be made, if necessary, between the justified expenditures and the actual bank debit, upon submission of the debit memo of the bank holding the account.</p>
+</clause>
+</clause>
+</sections>
+</metanorma>
