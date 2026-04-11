@@ -32,11 +32,11 @@ jobs:
       - name: Rewrite HTML paths for subdirectory deployment
         run: |
           # Replace absolute paths with relative paths for GitHub Pages subdirectory deployment
-          find . -name "*.html" -exec sed -i \
-            -e 's|href="/|href="./|g' \
-            -e 's|src="/|src="./|g' \
-            -e 's|src="http://localhost:8097"></script>||g' \
-            {} +
+          # Also remove the localhost dev server script tag (spans multiple lines)
+          find . -name "*.html" -exec perl -i -0777 -pe \
+            's|href="/|href="./|g;
+           s|src="/|src="./|g;
+           s|<script\s+src="http://localhost:8097"\s*></script>||g' {} +
 
       - name: Setup Pages
         id: pages
