@@ -94,6 +94,9 @@ jobs:
           path: dist
           merge-multiple: true
 
+      - name: Debug artifact structure
+        run: find dist -maxdepth 3 -type f | head -30 && echo "---" && ls -la dist/ && echo "---" && ls -la dist/r060/ 2>/dev/null || echo "No r060 directory"
+
       - name: Create index page
         run: |
           cat <<'EOF' > dist/index.html
