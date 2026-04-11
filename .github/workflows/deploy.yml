@@ -29,14 +29,43 @@ jobs:
           mv fl/* .
           rmdir fl
 
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          cache-version: 0
+
       - name: Rewrite HTML paths for subdirectory deployment
+        env:
+          GITHUB_REPOSITORY: ${{ github.event.repository.full_name }}
         run: |
-          # Replace absolute paths with relative paths for GitHub Pages subdirectory deployment
-          # Also remove the localhost dev server script tag (spans multiple lines)
-          find . -name "*.html" -exec perl -i -0777 -pe \
-            's|href="/|href="./|g;
-           s|src="/|src="./|g;
-           s|<script\s+src="http://localhost:8097"\s*></script>||g' {} +
+          # Use Nokogiri for robust HTML path rewriting
+          # Prefix absolute paths with repository name for correct GitHub Pages subdirectory resolution
+          REPO_NAME="${{ github.event.repository.name }}"
+          bundle exec ruby -e '
+            require "nokogiri"
+            require "fileutils"
+
+            repo = ENV["REPO_NAME"] || "oiml-firelight"
+
+            Dir.glob("**/*.html").each do |file|
+              doc = Nokogiri::HTML(File.read(file))
+
+              # Remove localhost dev server script
+              doc.css("script[src^=\"http://localhost\"]").each(&:remove)
+
+              # Fix absolute paths to include repository prefix
+              doc.css("[href^=\"/\"]").each do |node|
+                node["href"] = "/#{repo}#{node["href"]}"
+              end
+              doc.css("[src^=\"/\"]").each do |node|
+                node["src"] = "/#{repo}#{node["src"]}"
+              end
+
+              File.write(file, doc.to_html)
+            end
+          '
 
       - name: Setup Pages
         id: pages
