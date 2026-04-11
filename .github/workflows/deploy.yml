@@ -68,7 +68,7 @@ jobs:
           npx --node-options='--experimental-vm-modules --max_old_space_size=6144' \
             -y @riboseinc/anafero-cli@0.0.70 build-site \
             --target-dir dist/${{ matrix.collection.name }} \
-            --path-prefix /oiml-firelight \
+            --path-prefix /oiml-firelight/${{ matrix.collection.name }} \
             --current-rev main
 
       - uses: actions/upload-artifact@v4
