@@ -54,10 +54,6 @@ jobs:
               resource-descriptions.json
               resource-map.json
               search-index.json
-              resource-content.json
-              resource.json
-              resource-nav.json
-              active-version.json
             ]
 
             # Fix HTML files with Nokogiri
@@ -66,6 +62,9 @@ jobs:
 
               # Remove localhost dev server script
               doc.css('script[src^="http://localhost"]').each(&:remove)
+
+              # Set data-path-prefix so the React app knows its subdirectory path
+              doc.root["data-path-prefix"] = "/#{repo}"
 
               # Fix absolute paths to include repository prefix
               doc.css('[href^="/"]').each do |node|
