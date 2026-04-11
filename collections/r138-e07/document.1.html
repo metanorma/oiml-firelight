@@ -1,0 +1,3082 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Cambria", serif;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+}
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New", monospace !important;
+  font-variant-ligatures: none;
+}
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 0.8em;
+}
+
+sub, sup {
+  font-size: 0.75em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cambria", serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Cambria", serif;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+  content: none;
+}
+
+.h2Annex {
+  font-family: "Cambria", serif;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+dl dt p, dl dd p {
+  margin-top: 0;
+}
+dl dt {
+  grid-column-start: 1;
+}
+dl dd {
+  grid-column-start: 2;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333;
+}
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super;
+}
+
+.addition {
+  color: blue;
+}
+
+.deletion {
+  color: red;
+  text-decoration: line-through;
+}
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after;
+}
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em;
+}
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%;
+}
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none;
+}
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.anchor::before {
+  content: "§";
+  font-size: 0.85em;
+  display: block;
+  padding-top: 0.1em;
+}
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none;
+}
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible;
+}
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "▼";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0;
+}
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%; /* or any desired width */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+svg {
+  width: 100%;
+  height: auto; /* ← key to maintaining aspect ratio */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+#standard-band {
+  background-color: #0AC442;
+}
+
+#standard {
+  border-bottom: solid 3px #0AC442;
+}
+
+#directive-band {
+  background-color: #540D6E;
+}
+
+#directive {
+  border-bottom: solid 3px #540D6E;
+}
+
+#guide-band {
+  background-color: #D183C9;
+}
+
+#guide {
+  border-bottom: solid 3px #D183C9;
+}
+
+#specification-band {
+  background-color: #65AFFF;
+}
+
+#specification {
+  border-bottom: solid 3px #65AFFF;
+}
+
+#report-band {
+  background-color: #3A405A;
+}
+
+#report {
+  border-bottom: solid 3px #3A405A;
+}
+
+#amendment-band {
+  background-color: #F26430;
+}
+
+#amendment {
+  border-bottom: solid 3px #F26430;
+}
+
+#corrigendum-band {
+  background-color: #C84630;
+}
+
+#corrigendum {
+  border-bottom: solid 3px #C84630;
+}
+
+#administrative-band {
+  background-color: #BFAE48;
+}
+
+#administrative {
+  border-bottom: solid 3px #BFAE48;
+}
+
+#advisory-band {
+  background-color: #BD9391;
+}
+
+#advisory {
+  border-bottom: solid 3px #BD9391;
+}
+
+#proposal-band {
+  background-color: #39A0ED;
+}
+
+#proposal {
+  border-bottom: solid 3px #39A0ED;
+}
+
+#working-draft-band {
+  background-color: #2D7393;
+}
+
+#working-draft {
+  border-bottom: solid 3px #2D7393;
+}
+
+#committee-draft-band {
+  background-color: #2A6B7C;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C;
+}
+
+#draft-standard-band {
+  background-color: #1C7F7A;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A;
+}
+
+#final-draft-band {
+  background-color: #53C170;
+}
+
+#final-draft {
+  border-bottom: solid 3px #53C170;
+}
+
+#published-band {
+  background-color: #069E2D;
+}
+
+#published {
+  border-bottom: solid 3px #069E2D;
+}
+
+#withdrawn-band {
+  background-color: #004E64;
+}
+
+#withdrawn {
+  border-bottom: solid 3px #004E64;
+}
+
+#cancelled-band {
+  background-color: #2E382E;
+}
+
+#cancelled {
+  border-bottom: solid 3px #2E382E;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: -internal-root-color;
+  background-color: #ffffff;
+}
+body main {
+  margin: 0 3em 0 6em;
+}
+body main {
+  margin: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.3;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: "";
+  content: none;
+}
+
+/* New CSS */
+body {
+  margin-left: 298px;
+  margin-right: 2em;
+}
+
+main {
+  padding-left: 4em;
+  padding-right: 2em;
+}
+
+.title-section, .prefatory-section {
+  padding-left: 4em;
+  padding-top: 2em;
+}
+
+.coverpage_docnumber, .coverpage_techcommittee {
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 0.5em;
+}
+
+.doctitle-en, .doctitle-fr {
+  margin-top: 2em;
+  text-align: left;
+}
+
+.doctitle-en {
+  padding-left: 3em;
+  margin-left: -3em;
+  /*padding-top: 2em;*/
+  padding-bottom: 2em;
+}
+
+.doctitle-en span {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.doctitle-fr span {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-style: italic;
+}
+
+.doctitle-part {
+  margin-top: 1em;
+}
+
+span.title, span.subtitle, span.part {
+  font-weight: 800;
+}
+
+span.partlabel {
+  display: block;
+}
+
+.coverpage_docstage {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.coverpage_warning {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-bottom: 1em;
+}
+
+.boilerplate-copyright p {
+  margin-top: 1em;
+  display: block;
+  font-size: 0.9em;
+}
+
+/* TYPOGRAPHY */
+h1, .h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h2, .h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p.zzSTDTitle1 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+p.zzSTDTitle2 {
+  font-size: 1.5em;
+}
+
+span.obligation {
+  font-weight: 400;
+}
+
+a {
+  color: black;
+  text-decoration-color: black;
+}
+
+h2 p, .h2 p {
+  display: inline;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li > p:first-child::before {
+  content: "—";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+}
+
+li p {
+  margin-bottom: 0.6em;
+  line-height: 1.2;
+}
+
+p.AltTerms {
+  margin-bottom: 0;
+}
+
+p.Terms {
+  margin-top: 0em;
+}
+
+/* Navigation*/
+#toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+  padding: 5px 10px;
+}
+#toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+  text-decoration: none;
+  display: block;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: black;
+}
+#toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+  padding-left: 30px;
+}
+#toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+  padding-left: 50px;
+}
+#toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+  padding-left: 70px;
+}
+#toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+  padding-left: 90px;
+}
+#toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+  padding-left: 110px;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: #f7f7f7;
+  box-shadow: inset -5px 0px 10px -5px #f7f7f7 !important;
+}
+#toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: black;
+}
+@media print {
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+    color: black;
+  }
+}
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "Cambria", serif;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0 1.5em;
+    overflow: visible;
+  }
+}
+#toc .toc-active,
+#toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  box-shadow: 0px 1px 0px 0px black !important;
+  background: none;
+}
+#toc li::before, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li::before {
+  content: " ";
+  display: none;
+}
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 278px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 20px;
+    background-color: #f7f7f7;
+  }
+}
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+nav {
+  line-height: 1.2em;
+}
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #f7f7f7;
+    color: black !important;
+    cursor: pointer;
+    z-index: 100;
+  }
+  #toggle span {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+  }
+}
+@media print {
+  #toggle {
+    display: none;
+  }
+}
+#toggle {
+  border-right: solid black 1px;
+  margin-left: -4em;
+  margin-top: -2em;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px;
+  }
+  .rule.toc {
+    display: none;
+  }
+  h1.toc-contents {
+    margin-top: 1em;
+  }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 2em;
+  }
+  main {
+    padding: 0;
+  }
+  .title-section, .prefatory-section {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+}
+.figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: 1em;
+}
+
+div.figure .FigureTitle, div.figure .figure-title {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+div.figure > img, div.figure > svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+div.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+table div.figure {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102;
+}
+.document-type-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-type-band {
+    display: none;
+  }
+}
+.document-type-band .document-type {
+  top: 20px;
+}
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d;
+}
+.document-stage-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-stage-band {
+    display: none;
+  }
+}
+
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 210px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+  writing-mode: vertical-rl;
+}
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important;
+}
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px;
+}
+
+#standard-band {
+  background-color: #0ac442;
+}
+
+#standard {
+  border-bottom: solid 3px #0ac442;
+}
+
+#governance {
+  border-bottom: solid 3px #750697;
+}
+
+#governance-band {
+  background-color: #750697;
+}
+
+#guide {
+  border-bottom: solid 3px #48a0e7;
+}
+
+#guide-band {
+  background-color: #48a0e7;
+}
+
+.coverpage-maturity {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+}
+
+#working-draft {
+  border-bottom: solid 3px #fda706;
+}
+
+#working-draft-band {
+  background-color: #fda706;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd;
+}
+
+#committee-draft-band {
+  background-color: #fd06fd;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906;
+}
+
+#standard {
+  border-bottom: solid 3px #0ac442;
+}
+
+#standard-band {
+  background-color: #0ac442;
+}
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13;
+}
+
+#obsolete-band {
+  background-color: #7e0d13;
+}
+
+/* 3 Other styles */
+/*
+  3.2 Links
+*/
+a {
+  color: black;
+  text-decoration-color: black;
+}
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 2em;
+}
+
+#toc-list ul {
+  margin-bottom: 0.25em;
+}
+
+#toc-list ol li {
+  list-style-type: none;
+}
+
+/* https://github.com/metanorma/metanorma-iso/issues/319 : force a) parentheses for ordered lists */
+ol[class=alphabet] {
+  counter-reset: alphabet;
+}
+
+ol[class=arabic] {
+  counter-reset: arabic;
+}
+
+ol[class=roman] {
+  counter-reset: roman;
+}
+
+ol[class=alphabet_upper] {
+  counter-reset: alphabet_upper;
+}
+
+ol[class=roman_upper] {
+  counter-reset: roman_upper;
+}
+
+ol[class=alphabet] ol[class=alphabet] {
+  counter-reset: alphabet2;
+}
+
+ol[class=arabic] ol[class=arabic] {
+  counter-reset: arabic2;
+}
+
+ol[class=roman] ol[class=roman] {
+  counter-reset: roman2;
+}
+
+ol[class=alphabet_upper] ol[class=alphabet_upper] {
+  counter-reset: alphabet_upper2;
+}
+
+ol[class=roman_upper] ol[class=roman_upper] {
+  counter-reset: roman_upper2;
+}
+
+ol {
+  counter-reset: alphabet;
+}
+
+ol > li {
+  list-style: none;
+  position: relative;
+}
+
+ol > li::before {
+  position: absolute;
+  left: -1.4em;
+}
+
+ol[class=roman] > li::before {
+  left: -2em;
+}
+
+ol[class=roman_upper] > li::before {
+  left: -2.3em;
+}
+
+ol[class=alphabet] > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") ";
+}
+
+ol[class=arabic] > li::before {
+  counter-increment: arabic;
+  content: counter(arabic, decimal) ") ";
+}
+
+ol[class=roman] > li::before {
+  counter-increment: roman;
+  content: counter(roman, lower-roman) ") ";
+}
+
+ol[class=alphabet_upper] > li::before {
+  counter-increment: alphabet_upper;
+  content: counter(alphabet_upper, upper-alpha) ") ";
+}
+
+ol[class=roman_upper] > li::before {
+  counter-increment: roman_upper;
+  content: counter(roman_upper, upper-roman) ") ";
+}
+
+ol > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") ";
+}
+
+ol[class=alphabet] ol[class=alphabet] > li::before {
+  counter-increment: alphabet2;
+  content: counter(alphabet2, lower-alpha) ") ";
+}
+
+ol[class=arabic] ol[class=arabic] > li::before {
+  counter-increment: arabic2;
+  content: counter(arabic2, decimal) ") ";
+}
+
+ol[class=roman] ol[class=roman] > li::before {
+  counter-increment: roman2;
+  content: counter(roman2, lower-roman) ") ";
+}
+
+ol[class=alphabet_upper] ol[class=alphabet_upper] > li::before {
+  counter-increment: alphabet_upper2;
+  content: counter(alphabet_upper2, upper-alpha) ") ";
+}
+
+ol[class=roman_upper] ol[class=roman_upper] > li::before {
+  counter-increment: roman_upper2;
+  content: counter(roman_upper2, upper-roman) ") ";
+}
+
+/*
+3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0;
+}
+
+/*
+3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+/*
+3.6 Source Code + figures
+*/
+.figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: 1em;
+}
+
+pre {
+  font-family: "Courier New", monospace;
+  font-variant-ligatures: none;
+}
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left;
+}
+
+.figure-title, .FigureTitle, .SourceTitle, .AdmonitionTitle, .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*
+3.7 Notes
+*/
+.Note, .note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+.Note p, .note p {
+  margin: 0;
+}
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+.Admonition p, .zzHelp p {
+  margin: 0;
+}
+
+div.zzHelp {
+  color: green;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+/*
+3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+}
+.example p {
+  margin: 0;
+}
+.example {
+  color: #424242;
+  padding-left: 2em;
+}
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -1.5em;
+}
+.example {
+  color: black;
+  padding-left: 0.5em;
+}
+.example .example-title {
+  margin-top: 0;
+}
+.example pre,
+.example .pseudocode {
+  background: none;
+}
+
+/*
+3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table, table th, table td {
+  border: 1px solid black;
+  font-size: 0.95em;
+}
+table th, table td {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+
+td,
+th {
+  padding: 1em !important;
+}
+
+table.rouge-line-table td, table.rouge-line-table th {
+  padding: 0em !important;
+}
+
+td > p:first-child, th > p:first-child {
+  margin-top: 0em;
+}
+
+td > p:last-child, th > p:last-child {
+  margin-bottom: 0em;
+}
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.TableFootnote {
+  text-align: left !important;
+}
+
+/*
+table.modspec {
+  @include table($border: none !important);
+  text-align: left;
+
+  color: #010d16;
+
+  tr:nth-child(even) {
+    background: #ffffff
+  }
+  tr:nth-child(odd) {
+    background: #ffffff
+  }
+
+  thead tr th {
+    background-color: #5d99d6;
+  }
+
+  td, th {
+    padding: 1em;
+  }
+
+  td.header {
+    font-weight: 400;
+  }
+}
+*/
+/*
+3.10 Footnotes
+*/
+a.footnote-number, a.TableFootnoteRef, span.TableFootnoteRef {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+.footnote {
+  font-size: 0.9em;
+}
+
+sup {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+#footnote_box {
+  font-size: 0.9em;
+  background: white;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid #888;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888;
+}
+
+ol.footnotes-list, aside.footnote {
+  margin-left: 1em;
+}
+
+ol.footnotes-list li, aside.footnote {
+  font-size: 0.9em;
+  vertical-align: top;
+  list-style: decimal;
+  margin-bottom: 1em;
+}
+
+ol.footnotes-list:first-child {
+  margin-top: 2em;
+}
+
+ol.footnotes-list p, aside.footnote p {
+  display: inline;
+}
+
+ol > li > p::before {
+  content: "";
+  display: none;
+}
+
+/*
+3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+dl.formula_dl {
+  background-color: #f7f7f7;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*
+Keywords
+*/
+span.keyword {
+  font-weight: 600;
+}
+
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  /* color: #47430c;*/
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+.Admonition p, .admonition p {
+  margin: 0;
+}
+
+/* Collapse TOC */
+.collapse-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.collapse-button {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>');
+}
+
+.collapse {
+  display: none;
+}
+
+.expand {
+  transform: rotateZ(-180deg);
+}
+</style><style>pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+</style><title>Vessels for commercial transactions</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</link></link></head><body lang="en" xml:lang="en"><div class="title-section"><div id="toggle"> <span>•</span> </div>
+
+<p class="coverpage_docnumber"> </p>
+    
+
+
+<p class="coverpage_docnumber">Two thousand seventh edition</p>
+
+
+
+
+
+<p class="coverpage_docnumber">Date: 2007</p>
+
+
+
+
+<p class="coverpage_techcommittee">TC 8</p>
+
+
+
+<div class="doctitle-en"><div><span class="title"></span><span class="subtitle">Vessels for commercial transactions</span>
+  
+  
+</div>
+
+
+
+</div>
+
+<div class="doctitle-fr"><div><span class="title"></span><span class="subtitle">Récipients pour transactions commerciales</span>
+  
+  
+</div>
+
+
+
+</div>
+
+<div class="coverpage_docstage">
+  
+</div>
+
+
+<div class="coverpage_warning">
+  <div id="boilerplate-license-destination"></div>
+</div>
+
+
+
+
+
+
+
+
+
+</div><br /><div class="prefatory-section"><div class="boilerplate-copyright">
+
+<div id="_75ec5a5b-3ce1-84c8-c355-94fa18488fa4_OIML_R_138"><p id="_147518d2-6b9c-fd14-eeef-90afdaac695b_OIML_R_138">© OIML 2007</p>
+
+<p id="_6711e67c-7bc3-b668-a67f-ec68c6b24d99_OIML_R_138" style="text-align:left;">Bureau International de Métrologie Légale<br /> 11, rue Turgot – 75009 Paris – France<br /> Telephone: 33 (0)1 48 78 12 82<br /> Fax: 33 (0)1 42 82 17 27<br /> E-mail: link:mailto:biml@oiml.org<br /> Internet:  <a href="https://www.oiml.org">www.oiml.org</a></p>
+</div>
+</div>
+
+<nav>
+
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_13d7055e-30fc-845a-c60e-8972faf092d9_OIML_R_138"></a><a class="header" href="#_13d7055e-30fc-845a-c60e-8972faf092d9_OIML_R_138">Contents</a></h1><ul><li class="h1"><a href="#_d00c6efb-66ff-4b39-8aed-84ee15eb9825">      
+  
+  Foreword
+</a></li>
+<li class="h1"><a href="#_928533dd-5069-41b8-8f52-e14600efa712">      
+  
+  1  Scope and application
+</a></li>
+<li class="h1"><div class="collapse-group"><a href="#_b2d56b31-9cc7-4e20-bbd0-be5ff4489dee">
+  
+  2  Terminology and symbols
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_4cf909fe-6440-45f7-ba64-14383b5a7caa">      
+  
+  2.1  General terms
+</a>
+</li><li class="h2"><a href="#_0124cef8-3d0d-45b9-ace2-8a136b9c66e6">      
+  
+  2.2  Capacity serving measures
+</a></li><li class="h2"><a href="#_21db4a4c-3a5f-40e2-803d-27a5b0ccd3c3">      
+  
+  2.3  Measuring container bottles
+</a></li><li class="h2"><a href="#_3fa0a414-8c37-4ba8-8f40-0e03f9c9e398">      
+  
+  2.4  Casks and barrels
+</a></li><li class="h2"><a href="#_33311d51-0d9b-43dc-be8f-14317f666f15">      
+  
+  2.5  Nominal capacity, <span class="stem">
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math>
+</span>
+</a></li><li class="h2"><a href="#_69048117-ad56-4ada-afef-3945eb0295ce">      
+  
+  2.6  Conventional true capacity
+</a></li><li class="h2"><a href="#_f781ea5c-41d6-4442-a31a-daa183b1ed06">      
+  
+  2.7  Brim capacity, <span class="stem">
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math>
+</span>
+</a></li><li class="h2"><a href="#_8f01d50d-2a84-45a7-9522-4b7283a9582c">      
+  
+  2.8  Ullage (or headspace)
+</a></li><li class="h2"><a href="#_ba729c6a-4240-4e2a-ab62-22d2c9a19530">      
+  
+  2.9  Gauge mark
+</a></li><li class="h2"><a href="#_b4f40b58-e4f4-439b-973e-0cb3bf2bca19">      
+  
+  2.10  Filling orifice
+</a></li></ul></li>
+
+
+
+
+
+
+
+
+
+
+
+<li class="h1"><a href="#_e2331f01-5dd3-4276-b9be-c245eecadc30">      
+  
+  3  Units of measurement
+</a></li>
+<li class="h1"><div class="collapse-group"><a href="#_f1836ce9-1a10-4d48-bf3b-44bc6b12d6d3">
+  
+  4  Technical requirements
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_8e1097c7-84d4-4e8b-b2f4-0e2b79ac626b">      
+  
+  4.1  Nominal capacities
+</a>
+</li><li class="h2"><a href="#_ace3594d-986e-496f-868c-3e0db70cbc84">      
+  
+  4.2  Material
+</a></li><li class="h2"><a href="#_215c5620-bf52-4110-9ed2-16147f51cd8c">      
+  
+  4.3  Construction
+</a></li><li class="h2"><a href="#_1b8f499d-fcd4-4f4e-ae0d-fd55b3072d02">      
+  
+  4.4  Resolution if gauge mark
+</a></li><li class="h2"><a href="#_5944eb15-74b8-45ec-a1f7-b27997a79d19">      
+  
+  4.5  Vertical position
+</a></li><li class="h2"><a href="#_7f9af8b8-352c-4f62-9908-614fef3d984d">      
+  
+  4.6  Filling requirements
+</a></li></ul></li>
+
+
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_7e538524-bd0c-409e-ba62-b9889d74a406">
+  
+  5  Metrological requirements
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_f0f7cdac-aae0-45e8-93c7-9c8a0b1a9077">      
+  
+  5.1  Maximum permissible errors
+</a>
+</li><li class="h2"><a href="#_1074c14e-79da-4688-92cc-5b6dc542a2af">      
+  
+  5.2  Markings
+</a></li></ul></li>
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_7b1eeb6f-6bfb-48e9-b2eb-60e9f3165aac">
+  
+  6  Metrological controls
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_805122db-b7aa-47b2-9e25-db8e6101bc17">      
+  
+  6.1  Type approval
+</a>
+</li><li class="h2"><a href="#_efe05244-f7cd-4d90-8a89-2ebbe7f344d7">      
+  
+  6.2  Initial verification
+</a></li><li class="h2"><a href="#_71480952-3288-4965-9288-a3a34a7acc3f">      
+  
+  6.3  Subsequent verification or control
+</a></li></ul></li>
+
+
+
+
+<li class="h1"><a href="#_53385791-b666-4d2f-9e24-149ba1aeba4b">      
+  
+  7  Measuring instruments used for official controls
+</a></li>
+<li class="h1"><div class="collapse-group"><a href="#_b5419e2e-d236-4cca-a506-0932c9898195">
+  
+  
+    Annex A
+     
+    <span class="obligation">(normative)</span>
+     
+     
+    Statistical test
+  
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_3f72a565-bed5-46d7-8d6d-ab54260796dd">      
+  
+  A.1  Sampling
+</a>
+</li><li class="h2"><a href="#_66fc4a62-d22e-4a70-bcdd-d32123ddb110">      
+  
+  A.2  Computation example
+</a></li><li class="h2"><a href="#_76149811-881c-4ea3-bebf-0b7da7aca078">      
+  
+  A.3  Acceptance criteria
+</a></li></ul></li>
+
+
+
+</ul></div>
+
+</nav>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority">
+<div class="boilerplate-feedback">
+
+<div id="_78778e0b-9d1e-e0ad-1272-7268592fc427_OIML_R_138"><p id="_d0a674b7-3667-12e4-81ba-deec26ebe4bb_OIML_R_138">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organisation’s headquarters:</p>
+
+<p id="_4242e451-d3c4-e8c0-4883-3b88240ca76c_OIML_R_138" style="text-align:left;">Bureau International de Métrologie Légale<br /> 11, rue Turgot – 75009 Paris – France<br /> Telephone: 33 (0)1 48 78 12 82<br /> Fax: 33 (0)1 42 82 17 27<br /> E-mail: link:mailto:biml@oiml.org<br /> Internet:  <a href="https://www.oiml.org">www.oiml.org</a></p>
+</div>
+</div></div><br /><br /><div id="_b7d5fc21-b4d7-00cf-86ef-066f432742f6_OIML_R_138"><h1 class="ForewordTitle" id="_d00c6efb-66ff-4b39-8aed-84ee15eb9825"><a class="anchor" href="#_b7d5fc21-b4d7-00cf-86ef-066f432742f6_OIML_R_138"></a><a class="header" href="#_b7d5fc21-b4d7-00cf-86ef-066f432742f6_OIML_R_138">Foreword</a></h1><p id="_1ac0a5a7-229a-2255-0040-d667f9e7a7d6_OIML_R_138">The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental organization whose primary aim is to harmonize the regulations and metrological controls applied by the national metrological services, or related organizations, of its Member States. The main categories of OIML publications are:</p><div class="ul_wrap"><ul id="_657afc25-05d1-f984-795f-46259da22909_OIML_R_138"><li id="_8e6d9ebd-9b81-8586-364b-5c92d2d12aaf_OIML_R_138"><p id="_d372c31f-bfd7-7fbb-535a-ed45152cf8ca_OIML_R_138"><b>International Recommendations (OIML R)</b>, which are model regulations that establish the metrological characteristics required of certain measuring instruments and which specify methods and equipment for checking their conformity. OIML Member States shall implement these Recommendations to the greatest possible extent;</p>
+</li>
+<li id="_62941bdc-ad9e-c2fd-d536-c344ebedd7ad_OIML_R_138"><p id="_27904a11-18cb-2628-e441-0b6e069edc80_OIML_R_138"><b>International Documents (OIML D)</b>, which are informative in nature and which are intended to harmonize and improve work in the field of legal metrology;</p>
+</li>
+<li id="_82b47b30-4b14-8c2e-c4b2-0f12693df38d_OIML_R_138"><p id="_d0c20f2d-127a-b5bd-a238-7454decfcac5_OIML_R_138"><b>International Guides (OIML G)</b>, which are also informative in nature and which are intended to give guidelines for the application of certain requirements to legal metrology; and</p>
+</li>
+<li id="_a2652c24-7734-1092-9827-4653e7d37745_OIML_R_138"><p id="_9a623d5d-7950-60e7-1649-808e78aeacee_OIML_R_138"><b>International Basic Publications (OIML B)</b>, which define the operating rules of the various OIML structures and systems.</p>
+</li>
+</ul></div><p id="_41eafcb9-0fd1-b890-aa75-c399b1748774_OIML_R_138">OIML Draft Recommendations, Documents and Guides are developed by Technical Committees or Subcommittees which comprise representatives from the Member States. Certain international and regional institutions also participate on a consultation basis. Cooperative agreements have been established between the OIML and certain institutions, such as ISO and the IEC, with the objective of avoiding contradictory requirements. Consequently, manufacturers and users of measuring instruments, test laboratories, etc. may simultaneously apply OIML publications and those of other institutions.</p><p id="_ba13e892-20b5-80a9-312e-a25da604a959_OIML_R_138">International Recommendations, Documents, Guides and Basic Publications are published in English (E) and translated into French (F) and are subject to periodic revision.</p><p id="_d650d26d-915d-9241-ce50-efd8c1c2b707_OIML_R_138">Additionally, the OIML publishes or participates in the publication of <b>Vocabularies (OIML V)</b> and periodically commissions legal metrology experts to write  <b>Expert Reports (OIML E)</b>. Expert Reports are intended to provide information and advice, and are written solely from the viewpoint of their author, without the involvement of a Technical Committee or Subcommittee, nor that of the CIML. Thus, they do not necessarily represent the views of the OIML.</p><p id="_fe4b8495-0979-2e58-4177-7ee3260a9dcb_OIML_R_138">This publication — reference OIML R 138, Edition 2007 (E) — was developed by the OIML Technical Subcommittee TC 8  <i>Measurement of quantities of fluids</i>. It was approved for final publication by the International Committee of Legal Metrology in 2007 and will be submitted to the International Conference of Legal Metrology in 2008 for formal sanction. This Edition replaces the previous editions of OIML R 4 <i>Volumetric flasks (one mark) in glass</i> (Edition 1972), R 29 <i>Capacity serving measures</i> (Edition 1979), R 45 <i>Casks and barrels</i> (Edition 1980) and R 96 <i>Measuring container bottles</i> (Edition 1990).</p><p id="_11b84470-0cde-5f67-5e2c-0a00ce0bef60_OIML_R_138">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organization’s headquarters:</p><p id="_751e9754-4918-f7bc-6597-17b5f66ca306_OIML_R_138">Bureau International de Métrologie Légale<br /> 11, rue Turgot — 75009 Paris — France<br /> Telephone: 33 (0)1 48 78 12 82<br /> Fax: 33 (0)1 42 82 17 27<br /> E-mail:  <a href="mailto:biml@oiml.org">biml@oiml.org</a><br /> Internet: www.oiml.org</p></div><p class="zzSTDTitle1"><span class="boldtitle">Vessels for commercial transactions</span></p><div id="_5f8c346d-5546-81a8-3eb9-cc9c8e667659_OIML_R_138"><h1 id="_928533dd-5069-41b8-8f52-e14600efa712"><a class="anchor" href="#_5f8c346d-5546-81a8-3eb9-cc9c8e667659_OIML_R_138"></a><a class="header" href="#_5f8c346d-5546-81a8-3eb9-cc9c8e667659_OIML_R_138">1  Scope and application</a></h1><p id="_41886a79-0cd8-82e2-9ca0-56a923e0037c_OIML_R_138">This Recommendation applies to volumetric containers or vessels used to measure, and when applicable to store and transport, liquids for commercial transactions.</p></div><div id="_79287345-b3a3-419b-d30b-ef757fedc019_OIML_R_138"><h1 id="_b2d56b31-9cc7-4e20-bbd0-be5ff4489dee"><a class="anchor" href="#_79287345-b3a3-419b-d30b-ef757fedc019_OIML_R_138"></a><a class="header" href="#_79287345-b3a3-419b-d30b-ef757fedc019_OIML_R_138">2  Terminology and symbols</a></h1><div id="_e403ad65-acc8-b991-5a33-aee531bde675_OIML_R_138"><h2 id="_4cf909fe-6440-45f7-ba64-14383b5a7caa"><a class="anchor" href="#_e403ad65-acc8-b991-5a33-aee531bde675_OIML_R_138"></a><a class="header" href="#_e403ad65-acc8-b991-5a33-aee531bde675_OIML_R_138">2.1  General terms</a></h2>
+
+<p id="_fad0ee76-5d4a-f90c-c28b-5875ef0179fc_OIML_R_138">The general terms and definitions are those of the International Vocabulary of Basic and General Terms in Metrology (VIM, 1993).</p>
+</div><div id="_a9df228b-8cf9-2c0f-344c-746c89c6b0b0_OIML_R_138"><h2 id="_0124cef8-3d0d-45b9-ace2-8a136b9c66e6"><a class="anchor" href="#_a9df228b-8cf9-2c0f-344c-746c89c6b0b0_OIML_R_138"></a><a class="header" href="#_a9df228b-8cf9-2c0f-344c-746c89c6b0b0_OIML_R_138">2.2  Capacity serving measures</a></h2>
+
+<p id="_de1e54ef-18db-7ce0-0b3e-5845008c5fd5_OIML_R_138">Measures which are filled as required and used for the retail sale of drinks sold by volume. They are divided into two categories: transfer measures used solely for decanting specific volumes of beverages and drinking measures used also for the consumption of specific volumes of beverages.</p>
+</div><div id="_8aa04b5d-23da-2f4d-716e-e494bcc45dfe_OIML_R_138"><h2 id="_21db4a4c-3a5f-40e2-803d-27a5b0ccd3c3"><a class="anchor" href="#_8aa04b5d-23da-2f4d-716e-e494bcc45dfe_OIML_R_138"></a><a class="header" href="#_8aa04b5d-23da-2f4d-716e-e494bcc45dfe_OIML_R_138">2.3  Measuring container bottles</a></h2>
+
+<p id="_53a6f77a-2b16-6787-6249-fda1084c447a_OIML_R_138">Bottles intended to be filled either at constant level or at constant ullage with sufficient accuracy without the need to use an independent measuring instrument.</p>
+</div><div id="_b27824b1-cae2-7dfc-7bbe-495bd2936213_OIML_R_138"><h2 id="_3fa0a414-8c37-4ba8-8f40-0e03f9c9e398"><a class="anchor" href="#_b27824b1-cae2-7dfc-7bbe-495bd2936213_OIML_R_138"></a><a class="header" href="#_b27824b1-cae2-7dfc-7bbe-495bd2936213_OIML_R_138">2.4  Casks and barrels</a></h2>
+
+<p id="_d844b675-86c9-1148-8552-066fe4ca09b9_OIML_R_138">Containers used for commercial transactions of liquids when they are filled to their nominal volume. To simplify the text, casks and barrels are referred to hereafter by the name “casks” only.</p>
+</div><div id="_61fbd087-7adc-6eed-3496-442f651f0a0d_OIML_R_138"><h2 id="_33311d51-0d9b-43dc-be8f-14317f666f15"><a class="anchor" href="#_61fbd087-7adc-6eed-3496-442f651f0a0d_OIML_R_138"></a><a class="header" href="#_61fbd087-7adc-6eed-3496-442f651f0a0d_OIML_R_138">2.5  Nominal capacity, <span class="stem">
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math>
+</span></a></h2>
+
+<p id="_77602a30-201a-f660-cb69-6eb6cc7352bd_OIML_R_138">Volume indicated on the vessel.</p>
+</div><div id="_61081ec1-2609-418f-a321-e1cda353c87b_OIML_R_138"><h2 id="_69048117-ad56-4ada-afef-3945eb0295ce"><a class="anchor" href="#_61081ec1-2609-418f-a321-e1cda353c87b_OIML_R_138"></a><a class="header" href="#_61081ec1-2609-418f-a321-e1cda353c87b_OIML_R_138">2.6  Conventional true capacity</a></h2>
+
+<p id="_d9c9522d-4160-7bfa-7bf7-7a2cc774a947_OIML_R_138">For measuring container bottles and casks: contained volume of water at a reference temperature with an uncertainty appropriate for the given purpose.</p>
+
+<p id="_8b514a92-c851-0916-d871-a012f748ba48_OIML_R_138">For capacity serving measures: delivered volume of water at a reference temperature with an uncertainty appropriate for the given purpose. This volume is measured after prior wetting of the interior of the vessel and draining for 30 seconds.</p>
+</div><div id="_5d69b2b9-8236-64a6-69a8-3976d522d021_OIML_R_138"><h2 id="_f781ea5c-41d6-4442-a31a-daa183b1ed06"><a class="anchor" href="#_5d69b2b9-8236-64a6-69a8-3976d522d021_OIML_R_138"></a><a class="header" href="#_5d69b2b9-8236-64a6-69a8-3976d522d021_OIML_R_138">2.7  Brim capacity, <span class="stem">
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math>
+</span></a></h2>
+
+<p id="_dadac115-7748-a309-0f82-9ad0895dd607_OIML_R_138">Volume that the vessel is meant to contain when filled to the brim.</p>
+</div><div id="_fb4e4eb7-35fd-86c1-6882-0edaccbd32de_OIML_R_138"><h2 id="_8f01d50d-2a84-45a7-9522-4b7283a9582c"><a class="anchor" href="#_fb4e4eb7-35fd-86c1-6882-0edaccbd32de_OIML_R_138"></a><a class="header" href="#_fb4e4eb7-35fd-86c1-6882-0edaccbd32de_OIML_R_138">2.8  Ullage (or headspace)</a></h2>
+
+<p id="_f4cb35dd-fbe4-47d8-7f2c-971e321c71c8_OIML_R_138">Empty volume remaining in a container after it is filled.</p>
+</div><div id="_8c17712a-6978-f69c-f14e-e4d31acfe538_OIML_R_138"><h2 id="_ba729c6a-4240-4e2a-ab62-22d2c9a19530"><a class="anchor" href="#_8c17712a-6978-f69c-f14e-e4d31acfe538_OIML_R_138"></a><a class="header" href="#_8c17712a-6978-f69c-f14e-e4d31acfe538_OIML_R_138">2.9  Gauge mark</a></h2>
+
+<p id="_1125f039-57b9-604e-b32f-be956e637a5f_OIML_R_138">Mark, generally a line that indicates the nominal capacity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math></span>.</p>
+</div><div id="_668c1459-5ca7-6beb-95a6-ee309265a877_OIML_R_138"><h2 id="_b4f40b58-e4f4-439b-973e-0cb3bf2bca19"><a class="anchor" href="#_668c1459-5ca7-6beb-95a6-ee309265a877_OIML_R_138"></a><a class="header" href="#_668c1459-5ca7-6beb-95a6-ee309265a877_OIML_R_138">2.10  Filling orifice</a></h2>
+
+<p id="_954779ff-dea7-a5fe-a2f3-06558d0d49c3_OIML_R_138">Opening in the cask wall defined by its section and the thickness of the cask walls.</p>
+</div></div><div id="_db6e04a0-2704-70b2-30ac-2885aa8633ad_OIML_R_138"><h1 id="_e2331f01-5dd3-4276-b9be-c245eecadc30"><a class="anchor" href="#_db6e04a0-2704-70b2-30ac-2885aa8633ad_OIML_R_138"></a><a class="header" href="#_db6e04a0-2704-70b2-30ac-2885aa8633ad_OIML_R_138">3  Units of measurement</a></h1><p id="_b8410b95-48d1-d36c-f763-3a722fff135c_OIML_R_138">The units of measurement shall be the SI units.</p></div><div id="_81ba38f6-926d-5984-b1a6-8ad2d81bf06c_OIML_R_138"><h1 id="_f1836ce9-1a10-4d48-bf3b-44bc6b12d6d3"><a class="anchor" href="#_81ba38f6-926d-5984-b1a6-8ad2d81bf06c_OIML_R_138"></a><a class="header" href="#_81ba38f6-926d-5984-b1a6-8ad2d81bf06c_OIML_R_138">4  Technical requirements</a></h1><div id="_7f5654c3-3e46-c611-b0c3-3136a13276c8_OIML_R_138"><h2 id="_8e1097c7-84d4-4e8b-b2f4-0e2b79ac626b"><a class="anchor" href="#_7f5654c3-3e46-c611-b0c3-3136a13276c8_OIML_R_138"></a><a class="header" href="#_7f5654c3-3e46-c611-b0c3-3136a13276c8_OIML_R_138">4.1  Nominal capacities</a></h2>
+
+<div id="_90cb38dc-5674-4527-2f8b-d694a801605f_OIML_R_138"><span class="zzMoveToFollowing inline-header"><b>4.1.1  </b></span><p id="_19d06512-dbd8-aa0c-6de4-37f560a989ee_OIML_R_138">Capacity serving measures and measuring container bottles</p>
+
+<p id="_4879a6b0-789f-7e8b-2794-6c9c87f2fe2b_OIML_R_138">Capacity serving measures and measuring container bottles shall have one of the nominal capacities given by the following formula:</p>
+
+<div id="_1c2c5f86-8ce3-832c-9aca-533d3ba348a1_OIML_R_138"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+    <mo>=</mo>
+    <mi>x</mi>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mi>n</mi>
+    </msup>
+    <mtext>L</mtext>
+  </mstyle>
+</math></span>  (1)</p></div></div>
+
+<p id="_6d987ca8-55c3-ea55-3e7d-b614b497a682_OIML_R_138">with <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math></span> = positive or negative integer, or zero<br />
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>x</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>,</mo>
+    <mn>1,5</mn>
+    <mo>,</mo>
+    <mn>2</mn>
+    <mo>,</mo>
+    <mn>2,5</mn>
+    <mo>,</mo>
+    <mn>3</mn>
+    <mo>,</mo>
+    <mn>4</mn>
+  </mstyle>
+</math></span> and <span>5</span></p>
+
+<p id="_7649838c-c12d-1387-6ec5-81a60f90915c_OIML_R_138">and comprised between the following values:</p>
+
+<div class="ul_wrap"><ul id="_fad53302-c38b-3831-9474-07e74d3ce6d8_OIML_R_138"><li id="_4cd08fba-7e82-d455-f0e6-50f5da9e15df_OIML_R_138"><p id="_ee36b53c-e03f-352a-6666-d4b81da8e566_OIML_R_138">capacity serving measures [20 …​ 5000] <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></p>
+</li>
+<li id="_50c42908-1f56-5bcc-8a71-dcd8f088e148_OIML_R_138"><p id="_3cfe7cd4-e1fe-2ac6-0b6b-a2a4a4fc940a_OIML_R_138">measuring container bottles [50 …​ 5000] <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></p>
+</li>
+</ul></div>
+</div>
+
+<div id="_69095ef0-89db-8385-881d-51687a7be4d8_OIML_R_138"><h3><a class="anchor" href="#_69095ef0-89db-8385-881d-51687a7be4d8_OIML_R_138"></a><a class="header" href="#_69095ef0-89db-8385-881d-51687a7be4d8_OIML_R_138">4.1.2  Casks</a></h3>
+
+<p id="_3daa20ee-384d-bc32-0a19-9d4be0df34d4_OIML_R_138">Casks shall have a nominal capacity equal to:</p>
+
+<div class="ul_wrap"><ul id="_42fb7d23-f4a7-3d25-463e-fa726bb36409_OIML_R_138"><li id="_50571533-616f-2d03-759c-4c6f47e705df_OIML_R_138"><p id="_574ab8db-37b0-c4d1-4fc0-524ba097d762_OIML_R_138">a multiple of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> for <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+    <mo>≤</mo>
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></p>
+</li>
+<li id="_9b61cf76-2fd8-0ad3-1a9b-029be9b398f3_OIML_R_138"><p id="_9934df93-d5c7-1b20-7001-ee7d76fb32c1_OIML_R_138">a multiple of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>50</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> for <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+    <mo>&#x3e;</mo>
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></p>
+</li>
+</ul></div>
+</div>
+
+<div id="_022396b6-40c8-f7f1-21ae-39b257fd59b5_OIML_R_138"><h3><a class="anchor" href="#_022396b6-40c8-f7f1-21ae-39b257fd59b5_OIML_R_138"></a><a class="header" href="#_022396b6-40c8-f7f1-21ae-39b257fd59b5_OIML_R_138">4.1.3  Exceptions</a></h3>
+
+<p id="_4c810a28-c700-d58c-9047-aed0715aa9a0_OIML_R_138">When justified by local traditions or by special requirements, national regulations may allow
+additional values for nominal capacities or units (e.g. <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0,33</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span>).</p>
+</div>
+</div><div id="_06f20fe6-77d2-718e-571d-f1dfe1cfa4fd_OIML_R_138"><h2 id="_ace3594d-986e-496f-868c-3e0db70cbc84"><a class="anchor" href="#_06f20fe6-77d2-718e-571d-f1dfe1cfa4fd_OIML_R_138"></a><a class="header" href="#_06f20fe6-77d2-718e-571d-f1dfe1cfa4fd_OIML_R_138">4.2  Material</a></h2>
+
+<p id="_886a54be-0975-d7c6-620c-8b7e0b9fe84c_OIML_R_138">The vessels shall be sufficiently robust to withstand normal usage without distortions.</p>
+
+<p id="_924f5729-dfe3-f62c-63ea-75568c3625b0_OIML_R_138">For capacity serving measures and measuring container bottles, the materials used in construction should be sufficiently tough, rigid, non porous and stable to maintain accuracy during use.</p>
+
+<p id="_47b4d344-ffbb-e9ae-42cb-e3d02ba388fa_OIML_R_138">Casks may be manufactured in any material with strength, rigidity and toughness adequate for the intended use (e.g. solid wood, plywood, metal). National regulations may stipulate that the interior of certain casks must be covered with a protective permanent coating, compatible with the material used for construction and the liquids to be contained.</p>
+
+<p id="_5a799084-711a-696a-c78d-7948e44d391c_OIML_R_138">Vessels used only once, such as thin plastic or cardboard drinking capacities, must remain accurate during nominal filling, transportation and discharge functions.</p>
+</div><div id="_d8c867f4-d673-d63a-6fe5-cd8acf0221a0_OIML_R_138"><h2 id="_215c5620-bf52-4110-9ed2-16147f51cd8c"><a class="anchor" href="#_d8c867f4-d673-d63a-6fe5-cd8acf0221a0_OIML_R_138"></a><a class="header" href="#_d8c867f4-d673-d63a-6fe5-cd8acf0221a0_OIML_R_138">4.3  Construction</a></h2>
+
+<p id="_6b80d5d1-92d9-ef27-3e85-2bbc41852354_OIML_R_138">The total volume of vessels intended to contain liquids under pressure shall not increase more than
+0.5 % when subjected to an internal pressure of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_kPa">
+      <mstyle mathvariant="normal">
+        <mi>kPa</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> maintained for 48 hours.</p>
+
+<p id="_25c05ebd-7f44-7775-07ae-9a30ea83e392_OIML_R_138">The position of the filling orifice shall allow for complete filling of the casks.</p>
+</div><div id="_eb4471b7-979f-7cd1-f738-db347fc97c03_OIML_R_138"><h2 id="_1b8f499d-fcd4-4f4e-ae0d-fd55b3072d02"><a class="anchor" href="#_eb4471b7-979f-7cd1-f738-db347fc97c03_OIML_R_138"></a><a class="header" href="#_eb4471b7-979f-7cd1-f738-db347fc97c03_OIML_R_138">4.4  Resolution if gauge mark</a></h2>
+
+<p id="_11a3a403-4466-5d95-2082-84bf5d2f3b2c_OIML_R_138">Vessels with gauge marks shall be so designed that at the nominal capacity, a variation in the contents
+equal to the maximum permissible error causes a change in the liquid level of at least <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span>.</p>
+</div><div id="_05d0b243-3ec5-390b-2d91-19bf72a91708_OIML_R_138"><h2 id="_5944eb15-74b8-45ec-a1f7-b27997a79d19"><a class="anchor" href="#_05d0b243-3ec5-390b-2d91-19bf72a91708_OIML_R_138"></a><a class="header" href="#_05d0b243-3ec5-390b-2d91-19bf72a91708_OIML_R_138">4.5  Vertical position</a></h2>
+
+<p id="_7ccfde7f-d935-c911-bc3f-f6d28c2d99e1_OIML_R_138">Vessels with gauge marks and measuring container bottles shall have a base wide enough to allow a vertical, stable position when resting on a flat horizontal surface. If not, a holder must be provided with the vessel.</p>
+</div><div id="_602ea994-96ff-c748-82fd-84f280ebd5bf_OIML_R_138"><h2 id="_7f9af8b8-352c-4f62-9908-614fef3d984d"><a class="anchor" href="#_602ea994-96ff-c748-82fd-84f280ebd5bf_OIML_R_138"></a><a class="header" href="#_602ea994-96ff-c748-82fd-84f280ebd5bf_OIML_R_138">4.6  Filling requirements</a></h2>
+
+<div id="_b75bd242-365d-f60e-5011-57efa4417477_OIML_R_138"><h3><a class="anchor" href="#_b75bd242-365d-f60e-5011-57efa4417477_OIML_R_138"></a><a class="header" href="#_b75bd242-365d-f60e-5011-57efa4417477_OIML_R_138">4.6.1  Vessels with gauge marks</a></h3>
+
+<p id="_2f09e6df-bdbe-08d7-e092-f64baf4c5d45_OIML_R_138">“Filled to the gauge mark” is when the lowest part of the meniscus formed by the liquid is tangential to the upper edge of the gauge mark.</p>
+</div>
+
+<div id="_fd203771-8a94-a123-868d-abef3151ddf9_OIML_R_138"><h3><a class="anchor" href="#_fd203771-8a94-a123-868d-abef3151ddf9_OIML_R_138"></a><a class="header" href="#_fd203771-8a94-a123-868d-abef3151ddf9_OIML_R_138">4.6.2  Measuring container bottles</a></h3>
+
+<p id="_e11311fc-22c5-aeda-2768-c9e06132b528_OIML_R_138">Depending on the specifications of the manufacturer, the surface of the liquid shall either be at the specified distance from the brim or have the specified ullage at the top.</p>
+</div>
+
+<div id="_0ded4073-84f1-bf5d-f210-5ecae0c29b24_OIML_R_138"><h3><a class="anchor" href="#_0ded4073-84f1-bf5d-f210-5ecae0c29b24_OIML_R_138"></a><a class="header" href="#_0ded4073-84f1-bf5d-f210-5ecae0c29b24_OIML_R_138">4.6.3  Casks</a></h3>
+
+<p id="_eaae7ffa-59c3-d191-6038-40f792291b5c_OIML_R_138">Casks shall be filled to the lower edge of the filling orifice.</p>
+</div>
+</div></div><div id="_8c69a8b4-8fcd-911a-a3ba-c4f02e8c4222_OIML_R_138"><h1 id="_7e538524-bd0c-409e-ba62-b9889d74a406"><a class="anchor" href="#_8c69a8b4-8fcd-911a-a3ba-c4f02e8c4222_OIML_R_138"></a><a class="header" href="#_8c69a8b4-8fcd-911a-a3ba-c4f02e8c4222_OIML_R_138">5  Metrological requirements</a></h1><div id="_d81968ed-878f-1d98-f498-ecbc833004a7_OIML_R_138"><h2 id="_f0f7cdac-aae0-45e8-93c7-9c8a0b1a9077"><a class="anchor" href="#_d81968ed-878f-1d98-f498-ecbc833004a7_OIML_R_138"></a><a class="header" href="#_d81968ed-878f-1d98-f498-ecbc833004a7_OIML_R_138">5.1  Maximum permissible errors</a></h2>
+
+<div id="_0d02e37b-8773-54bf-479b-b6ce337196f2_OIML_R_138"><h3><a class="anchor" href="#_0d02e37b-8773-54bf-479b-b6ce337196f2_OIML_R_138"></a><a class="header" href="#_0d02e37b-8773-54bf-479b-b6ce337196f2_OIML_R_138">5.1.1  Capacity serving measures</a></h3>
+
+<p class="TableTitle" style="text-align:center;">Table 1 — Capacity serving measures</p><table id="_beaefe2b-58c6-7433-7af5-26433d99a40e_OIML_R_138" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th rowspan="2" colspan="2" style="font-weight:bold;text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;;text-align:center;vertical-align:middle;" scope="colgroup"></th><th colspan="2" style="font-weight:bold;text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;;text-align:center;vertical-align:middle;" scope="colgroup">Maximum permissible error (MPE)</th></tr><tr><th style="font-weight:bold;text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;;text-align:center;vertical-align:middle;" scope="col">Nominal capacity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math></span></th><th style="font-weight:bold;text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;;text-align:center;vertical-align:middle;" scope="col">Brim capacity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math></span></th></tr></thead><tbody><tr><td rowspan="4" style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Transfer measures</td><td rowspan="2" style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>&#x3c;</mo>
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td rowspan="2" style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><span>0</span></td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>4</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td></tr><tr><td rowspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>≥</mi>
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td rowspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>3</mn>
+    <mi>%</mi>
+  </mstyle>
+</math></span> of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0</span></td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>6</mn>
+    <mi>%</mi>
+  </mstyle>
+</math></span> of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math></span></td></tr><tr><td rowspan="4" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Drinking measures</td><td rowspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>&#x3c;</mo>
+    <mn>200</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td rowspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>5</mn>
+    <mi>%</mi>
+  </mstyle>
+</math></span> of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0</span></td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>10</mn>
+    <mi>%</mi>
+  </mstyle>
+</math></span> of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math></span></td></tr><tr><td rowspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>≥</mi>
+    <mn>200</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td rowspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mrow>
+      <mo>(</mo>
+      <mn>5</mn>
+      <mo rspace="thickmathspace">⁢</mo>
+      <mrow xref="U_NISTu365">
+        <mstyle mathvariant="normal">
+          <mi>mL</mi>
+        </mstyle>
+
+
+
+
+      </mrow>
+      <mo>+</mo>
+      <mn>2,5</mn>
+      <mi>%</mi>
+      <mo></mo>
+    </mrow>
+  </mstyle>
+</math></span> of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math></span>)</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0</span></td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+    <mo>+</mo>
+    <mn>5</mn>
+    <mi>%</mi>
+  </mstyle>
+</math></span> of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math></span></td></tr></tbody></table>
+</div>
+
+<div id="_88544c16-a3af-6233-b33b-cc567796fd43_OIML_R_138"><h3><a class="anchor" href="#_88544c16-a3af-6233-b33b-cc567796fd43_OIML_R_138"></a><a class="header" href="#_88544c16-a3af-6233-b33b-cc567796fd43_OIML_R_138">5.1.2  Measuring container bottles</a></h3>
+
+<p class="TableTitle" style="text-align:center;">Table 2 — Measuring container bottles</p><table id="_5669a818-d6d9-c259-416d-f11947732b44_OIML_R_138" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th rowspan="2" style="font-weight:bold;text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;;text-align:center;vertical-align:middle;" scope="col">Nominal capacity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math></span> or
+
+Brim capacity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math></span> in <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></th><th colspan="2" style="font-weight:bold;text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;;text-align:center;vertical-align:middle;" scope="colgroup">Maximum permissible error (MPE)</th></tr><tr><th style="font-weight:bold;text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;;text-align:center;vertical-align:middle;" scope="col">in % of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math></span> or <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math></span></th><th style="font-weight:bold;text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;;text-align:center;vertical-align:middle;" scope="col">in <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></th></tr></thead><tbody><tr><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">from 50 to 100</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">-</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>3</mn>
+  </mstyle>
+</math></span></td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">from 100 to 200</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>3</mn>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">-</td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">from 200 to 300</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">-</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>6</mn>
+  </mstyle>
+</math></span></td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">from 300 to 500</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>2</mn>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">-</td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">from 500 to 1000</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">-</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>10</mn>
+  </mstyle>
+</math></span></td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">from 1000 to 5000</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>1</mn>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">-</td></tr></tbody></table>
+</div>
+
+<div id="_3a18c0ed-625e-62e3-63cc-4f7d7aa0cff1_OIML_R_138"><h3><a class="anchor" href="#_3a18c0ed-625e-62e3-63cc-4f7d7aa0cff1_OIML_R_138"></a><a class="header" href="#_3a18c0ed-625e-62e3-63cc-4f7d7aa0cff1_OIML_R_138">5.1.3  Casks</a></h3>
+
+<p id="_94839b59-43e4-8256-91e4-2b03af039255_OIML_R_138"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>0,5</mn>
+    <mi>%</mi>
+  </mstyle>
+</math></span> but not less than <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0,10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> for casks made of metal which shall be designated by the letter “A” affixed to the vessel.</p>
+
+<p id="_ba9d8628-bf7b-cf13-da94-0f9c1112863c_OIML_R_138"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>1,0</mn>
+    <mi>%</mi>
+  </mstyle>
+</math></span> but not less than <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0,15</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> for casks made of other materials which shall be designated by the letter “B” affixed to the vessel.</p>
+</div>
+
+<div id="_46a8879a-bbd5-baaa-0d35-d5f65efe35d4_OIML_R_138"><h3><a class="anchor" href="#_46a8879a-bbd5-baaa-0d35-d5f65efe35d4_OIML_R_138"></a><a class="header" href="#_46a8879a-bbd5-baaa-0d35-d5f65efe35d4_OIML_R_138">5.1.4  General</a></h3>
+
+<p id="_a939e27e-b784-0dd8-db09-e80bda340d9a_OIML_R_138">Systematic exploitation of the maximum permissible errors is prohibited.</p>
+</div>
+</div><div id="_e8931c21-66f0-344e-c086-a7f261a83ac3_OIML_R_138"><h2 id="_1074c14e-79da-4688-92cc-5b6dc542a2af"><a class="anchor" href="#_e8931c21-66f0-344e-c086-a7f261a83ac3_OIML_R_138"></a><a class="header" href="#_e8931c21-66f0-344e-c086-a7f261a83ac3_OIML_R_138">5.2  Markings</a></h2>
+
+<div id="cls-5.2.1_OIML_R_138"><h3><a class="anchor" href="#cls-5.2.1_OIML_R_138"></a><a class="header" href="#cls-5.2.1_OIML_R_138">5.2.1  Nominal capacity</a></h3>
+
+<p id="_7d420791-5de4-c12f-0769-ac97450720a9_OIML_R_138">Every vessel for commercial transactions shall bear a clearly visible, easily readable and permanent
+indication of the nominal capacity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math></span>. Markings shall be in SI units.</p>
+</div>
+
+<div id="cls-5.2.2_OIML_R_138"><h3><a class="anchor" href="#cls-5.2.2_OIML_R_138"></a><a class="header" href="#cls-5.2.2_OIML_R_138">5.2.2  Capacity serving measures</a></h3>
+
+<p id="_3404230e-ed76-630b-83f4-391bb3effba8_OIML_R_138">In addition to the requirements of <a href="#cls-5.2.1_OIML_R_138"><span class="citesec">5.2.1</span></a>, capacity serving measures shall bear at least one filling mark.
+All filling marks shall be clearly visible and permanently marked. They must be at least <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> long and in a horizontal plane when the measure stands on a horizontal flat surface.</p>
+
+<p id="_4d01b6e5-dfd0-67de-d041-a6e27864d8e8_OIML_R_138">On drinking measures with a capacity of more than 50 mL, the filling mark is at least <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> from the brim.</p>
+
+<p id="_80c7fbf9-5cb9-c05c-9f01-1e15c46cd639_OIML_R_138">For foam building liquids the distance between the upper gauge mark and the brim shall be sufficient
+to allow for a complete filling to the mark but not less than <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span>.</p>
+
+<p id="_0725fd51-cabf-f5b6-6f83-065351cba393_OIML_R_138">Exception: if the capacity of a serving or drinking measure is defined by its brim capacity, the requirement of  <a href="#cls-5.2.2_OIML_R_138"><span class="citesec">5.2.2</span></a> does not have to be fulfilled.</p>
+</div>
+
+<div id="_b49ddac9-cdad-6893-9e1e-688140b83ea3_OIML_R_138"><h3><a class="anchor" href="#_b49ddac9-cdad-6893-9e1e-688140b83ea3_OIML_R_138"></a><a class="header" href="#_b49ddac9-cdad-6893-9e1e-688140b83ea3_OIML_R_138">5.2.3  Measuring container bottles</a></h3>
+
+<p id="_c7c8de4c-3e08-a90a-6658-4d39cce4f5ff_OIML_R_138">In addition to the requirements of <a href="#cls-5.2.1_OIML_R_138"><span class="citesec">5.2.1</span></a>, measuring container bottles shall be marked with one of the following marks, either on the lower rim or the bottom:</p>
+
+<div class="ul_wrap"><ul id="_51604bfb-7619-b841-6b92-42273373d589_OIML_R_138"><li id="_e2708157-6e92-8a5f-fa5a-ace5281651d7_OIML_R_138"><p id="_37c33226-3b3d-00f8-07de-ef10eb7deace_OIML_R_138">when filled to a constant level: the distance, expressed in <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> followed by the symbol <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> from the brim to the filling level corresponding to the nominal capacity; or</p>
+</li>
+<li id="_373a107c-fa0f-019f-8fc1-51872b40aa35_OIML_R_138"><p id="_d1908c18-66ee-684b-5a99-5885501ab790_OIML_R_138">when filled to a constant ullage: the number, expressed in mL followed by the symbol <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> that is equal to the brim capacity.</p>
+</li>
+</ul></div>
+</div>
+
+<div id="_65c0729f-ab52-5105-5772-143219341c7a_OIML_R_138"><h3><a class="anchor" href="#_65c0729f-ab52-5105-5772-143219341c7a_OIML_R_138"></a><a class="header" href="#_65c0729f-ab52-5105-5772-143219341c7a_OIML_R_138">5.2.4  Compliance with the metrological specifications</a></h3>
+
+<p id="_4facc39e-645a-0980-e041-875f1266b6fc_OIML_R_138">Every vessel for commercial transactions shall bear a mark identifying the company responsible for compliance with the metrological specifications applicable to the vessel.</p>
+</div>
+
+<div id="_af1e1d8e-8e26-8de9-10ee-6c58fbce7332_OIML_R_138"><h3><a class="anchor" href="#_af1e1d8e-8e26-8de9-10ee-6c58fbce7332_OIML_R_138"></a><a class="header" href="#_af1e1d8e-8e26-8de9-10ee-6c58fbce7332_OIML_R_138">5.2.5  Reference temperature</a></h3>
+
+<p id="_885385c6-4708-d48c-2d75-2dee21964076_OIML_R_138">If the National Metrology Authority decides on a reference temperature other than <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu23">
+      <mstyle mathvariant="normal">
+        <mi>°C</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span>, this temperature must be indicated next to every volume indication affixed to the vessel.</p>
+</div>
+</div></div><div id="_7bf3ab33-112a-bf91-e1d4-b95fe8fcee41_OIML_R_138"><h1 id="_7b1eeb6f-6bfb-48e9-b2eb-60e9f3165aac"><a class="anchor" href="#_7bf3ab33-112a-bf91-e1d4-b95fe8fcee41_OIML_R_138"></a><a class="header" href="#_7bf3ab33-112a-bf91-e1d4-b95fe8fcee41_OIML_R_138">6  Metrological controls</a></h1><div id="_6b75c16b-d0c8-9d87-b728-0722ba481d76_OIML_R_138"><h2 id="_805122db-b7aa-47b2-9e25-db8e6101bc17"><a class="anchor" href="#_6b75c16b-d0c8-9d87-b728-0722ba481d76_OIML_R_138"></a><a class="header" href="#_6b75c16b-d0c8-9d87-b728-0722ba481d76_OIML_R_138">6.1  Type approval</a></h2>
+
+<p id="_df5b9e57-9e6f-2b28-d048-b5c1753546d4_OIML_R_138">The vessels for commercial transactions are not subject to type approval.</p>
+</div><div id="_41b0ece0-62c5-3b20-6d88-1d6735e5455b_OIML_R_138"><h2 id="_efe05244-f7cd-4d90-8a89-2ebbe7f344d7"><a class="anchor" href="#_41b0ece0-62c5-3b20-6d88-1d6735e5455b_OIML_R_138"></a><a class="header" href="#_41b0ece0-62c5-3b20-6d88-1d6735e5455b_OIML_R_138">6.2  Initial verification</a></h2>
+
+<p id="_46020622-8dd2-134a-f29e-8dd274ec9845_OIML_R_138">The conformity of vessels used for commercial transactions to the prescribed specifications shall be controlled by the competent authority using a suitable statistical test. The controls shall preferably take place at the manufacturer’s plant or at the importer’s warehouse.</p>
+
+<p id="_a56a9cb5-05d2-0fcd-c8ec-62f940a808d9_OIML_R_138">The competent authority shall use a suitable test to perform the controls. An example is given in <a href="#annex-a_OIML_R_138"><span class="citeapp">Annex A</span></a>. In cases where a small number of vessels are concerned, the control may be replaced by individual initial verification.</p>
+
+<p id="_91d298d3-7805-e34e-5656-2c2d2ec3e1fe_OIML_R_138">Casks may be presented to the competent authority for legal metrology without an indication of the nominal capacity. In this case, the authority shall determine the conventional true capacity at a reference temperature when the container is filled according to the specifications and shall affix the value of the nominal capacity and the official mark of verification.</p>
+
+<p id="_1166dd25-93be-1180-9f17-0514998664dc_OIML_R_138">Capacity serving measures may be presented to the competent Legal Metrology Authority without marking. In this case, the authority shall affix the gauge mark, the value of the nominal capacity and the official verification mark.</p>
+</div><div id="_ba08e0d4-f16d-7e1d-a667-d5d4d2b77891_OIML_R_138"><h2 id="_71480952-3288-4965-9288-a3a34a7acc3f"><a class="anchor" href="#_ba08e0d4-f16d-7e1d-a667-d5d4d2b77891_OIML_R_138"></a><a class="header" href="#_ba08e0d4-f16d-7e1d-a667-d5d4d2b77891_OIML_R_138">6.3  Subsequent verification or control</a></h2>
+
+<p id="_6109c7ea-fb84-a4b5-984e-58a04517676c_OIML_R_138">Vessels made of glass are not subject to subsequent verification.</p>
+</div></div><div id="_a8a9caaa-e77d-ae12-612b-387a064293b3_OIML_R_138"><h1 id="_53385791-b666-4d2f-9e24-149ba1aeba4b"><a class="anchor" href="#_a8a9caaa-e77d-ae12-612b-387a064293b3_OIML_R_138"></a><a class="header" href="#_a8a9caaa-e77d-ae12-612b-387a064293b3_OIML_R_138">7  Measuring instruments used for official controls</a></h1><p id="_1f2044c5-891d-df5b-b476-c2b910190bd5_OIML_R_138">Measuring instruments used for official controls of vessels for commercial transactions shall be traceable to internationally supported realizations of the SI Units and have an uncertainty not greater than one-third of the maximum permissible error.</p></div><br /><div id="annex-a_OIML_R_138" class="Section3"><h1 class="Annex" id="_b5419e2e-d236-4cca-a506-0932c9898195"><a class="anchor" href="#annex-a_OIML_R_138"></a><a class="header" href="#annex-a_OIML_R_138"><b>Annex A</b><br /><span class="obligation">(normative)</span><br /><br /><b>Statistical test</b></a></h1><div id="_bc14c5de-6b0c-0533-a372-d6881acd57ed_OIML_R_138"><h2 id="_3f72a565-bed5-46d7-8d6d-ab54260796dd"><a class="anchor" href="#_bc14c5de-6b0c-0533-a372-d6881acd57ed_OIML_R_138"></a><a class="header" href="#_bc14c5de-6b0c-0533-a372-d6881acd57ed_OIML_R_138">A.1  Sampling</a></h2>
+
+<p id="_ae53cc46-e8db-6196-865b-fa333eba4f61_OIML_R_138">The method of control set out in <a href="#annex-a_OIML_R_138"><span class="citeapp">Annex A</span></a> assumes that the distribution of actual capacities of the vessels in a batch submitted for inspection is near to a normal distribution.</p>
+
+<p id="_587e852d-97a8-8b7b-5440-e96b27754cf4_OIML_R_138">The sampling procedure shall conform as much as possible to sampling theory and shall be adapted to the manufacturing procedures of the manufacturer or to the conditions in which batches are presented by the importer.</p>
+</div><div id="_86a2353d-2d8a-9750-e41f-937c9b90bda2_OIML_R_138"><h2 id="_66fc4a62-d22e-4a70-bcdd-d32123ddb110"><a class="anchor" href="#_86a2353d-2d8a-9750-e41f-937c9b90bda2_OIML_R_138"></a><a class="header" href="#_86a2353d-2d8a-9750-e41f-937c9b90bda2_OIML_R_138">A.2  Computation example</a></h2>
+
+<p id="_792e3c99-9fe5-7c31-ac44-c6044a16a8a3_OIML_R_138">A sample of 35 vessels of the same type and manufacture shall be taken at random in one or several batches so that the sample is as representative as possible of the production.</p>
+
+<p id="_02720a82-b1bf-8741-760e-50852489a81d_OIML_R_138">The following computational procedure is taken from the International Standard ISO 3951:1989, letter code J, AQL = 2.5, normal control, unknown standard deviation.</p>
+
+<p id="_5d35a24d-4902-2caf-49d6-5cc06ba2fe9c_OIML_R_138">Compute the mean <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>x</mi>
+  </mstyle>
+</math></span> of the capacities <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+    </msub>
+  </mstyle>
+</math></span> of the vessels in the sample:</p>
+
+<div id="_f0507dec-d3c2-90a0-f0f9-bb2d2ab190bd_OIML_R_138"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>x</mi>
+    <mo>=</mo>
+    <mrow>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mi>N</mi>
+      </munderover>
+      <mfrac>
+        <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+        </msub>
+        <mi>N</mi>
+      </mfrac>
+    </mrow>
+  </mstyle>
+</math></span>  (A.1)</p></div></div>
+
+<p id="_8b0a24b0-a171-b28c-4e25-4f277c8f4b0b_OIML_R_138">with <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>N</mi>
+    <mo>=</mo>
+    <mn>35</mn>
+  </mstyle>
+</math></span>.</p>
+
+<p id="_45fcc7fe-9eb5-331e-e236-2dbf42f5be84_OIML_R_138">Compute the standard deviation <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>s</mi>
+  </mstyle>
+</math></span> of the capacities <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+    </msub>
+  </mstyle>
+</math></span> of the vessels in the sample:</p>
+
+<div id="_6e413c0b-eb32-003d-383b-2ba0afb4d8b1_OIML_R_138"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>s</mi>
+    <mo>=</mo>
+    <msqrt>
+      <mrow>
+        <munderover>
+          <mo>∑</mo>
+          <mrow>
+            <mi>i</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+          </mrow>
+          <mi>N</mi>
+        </munderover>
+        <mfrac>
+          <msup>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>x</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>−</mo>
+              <mi>x</mi>
+              <mo>)</mo>
+            </mrow>
+            <mn>2</mn>
+          </msup>
+          <mrow>
+            <mi>N</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+          </mrow>
+        </mfrac>
+      </mrow>
+    </msqrt>
+  </mstyle>
+</math></span>  (A.2)</p></div></div>
+
+<p id="_ba5347ef-c16a-e61b-85a0-f38849f3da49_OIML_R_138">with <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>N</mi>
+    <mo>=</mo>
+    <mn>35</mn>
+  </mstyle>
+</math></span>.</p>
+
+<p id="_6bd6c38d-f106-ec40-6166-7a0ad32d6bd5_OIML_R_138">Compute the specified upper limit <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>T</mi>
+      <mi>s</mi>
+    </msub>
+  </mstyle>
+</math></span>, the sum of the capacity to be verified and of the maximum permissible error for this capacity.</p>
+
+<p id="_4abb6c71-c7ed-0c62-18db-7d23503793cf_OIML_R_138">Compute the specified lower limit <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>T</mi>
+      <mi>i</mi>
+    </msub>
+  </mstyle>
+</math></span>, the difference between the capacity to be verified and the maximum permissible error for this capacity.</p>
+</div><div id="_5c09996b-6cf6-8fe8-f2b8-263ab9a49d65_OIML_R_138"><h2 id="_76149811-881c-4ea3-bebf-0b7da7aca078"><a class="anchor" href="#_5c09996b-6cf6-8fe8-f2b8-263ab9a49d65_OIML_R_138"></a><a class="header" href="#_5c09996b-6cf6-8fe8-f2b8-263ab9a49d65_OIML_R_138">A.3  Acceptance criteria</a></h2>
+
+<p id="_2561e83f-d9f0-d372-4ed1-39f49b244427_OIML_R_138">The batch shall be accepted if the values of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>x</mi>
+  </mstyle>
+</math></span> and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>s</mi>
+  </mstyle>
+</math></span> satisfy simultaneously the following three inequalities:</p>
+
+<div id="_2d675394-6fc9-d9a6-76ed-53eb30373dc6_OIML_R_138"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>x</mi>
+    <mo>+</mo>
+    <mi>k</mi>
+    <mo>⋅</mo>
+    <mi>s</mi>
+    <mo>≤</mo>
+    <msub>
+      <mi>T</mi>
+      <mi>s</mi>
+    </msub>
+    <mo>,</mo>
+  </mstyle>
+</math></span>  (A.3)</p></div></div>
+
+<div id="_bba45bc5-b05a-ee9a-98ef-9b5bbd8d6790_OIML_R_138"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>x</mi>
+    <mo>−</mo>
+    <mi>k</mi>
+    <mo>⋅</mo>
+    <mi>s</mi>
+    <mi>≥</mi>
+    <msub>
+      <mi>T</mi>
+      <mi>i</mi>
+    </msub>
+    <mo>,</mo>
+  </mstyle>
+</math></span>  (A.4)</p></div></div>
+
+<div id="_184a7940-cea2-e36a-9ec0-d6ad0d80e979_OIML_R_138"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>s</mi>
+    <mo>≤</mo>
+    <mi>F</mi>
+    <mo>⋅</mo>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mi>T</mi>
+        <mi>s</mi>
+      </msub>
+      <mo>−</mo>
+      <msub>
+        <mi>T</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <mo>,</mo>
+  </mstyle>
+</math></span>  (A.5)</p></div></div>
+
+<p id="_0c7f6d26-0c0b-da4b-dcdb-208a5b331703_OIML_R_138">where <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>1,57</mn>
+  </mstyle>
+</math></span> and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>F</mi>
+    <mo>=</mo>
+    <mn>0,266</mn>
+  </mstyle>
+</math></span>.</p>
+</div></div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX",
+      linebreaks: {
+        automatic: true,
+        width: "container"  // or specify something like "90%"/"30em"
+      }
+    },
+    MathML: {
+      linebreaks: {
+        automatic: true
+      }
+    },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+    //TOC toggle animation
+    (function() {
+      const jqNav = $('nav');
+      const jqBody = $('body');
+      const jqToggle = $('#toggle');
+      const animationSpeed = 'slow';
+
+      jqToggle.on('click', function() {
+        const isNavVisible = jqNav.is(':visible');
+        const fullNavWidth = jqNav.outerWidth();
+        const navLeft = isNavVisible ? '-' + fullNavWidth + 'px' : '0px';
+        const bodyMarginLeft = isNavVisible ? '0px' : fullNavWidth + 'px';
+
+        // Stop current animations
+        jqNav.stop(true, true);
+        jqBody.stop(true, true);
+
+        if(!isNavVisible) {
+            jqNav.show();
+        }
+        jqNav.animate({'left': navLeft}, animationSpeed, function() {
+          if(isNavVisible) {jqNav.hide()}
+        });
+        jqBody.animate({'marginLeft': bodyMarginLeft}, animationSpeed);
+
+      });
+    })();
+  </script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div />", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+<script>
+$(".collapse-button").click(function () {
+$(this).toggleClass('expand'); // expand: the class to change the collapse button shape
+// collapse: the class to collapse/expand the li elements with the h2 class
+$(this).closest('li').children(".content").toggleClass('collapse');})
+</script>
+</body></html>

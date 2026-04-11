@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.2.3" schema-version="v2.1.5" flavor="iso" document_suffix="Amendment__2009__to_OIML_R_138">
+<bibdata type="standard">
+<title language="en" type="main">Vessels for commercial transactions Amendment (2009)</title>
+
+<title language="en" type="title-main">Vessels for commercial transactions Amendment (2009)</title>
+
+<title language="fr" type="main">Récipients pour transactions commerciales (Amendement 2009)</title>
+
+<title language="fr" type="title-main">Récipients pour transactions commerciales (Amendement 2009)</title>
+<docidentifier type="ISO" primary="true">Amendment (2009) to OIML R 138:2007</docidentifier><docnumber>138</docnumber><contributor><role type="author"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_Amendment__2009__to_OIML_R_138" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_0);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_0_Amendment__2009__to_OIML_R_138">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Measurement of quantities of fluids</name>
+<identifier>TC 8</identifier><identifier type="full">TC 8</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+</organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_inject_1_Amendment__2009__to_OIML_R_138" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_1);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_1_Amendment__2009__to_OIML_R_138">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Measurement of quantities of fluids</name>
+<identifier>TC 8</identifier><identifier type="full">TC 8</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>2009</edition><version><revision-date>2009</revision-date></version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2009</from><owner><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_inject_2_Amendment__2009__to_OIML_R_138" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_2);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_2_Amendment__2009__to_OIML_R_138">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></owner></copyright><ext><doctype>amendment</doctype><flavor>iso</flavor><structuredidentifier><project-number>138</project-number></structuredidentifier><stagename abbreviation="IS"/><updates-document-type>international-recommendation</updates-document-type></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<presentation-metadata><name>document-scheme</name><value>1989</value></presentation-metadata><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit id="U_NISTu365_Amendment__2009__to_OIML_R_138">
+        <UnitSystem name="not_SI" type="not_SI" lang="en-US"/>
+        <UnitName lang="en">milliliter</UnitName>
+        <UnitSymbol type="HTML">ml</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">ml</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="litre" prefix="m"/>
+        </RootUnits>
+      </Unit><Unit id="U_cl_Amendment__2009__to_OIML_R_138">
+        <UnitSystem name="not_SI" type="not_SI" lang="en-US"/>
+        <UnitName lang="en">cl</UnitName>
+        <UnitSymbol type="HTML">cl</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cl</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="litre" prefix="c"/>
+        </RootUnits>
+      </Unit><Unit id="U_ml.cl-1_Amendment__2009__to_OIML_R_138">
+        <UnitSystem name="not_SI" type="not_SI" lang="en-US"/>
+        <UnitName lang="en">ml*cl^-1</UnitName>
+        <UnitSymbol type="HTML">ml cl
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">ml</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">cl</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="litre" prefix="m"/>
+          <EnumeratedRootUnit unit="litre" prefix="c" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq10_Amendment__2009__to_OIML_R_138" quantityType="base" dimensionURL="#NISTd10">
+        <QuantityName lang="en-US">volume</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="NISTd10_Amendment__2009__to_OIML_R_138">
+        <Length symbol="L" powerNumerator="3"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-3" id="NISTp10_-3_Amendment__2009__to_OIML_R_138">
+        <PrefixName lang="en">milli</PrefixName>
+        <PrefixSymbol type="ASCII">m</PrefixSymbol>
+        <PrefixSymbol type="unicode">m</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">m</PrefixSymbol>
+        <PrefixSymbol type="HTML">m</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="-2" id="NISTp10_-2_Amendment__2009__to_OIML_R_138">
+        <PrefixName lang="en">centi</PrefixName>
+        <PrefixSymbol type="ASCII">c</PrefixSymbol>
+        <PrefixSymbol type="unicode">c</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">c</PrefixSymbol>
+        <PrefixSymbol type="HTML">c</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_04d59258-7c52-4ffc-dbad-21b6a4a5469b_Amendment__2009__to_OIML_R_138" inline-header="false" obligation="normative"><p id="_8363e956-9cc5-70b9-4ebe-8491c38c378d_Amendment__2009__to_OIML_R_138">© OIML 2009</p>
+
+<p id="_6711e67c-7bc3-b668-a67f-ec68c6b24d99_Amendment__2009__to_OIML_R_138" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
+</clause>
+</copyright-statement>
+<feedback-statement>
+
+<clause id="_78778e0b-9d1e-e0ad-1272-7268592fc427_Amendment__2009__to_OIML_R_138" inline-header="false" obligation="normative"><p id="_d0a674b7-3667-12e4-81ba-deec26ebe4bb_Amendment__2009__to_OIML_R_138">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organisation’s headquarters:</p>
+
+<p id="_4242e451-d3c4-e8c0-4883-3b88240ca76c_Amendment__2009__to_OIML_R_138" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
+</clause>
+</feedback-statement></boilerplate><sections><clause id="_ff64f201-ceb7-76c4-ef6b-1da43aa0f355_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_46069e95-51f4-1e9a-f2b9-70fe751a0935_Amendment__2009__to_OIML_R_138">Introduction</title>
+<p id="_8952f403-3ce0-0d99-5246-b365f709b723_Amendment__2009__to_OIML_R_138">OIML R 138:2007 was approved by the CIML during its 42nd Meeting held in Shanghai. In the meantime it was decided to amend OIML R 138 to take into consideration late comments.</p>
+</clause>
+
+<clause id="_8d3f25c5-ee5f-ecdd-dcbb-e64d87ce38a6_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_ff76d777-c53c-f84b-095b-0a866df963eb_Amendment__2009__to_OIML_R_138">Amendment (2009) to OIML R 138:2007 (E)</title>
+<clause id="_4790f4ec-1cc6-bfbf-067b-23170bb31aa2_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_a448a275-f276-4fd8-411f-da87bb068f99_Amendment__2009__to_OIML_R_138">Section 2.6</title>
+
+
+
+<amend id="_9fb4799b-de57-fc11-8d5a-acedc737a83e_Amendment__2009__to_OIML_R_138" change="modify"><description><p id="_15aee95d-067d-c80e-380d-b4c94a9a2848_Amendment__2009__to_OIML_R_138">2.6 Conventional true capacity</p><ol id="_a7f49f89-2b89-bed2-0c4d-9a0013e49050_Amendment__2009__to_OIML_R_138"><li><p id="_f90b9004-29a2-08a5-149d-31395d3b979c_Amendment__2009__to_OIML_R_138">For measuring container bottles and casks: Contained volume of water at a reference temperature with an uncertainty appropriate for the given purpose.</p>
+</li>
+<li><p id="_371e08f5-2e2a-5145-cab8-f2704726a832_Amendment__2009__to_OIML_R_138">For capacity serving measures: Delivered volume of water at a reference temperature with an uncertainty appropriate for the given purpose.</p>
+</li>
+</ol></description></amend></clause>
+
+<clause id="_5045018e-d79f-6283-d8fb-398cb7d40bfc_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_7f5b14a5-19cb-0465-0916-5a4a3e6bac5c_Amendment__2009__to_OIML_R_138">Section 5.2.3</title>
+
+
+
+
+
+<amend id="_54a9b2b2-709c-a152-d976-450552014e9f_Amendment__2009__to_OIML_R_138" change="modify"><description><p id="_86984615-3d61-c39a-2128-949df96eea25_Amendment__2009__to_OIML_R_138">5.2.3 Measuring container bottles</p><p id="_2ca88f73-f155-06b8-beaf-8e50455219de_Amendment__2009__to_OIML_R_138">In addition to the requirements of 5.2.1, measuring container bottles shall be marked with one of the following marks, either on the lower rim or the bottom:</p><ul id="_ad2d2c88-b5b5-da70-a67b-1d4081277df7_Amendment__2009__to_OIML_R_138"><li><p id="_f24a5653-b1a8-b104-d58e-b78e0e69660e_Amendment__2009__to_OIML_R_138">when filled to a constant level: the distance, expressed in millimeter, followed by the symbol mm from the brim to the filling level corresponding to the nominal capacity; or</p>
+</li>
+<li><p id="_de23073e-5382-2461-dde4-6dcee8dda3ce_Amendment__2009__to_OIML_R_138">when filled to a constant ullage: the number, expressed in millilitre (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>ml</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(ml)"</asciimath></stem>) or centilitre (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_cl">
+      <mstyle mathvariant="normal">
+        <mi>cl</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(cl)"</asciimath></stem>)
+not followed by the symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_ml.cl-1">
+      <mstyle mathvariant="normal">
+        <mi>ml</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>cl</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(ml/cl)"</asciimath></stem> that is equal to the brim capacity.</p>
+</li>
+</ul></description></amend></clause>
+
+<clause id="_32816583-b4b3-4076-45c5-4a9daeef2984_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_47e02c1d-09e0-efb7-ca1c-9154eba1a1b1_Amendment__2009__to_OIML_R_138">Annex A</title>
+
+<amend id="_c4316a5f-8af5-73d2-73cf-e18ea9d79d37_Amendment__2009__to_OIML_R_138" change="modify"><description><p id="_30c19016-91f5-ed3a-3e49-f7605c344a0d_Amendment__2009__to_OIML_R_138">Annex A is an informative annex.</p></description></amend></clause>
+</clause>
+</sections>
+<bibliography><references hidden="true" normative="false"/></bibliography></metanorma>

@@ -1,0 +1,2048 @@
+<metanorma-collection>
+  <bibdata type="collection" schema-version="v1.2.9">
+  <title type="title-main" format="text/plain" language="en">Vessels for commercial transactions</title>
+  <docidentifier type="oiml" primary="true">OIML R 138</docidentifier>
+  <date type="created">
+    <on>2007-01-01</on>
+  </date>
+  <edition>2007</edition>
+  <copyright>
+    <from>2007</from>
+    <owner>
+      <organization>
+        <name>Organisation Internationale de Métrologie Légale</name>
+        <abbreviation>OIML</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+</bibdata>
+  <directive>
+    <key>documents-inline</key>
+  </directive>
+  <directive>
+    <key>recompile-xml</key>
+    <value>true</value>
+  </directive>
+  <directive>
+    <key>documents-inline</key>
+  </directive>
+  <entry index="true">
+  <identifier>54802191-657a-4b31-a3ec-b1f26f9f0392</identifier>
+  <entry target="doc000000000" index="true" fileref="amd-2009/document.xml">
+    <identifier>Amendment (2009) to OIML R 138</identifier>
+    <type>amendment</type>
+    <format>xml</format>
+    <format>presentation</format>
+    <format>html</format>
+    <bibdata type="standard" schema-version="v1.2.9">
+  <title type="main" language="en">Vessels for commercial transactions Amendment (2009)</title>
+  <title type="title-main" language="en">Vessels for commercial transactions Amendment (2009)</title>
+  <title type="main" language="fr">Récipients pour transactions commerciales (Amendement 2009)</title>
+  <title type="title-main" language="fr">Récipients pour transactions commerciales (Amendement 2009)</title>
+  <docidentifier type="ISO" primary="true">Amendment (2009) to OIML R 138:2007</docidentifier>
+  <docnumber>138</docnumber>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>International Organization of Legal Metrology</name>
+      <abbreviation>OIML</abbreviation>
+      <logo>
+        <image src="/Users/mulgogi/src/mn/metanorma-taste/lib/metanorma/../../data/oiml/oiml-logo.svg" mimetype="image/svg+xml"/>
+      </logo>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>International Organization of Legal Metrology</name>
+      <subdivision>
+Measurement of quantities of fluids
+TC 8TC 8</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Agency</description>
+    </role>
+    <organization>
+      <name>International Organization of Legal Metrology</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization of Legal Metrology</name>
+      <abbreviation>OIML</abbreviation>
+      <logo>
+        <image src="/Users/mulgogi/src/mn/metanorma-taste/lib/metanorma/../../data/oiml/oiml-logo.svg" mimetype="image/svg+xml"/>
+      </logo>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Measurement of quantities of fluids
+TC 8TC 8</subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>2009</edition>
+  <version>
+    <revision-date>2009</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage abbreviation="IS">60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2009</from>
+    <owner>
+      <organization>
+        <name>International Organization of Legal Metrology</name>
+        <abbreviation>OIML</abbreviation>
+        <logo>
+          <image src="/Users/mulgogi/src/mn/metanorma-taste/lib/metanorma/../../data/oiml/oiml-logo.svg" mimetype="image/svg+xml"/>
+        </logo>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.3">
+    <doctype>amendment</doctype>
+    <structuredidentifier>
+      <project-number>138</project-number>
+    </structuredidentifier>
+    <stagename/>
+  </ext>
+</bibdata>
+  </entry>
+  <entry target="doc000000001" index="true" fileref="main/document.xml">
+    <identifier>OIML R 138</identifier>
+    <format>xml</format>
+    <format>presentation</format>
+    <format>html</format>
+    <bibdata type="standard" schema-version="v1.2.9">
+  <title type="main" language="en">Vessels for commercial transactions</title>
+  <title type="title-main" language="en">Vessels for commercial transactions</title>
+  <title type="main" language="fr">Récipients pour transactions commerciales</title>
+  <title type="title-main" language="fr">Récipients pour transactions commerciales</title>
+  <docidentifier type="ISO" primary="true">OIML R 138</docidentifier>
+  <docnumber>138</docnumber>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>International Organization of Legal Metrology</name>
+      <abbreviation>OIML</abbreviation>
+      <logo>
+        <image src="/Users/mulgogi/src/mn/metanorma-taste/lib/metanorma/../../data/oiml/oiml-logo.svg" mimetype="image/svg+xml"/>
+      </logo>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>International Organization of Legal Metrology</name>
+      <subdivision>
+Measurement of quantities of fluids
+TC 8TC 8</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Agency</description>
+    </role>
+    <organization>
+      <name>International Organization of Legal Metrology</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization of Legal Metrology</name>
+      <abbreviation>OIML</abbreviation>
+      <logo>
+        <image src="/Users/mulgogi/src/mn/metanorma-taste/lib/metanorma/../../data/oiml/oiml-logo.svg" mimetype="image/svg+xml"/>
+      </logo>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+Measurement of quantities of fluids
+TC 8TC 8</subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>2007</edition>
+  <version>
+    <revision-date>2007</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage abbreviation="IS">60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2007</from>
+    <owner>
+      <organization>
+        <name>International Organization of Legal Metrology</name>
+        <abbreviation>OIML</abbreviation>
+        <logo>
+          <image src="/Users/mulgogi/src/mn/metanorma-taste/lib/metanorma/../../data/oiml/oiml-logo.svg" mimetype="image/svg+xml"/>
+        </logo>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.3">
+    <doctype>international-standard</doctype>
+    <structuredidentifier>
+      <project-number>OIML 138</project-number>
+    </structuredidentifier>
+    <stagename>International Standard</stagename>
+  </ext>
+</bibdata>
+  </entry>
+</entry>
+  <format>html</format>
+  <coverpage>cover.html</coverpage>
+  <doc-container id="doc000000000">
+    <metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.2.3" schema-version="v2.1.5" flavor="iso" document_suffix="Amendment__2009__to_OIML_R_138">
+<bibdata type="standard">
+<title language="en" type="main">Vessels for commercial transactions Amendment (2009)</title>
+
+<title language="en" type="title-main">Vessels for commercial transactions Amendment (2009)</title>
+
+<title language="fr" type="main">Récipients pour transactions commerciales (Amendement 2009)</title>
+
+<title language="fr" type="title-main">Récipients pour transactions commerciales (Amendement 2009)</title>
+<docidentifier type="ISO" primary="true">Amendment (2009) to OIML R 138:2007</docidentifier><docnumber>138</docnumber><contributor><role type="author"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_Amendment__2009__to_OIML_R_138" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_0);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_0_Amendment__2009__to_OIML_R_138">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Measurement of quantities of fluids</name>
+<identifier>TC 8</identifier><identifier type="full">TC 8</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+</organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_inject_1_Amendment__2009__to_OIML_R_138" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_1);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_1_Amendment__2009__to_OIML_R_138">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Measurement of quantities of fluids</name>
+<identifier>TC 8</identifier><identifier type="full">TC 8</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>2009</edition><version><revision-date>2009</revision-date></version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2009</from><owner><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_inject_2_Amendment__2009__to_OIML_R_138" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_2);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_2_Amendment__2009__to_OIML_R_138">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></owner></copyright><ext><doctype>amendment</doctype><flavor>iso</flavor><structuredidentifier><project-number>138</project-number></structuredidentifier><stagename abbreviation="IS"/><updates-document-type>international-recommendation</updates-document-type></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<presentation-metadata><name>document-scheme</name><value>1989</value></presentation-metadata><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit id="U_NISTu365_Amendment__2009__to_OIML_R_138">
+        <UnitSystem name="not_SI" type="not_SI" lang="en-US"/>
+        <UnitName lang="en">milliliter</UnitName>
+        <UnitSymbol type="HTML">ml</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">ml</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="litre" prefix="m"/>
+        </RootUnits>
+      </Unit><Unit id="U_cl_Amendment__2009__to_OIML_R_138">
+        <UnitSystem name="not_SI" type="not_SI" lang="en-US"/>
+        <UnitName lang="en">cl</UnitName>
+        <UnitSymbol type="HTML">cl</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cl</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="litre" prefix="c"/>
+        </RootUnits>
+      </Unit><Unit id="U_ml.cl-1_Amendment__2009__to_OIML_R_138">
+        <UnitSystem name="not_SI" type="not_SI" lang="en-US"/>
+        <UnitName lang="en">ml*cl^-1</UnitName>
+        <UnitSymbol type="HTML">ml cl
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">ml</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">cl</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="litre" prefix="m"/>
+          <EnumeratedRootUnit unit="litre" prefix="c" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq10_Amendment__2009__to_OIML_R_138" quantityType="base" dimensionURL="#NISTd10">
+        <QuantityName lang="en-US">volume</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="NISTd10_Amendment__2009__to_OIML_R_138">
+        <Length symbol="L" powerNumerator="3"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-3" id="NISTp10_-3_Amendment__2009__to_OIML_R_138">
+        <PrefixName lang="en">milli</PrefixName>
+        <PrefixSymbol type="ASCII">m</PrefixSymbol>
+        <PrefixSymbol type="unicode">m</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">m</PrefixSymbol>
+        <PrefixSymbol type="HTML">m</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="-2" id="NISTp10_-2_Amendment__2009__to_OIML_R_138">
+        <PrefixName lang="en">centi</PrefixName>
+        <PrefixSymbol type="ASCII">c</PrefixSymbol>
+        <PrefixSymbol type="unicode">c</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">c</PrefixSymbol>
+        <PrefixSymbol type="HTML">c</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_04d59258-7c52-4ffc-dbad-21b6a4a5469b_Amendment__2009__to_OIML_R_138" inline-header="false" obligation="normative"><p id="_8363e956-9cc5-70b9-4ebe-8491c38c378d_Amendment__2009__to_OIML_R_138">© OIML 2009</p>
+
+<p id="_6711e67c-7bc3-b668-a67f-ec68c6b24d99_Amendment__2009__to_OIML_R_138" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
+</clause>
+</copyright-statement>
+<feedback-statement>
+
+<clause id="_78778e0b-9d1e-e0ad-1272-7268592fc427_Amendment__2009__to_OIML_R_138" inline-header="false" obligation="normative"><p id="_d0a674b7-3667-12e4-81ba-deec26ebe4bb_Amendment__2009__to_OIML_R_138">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organisation’s headquarters:</p>
+
+<p id="_4242e451-d3c4-e8c0-4883-3b88240ca76c_Amendment__2009__to_OIML_R_138" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
+</clause>
+</feedback-statement></boilerplate><sections><clause id="_ff64f201-ceb7-76c4-ef6b-1da43aa0f355_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_46069e95-51f4-1e9a-f2b9-70fe751a0935_Amendment__2009__to_OIML_R_138">Introduction</title>
+<p id="_8952f403-3ce0-0d99-5246-b365f709b723_Amendment__2009__to_OIML_R_138">OIML R 138:2007 was approved by the CIML during its 42nd Meeting held in Shanghai. In the meantime it was decided to amend OIML R 138 to take into consideration late comments.</p>
+</clause>
+
+<clause id="_8d3f25c5-ee5f-ecdd-dcbb-e64d87ce38a6_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_ff76d777-c53c-f84b-095b-0a866df963eb_Amendment__2009__to_OIML_R_138">Amendment (2009) to OIML R 138:2007 (E)</title>
+<clause id="_4790f4ec-1cc6-bfbf-067b-23170bb31aa2_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_a448a275-f276-4fd8-411f-da87bb068f99_Amendment__2009__to_OIML_R_138">Section 2.6</title>
+
+
+
+<amend id="_9fb4799b-de57-fc11-8d5a-acedc737a83e_Amendment__2009__to_OIML_R_138" change="modify"><description><p id="_15aee95d-067d-c80e-380d-b4c94a9a2848_Amendment__2009__to_OIML_R_138">2.6 Conventional true capacity</p><ol id="_a7f49f89-2b89-bed2-0c4d-9a0013e49050_Amendment__2009__to_OIML_R_138"><li><p id="_f90b9004-29a2-08a5-149d-31395d3b979c_Amendment__2009__to_OIML_R_138">For measuring container bottles and casks: Contained volume of water at a reference temperature with an uncertainty appropriate for the given purpose.</p>
+</li>
+<li><p id="_371e08f5-2e2a-5145-cab8-f2704726a832_Amendment__2009__to_OIML_R_138">For capacity serving measures: Delivered volume of water at a reference temperature with an uncertainty appropriate for the given purpose.</p>
+</li>
+</ol></description></amend></clause>
+
+<clause id="_5045018e-d79f-6283-d8fb-398cb7d40bfc_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_7f5b14a5-19cb-0465-0916-5a4a3e6bac5c_Amendment__2009__to_OIML_R_138">Section 5.2.3</title>
+
+
+
+
+
+<amend id="_54a9b2b2-709c-a152-d976-450552014e9f_Amendment__2009__to_OIML_R_138" change="modify"><description><p id="_86984615-3d61-c39a-2128-949df96eea25_Amendment__2009__to_OIML_R_138">5.2.3 Measuring container bottles</p><p id="_2ca88f73-f155-06b8-beaf-8e50455219de_Amendment__2009__to_OIML_R_138">In addition to the requirements of 5.2.1, measuring container bottles shall be marked with one of the following marks, either on the lower rim or the bottom:</p><ul id="_ad2d2c88-b5b5-da70-a67b-1d4081277df7_Amendment__2009__to_OIML_R_138"><li><p id="_f24a5653-b1a8-b104-d58e-b78e0e69660e_Amendment__2009__to_OIML_R_138">when filled to a constant level: the distance, expressed in millimeter, followed by the symbol mm from the brim to the filling level corresponding to the nominal capacity; or</p>
+</li>
+<li><p id="_de23073e-5382-2461-dde4-6dcee8dda3ce_Amendment__2009__to_OIML_R_138">when filled to a constant ullage: the number, expressed in millilitre (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>ml</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(ml)"</asciimath></stem>) or centilitre (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_cl">
+      <mstyle mathvariant="normal">
+        <mi>cl</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(cl)"</asciimath></stem>)
+not followed by the symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_ml.cl-1">
+      <mstyle mathvariant="normal">
+        <mi>ml</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>cl</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(ml/cl)"</asciimath></stem> that is equal to the brim capacity.</p>
+</li>
+</ul></description></amend></clause>
+
+<clause id="_32816583-b4b3-4076-45c5-4a9daeef2984_Amendment__2009__to_OIML_R_138" obligation="normative">
+<title id="_47e02c1d-09e0-efb7-ca1c-9154eba1a1b1_Amendment__2009__to_OIML_R_138">Annex A</title>
+
+<amend id="_c4316a5f-8af5-73d2-73cf-e18ea9d79d37_Amendment__2009__to_OIML_R_138" change="modify"><description><p id="_30c19016-91f5-ed3a-3e49-f7605c344a0d_Amendment__2009__to_OIML_R_138">Annex A is an informative annex.</p></description></amend></clause>
+</clause>
+</sections>
+<bibliography><references hidden="true" normative="false"/></bibliography></metanorma>
+  </doc-container>
+  <doc-container id="doc000000001">
+    <metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.2.3" schema-version="v2.1.5" flavor="iso" document_suffix="OIML_R_138">
+<bibdata type="standard">
+<title language="en" type="main">Vessels for commercial transactions</title>
+
+<title language="en" type="title-main">Vessels for commercial transactions</title>
+
+<title language="fr" type="main">Récipients pour transactions commerciales</title>
+
+<title language="fr" type="title-main">Récipients pour transactions commerciales</title>
+<docidentifier type="ISO" primary="true">OIML R 138</docidentifier><docnumber>138</docnumber><contributor><role type="author"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_OIML_R_138" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_0);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_0_OIML_R_138">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Measurement of quantities of fluids</name>
+<identifier>TC 8</identifier><identifier type="full">TC 8</identifier></subdivision></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization of Legal Metrology</name>
+</organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_inject_1_OIML_R_138" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_1);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_1_OIML_R_138">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></contributor><contributor><role type="authorizer"><description>committee</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Technical committee" subtype="TC">
+<name>Measurement of quantities of fluids</name>
+<identifier>TC 8</identifier><identifier type="full">TC 8</identifier></subdivision><abbreviation>ISO</abbreviation></organization></contributor><edition>2007</edition><version><revision-date>2007</revision-date></version><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2007</from><owner><organization>
+<name>International Organization of Legal Metrology</name>
+<abbreviation>OIML</abbreviation><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1_inject_2_OIML_R_138" data-name="Layer 1" viewBox="0 0 104 89.6" width="38mm" height="31.5mm">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 3.86;
+        stroke-width: .91px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #231f20;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath_inject_2);
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+    </style>
+    <clipPath id="clippath_inject_2_OIML_R_138">
+      <rect class="cls-1" width="104" height="89.6"/>
+    </clipPath>
+  </defs>
+  <g class="cls-6">
+    <path class="cls-2" d="m29.11,8.7c8.23,10.22,37.74,10.22,45.78,0"/>
+    <path class="cls-2" d="m29.11,81.66c8.23-10.22,37.74-10.22,45.78,0"/>
+    <circle class="cls-3" cx="51.95" cy="45.05" r="43.09"/>
+    <path class="cls-5" d="m18.93,49.31c0,1.43-.04,2.83-.37,4.12-.66,2.54-2.17,4.3-5.67,4.3s-5-1.77-5.67-4.3c-.33-1.29-.41-2.69-.41-4.12v-8.02c0-1.32.22-2.57.55-3.68.66-2.24,2.24-3.72,5.52-3.72s4.75,1.47,5.48,3.72c.37,1.1.55,2.36.55,3.68m-6.03,17.37c7.28,0,11.44-6.73,11.44-13.47,0-6.07-5.3-12.22-11.44-12.22S1.42,39.12,1.42,45.19c0,6.73,4.19,13.47,11.48,13.47Z"/>
+    <polyline class="cls-4" points="39.35 34.45 42.99 34.45 42.99 33.53 31 33.53 31 34.45 34.64 34.45 34.64 57.18 31 57.18 31 58.1 42.99 58.1 42.99 57.18 39.35 57.18"/>
+    <polyline class="cls-4" points="74.14 34.45 77.79 34.45 77.79 33.53 68.48 33.53 63.14 50.34 57.99 33.53 48.5 33.53 48.5 34.45 52.14 34.45 52.14 57.18 48.5 57.18 48.5 58.1 56.89 58.1 56.89 57.18 53.32 57.18 53.32 35.07 53.39 35.07 60.71 58.1 61.97 58.1 69.32 35.07 69.43 35.07 69.43 57.18 65.79 57.18 65.79 58.1 77.79 58.1 77.79 57.18 74.14 57.18"/>
+    <path class="cls-4" d="m103.42,58.1l.37-8.28h-1.14c-.15,4.23-1.8,7.36-6.48,7.36h-4.82v-22.74h3.83v-.92h-12.18v.92h3.64v22.74h-3.64v.92"/>
+    <path class="cls-2" d="m52.04,2.11c-15.37-.03-24.66,13.64-27.8,30.09"/>
+    <path class="cls-2" d="m24.61,59.72c3.4,15.68,12.51,28.42,27.41,28.42"/>
+    <path class="cls-2" d="m52.04,2.11c-7.61,0-12.15,13.74-13.63,30.24"/>
+    <path class="cls-2" d="m38.69,59.74c1.7,15.67,6.14,28.4,13.32,28.4"/>
+    <line class="cls-2" x1="52.04" y1="1.98" x2="52.02" y2="32.36"/>
+    <line class="cls-2" x1="52.05" y1="59.61" x2="52.02" y2="88.08"/>
+    <path class="cls-2" d="m65.59,32.37c-1.55-16.5-6.11-30.24-13.58-30.24"/>
+    <path class="cls-2" d="m52.07,88.16c7.35,0,11.78-12.82,13.4-28.56"/>
+    <path class="cls-2" d="m79.84,32.24c-3.11-16.44-12.39-30.11-27.82-30.11"/>
+    <path class="cls-2" d="m52.07,88.16c14.9.03,24.03-12.82,27.43-28.6"/>
+  </g>
+</svg></image></logo></organization></owner></copyright><ext><doctype>international-standard</doctype><flavor>iso</flavor><structuredidentifier><project-number>OIML 138</project-number></structuredidentifier><stagename abbreviation="IS">International Standard</stagename></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<presentation-metadata><doctype-alias>international-recommendation</doctype-alias></presentation-metadata><presentation-metadata><name>document-scheme</name><value>1989</value></presentation-metadata><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit id="U_NISTu365_OIML_R_138">
+        <UnitSystem name="not_SI" type="not_SI" lang="en-US"/>
+        <UnitName lang="en">milliliter</UnitName>
+        <UnitSymbol type="HTML">mL</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">mL</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="litre" prefix="m"/>
+        </RootUnits>
+      </Unit><Unit id="U_NISTu130_OIML_R_138">
+        <UnitSystem name="not_SI" type="not_SI" lang="en-US"/>
+        <UnitName lang="en">litre</UnitName>
+        <UnitSymbol type="HTML">L</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">L</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd14" id="U_kPa_OIML_R_138">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">kPa</UnitName>
+        <UnitSymbol type="HTML">kPa</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">kPa</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="pascal" prefix="k"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd1" id="U_mm_OIML_R_138">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">mm</UnitName>
+        <UnitSymbol type="HTML">mm</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">mm</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="metre" prefix="m"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd5" id="U_NISTu23_OIML_R_138">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">degree Celsius</UnitName>
+        <UnitSymbol type="HTML">°C</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">°C</mi>
+          </math>
+        </UnitSymbol>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq10_OIML_R_138" quantityType="base" dimensionURL="#NISTd10">
+        <QuantityName lang="en-US">volume</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="NISTd10_OIML_R_138">
+        <Length symbol="L" powerNumerator="3"/>
+      </Dimension><Dimension id="NISTd14_OIML_R_138">
+        <Length symbol="L" powerNumerator="-1"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+      </Dimension><Dimension id="NISTd1_OIML_R_138">
+        <Length symbol="L" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd5_OIML_R_138">
+        <ThermodynamicTemperature symbol="Theta" powerNumerator="1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-3" id="NISTp10_-3_OIML_R_138">
+        <PrefixName lang="en">milli</PrefixName>
+        <PrefixSymbol type="ASCII">m</PrefixSymbol>
+        <PrefixSymbol type="unicode">m</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">m</PrefixSymbol>
+        <PrefixSymbol type="HTML">m</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="3" id="NISTp10_3_OIML_R_138">
+        <PrefixName lang="en">kilo</PrefixName>
+        <PrefixSymbol type="ASCII">k</PrefixSymbol>
+        <PrefixSymbol type="unicode">k</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">k</PrefixSymbol>
+        <PrefixSymbol type="HTML">k</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><name>TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>HTML TOC Heading Levels</name><value>2</value></presentation-metadata><presentation-metadata><name>DOC TOC Heading Levels</name><value>3</value></presentation-metadata><presentation-metadata><name>PDF TOC Heading Levels</name><value>2</value></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_75ec5a5b-3ce1-84c8-c355-94fa18488fa4_OIML_R_138" inline-header="false" obligation="normative"><p id="_147518d2-6b9c-fd14-eeef-90afdaac695b_OIML_R_138">© OIML 2007</p>
+
+<p id="_6711e67c-7bc3-b668-a67f-ec68c6b24d99_OIML_R_138" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
+</clause>
+</copyright-statement>
+<feedback-statement>
+
+<clause id="_78778e0b-9d1e-e0ad-1272-7268592fc427_OIML_R_138" inline-header="false" obligation="normative"><p id="_d0a674b7-3667-12e4-81ba-deec26ebe4bb_OIML_R_138">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organisation’s headquarters:</p>
+
+<p id="_4242e451-d3c4-e8c0-4883-3b88240ca76c_OIML_R_138" align="left">Bureau International de Métrologie Légale<br/> 11, rue Turgot – 75009 Paris – France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail: link:mailto:biml@oiml.org<br/> Internet:  <link target="https://www.oiml.org">www.oiml.org</link></p>
+</clause>
+</feedback-statement></boilerplate><preface><foreword id="_b7d5fc21-b4d7-00cf-86ef-066f432742f6_OIML_R_138" obligation="informative">
+<title id="_41c9fad3-d4c1-eecc-4fad-f91704acc026_OIML_R_138">Foreword</title>
+<p id="_1ac0a5a7-229a-2255-0040-d667f9e7a7d6_OIML_R_138">The International Organization of Legal Metrology (OIML) is a worldwide, intergovernmental organization whose primary aim is to harmonize the regulations and metrological controls applied by the national metrological services, or related organizations, of its Member States. The main categories of OIML publications are:</p>
+
+<ul id="_657afc25-05d1-f984-795f-46259da22909_OIML_R_138"><li><p id="_d372c31f-bfd7-7fbb-535a-ed45152cf8ca_OIML_R_138"><strong>International Recommendations (OIML R)</strong>, which are model regulations that establish the metrological characteristics required of certain measuring instruments and which specify methods and equipment for checking their conformity. OIML Member States shall implement these Recommendations to the greatest possible extent;</p>
+</li>
+<li><p id="_27904a11-18cb-2628-e441-0b6e069edc80_OIML_R_138"><strong>International Documents (OIML D)</strong>, which are informative in nature and which are intended to harmonize and improve work in the field of legal metrology;</p>
+</li>
+<li><p id="_d0c20f2d-127a-b5bd-a238-7454decfcac5_OIML_R_138"><strong>International Guides (OIML G)</strong>, which are also informative in nature and which are intended to give guidelines for the application of certain requirements to legal metrology; and</p>
+</li>
+<li><p id="_9a623d5d-7950-60e7-1649-808e78aeacee_OIML_R_138"><strong>International Basic Publications (OIML B)</strong>, which define the operating rules of the various OIML structures and systems.</p>
+</li>
+</ul>
+
+<p id="_41eafcb9-0fd1-b890-aa75-c399b1748774_OIML_R_138">OIML Draft Recommendations, Documents and Guides are developed by Technical Committees or Subcommittees which comprise representatives from the Member States. Certain international and regional institutions also participate on a consultation basis. Cooperative agreements have been established between the OIML and certain institutions, such as ISO and the IEC, with the objective of avoiding contradictory requirements. Consequently, manufacturers and users of measuring instruments, test laboratories, etc. may simultaneously apply OIML publications and those of other institutions.</p>
+
+<p id="_ba13e892-20b5-80a9-312e-a25da604a959_OIML_R_138">International Recommendations, Documents, Guides and Basic Publications are published in English (E) and translated into French (F) and are subject to periodic revision.</p>
+
+<p id="_d650d26d-915d-9241-ce50-efd8c1c2b707_OIML_R_138">Additionally, the OIML publishes or participates in the publication of <strong>Vocabularies (OIML V)</strong> and periodically commissions legal metrology experts to write  <strong>Expert Reports (OIML E)</strong>. Expert Reports are intended to provide information and advice, and are written solely from the viewpoint of their author, without the involvement of a Technical Committee or Subcommittee, nor that of the CIML. Thus, they do not necessarily represent the views of the OIML.</p>
+
+<p id="_fe4b8495-0979-2e58-4177-7ee3260a9dcb_OIML_R_138">This publication — reference OIML R 138, Edition 2007 (E) — was developed by the OIML Technical Subcommittee TC 8  <em>Measurement of quantities of fluids</em>. It was approved for final publication by the International Committee of Legal Metrology in 2007 and will be submitted to the International Conference of Legal Metrology in 2008 for formal sanction. This Edition replaces the previous editions of OIML R 4 <em>Volumetric flasks (one mark) in glass</em> (Edition 1972), R 29 <em>Capacity serving measures</em> (Edition 1979), R 45 <em>Casks and barrels</em> (Edition 1980) and R 96 <em>Measuring container bottles</em> (Edition 1990).</p>
+
+<p id="_11b84470-0cde-5f67-5e2c-0a00ce0bef60_OIML_R_138">OIML Publications may be downloaded from the OIML web site in the form of PDF files. Additional information on OIML Publications may be obtained from the Organization’s headquarters:</p>
+
+<p id="_751e9754-4918-f7bc-6597-17b5f66ca306_OIML_R_138">Bureau International de Métrologie Légale<br/> 11, rue Turgot — 75009 Paris — France<br/> Telephone: 33 (0)1 48 78 12 82<br/> Fax: 33 (0)1 42 82 17 27<br/> E-mail:  <link target="mailto:biml@oiml.org"/><br/> Internet: www.oiml.org</p>
+</foreword></preface><sections>
+<clause id="_5f8c346d-5546-81a8-3eb9-cc9c8e667659_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_be5ddc3d-a263-98b0-54f2-a271a5210a6c_OIML_R_138">Scope and application</title>
+<p id="_41886a79-0cd8-82e2-9ca0-56a923e0037c_OIML_R_138">This Recommendation applies to volumetric containers or vessels used to measure, and when applicable to store and transport, liquids for commercial transactions.</p>
+</clause>
+
+<clause id="_79287345-b3a3-419b-d30b-ef757fedc019_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_5f39e275-c394-7844-9d25-e4681cbfd482_OIML_R_138">Terminology and symbols</title>
+<clause id="_e403ad65-acc8-b991-5a33-aee531bde675_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_9c9abf40-830c-6ea3-1b3d-2c76f0ac0e54_OIML_R_138">General terms</title>
+<p id="_fad0ee76-5d4a-f90c-c28b-5875ef0179fc_OIML_R_138">The general terms and definitions are those of the International Vocabulary of Basic and General Terms in Metrology (VIM, 1993).</p>
+</clause>
+
+<clause id="_a9df228b-8cf9-2c0f-344c-746c89c6b0b0_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_8ee9e156-bbc4-9862-3fdc-144e6c698783_OIML_R_138">Capacity serving measures</title>
+<p id="_de1e54ef-18db-7ce0-0b3e-5845008c5fd5_OIML_R_138">Measures which are filled as required and used for the retail sale of drinks sold by volume. They are divided into two categories: transfer measures used solely for decanting specific volumes of beverages and drinking measures used also for the consumption of specific volumes of beverages.</p>
+</clause>
+
+<clause id="_8aa04b5d-23da-2f4d-716e-e494bcc45dfe_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_6fa9ac63-c899-cc40-5ccd-cb980447d78a_OIML_R_138">Measuring container bottles</title>
+<p id="_53a6f77a-2b16-6787-6249-fda1084c447a_OIML_R_138">Bottles intended to be filled either at constant level or at constant ullage with sufficient accuracy without the need to use an independent measuring instrument.</p>
+</clause>
+
+<clause id="_b27824b1-cae2-7dfc-7bbe-495bd2936213_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_daa3a2b8-437c-46d6-890d-94b1ab268f7a_OIML_R_138">Casks and barrels</title>
+<p id="_d844b675-86c9-1148-8552-066fe4ca09b9_OIML_R_138">Containers used for commercial transactions of liquids when they are filled to their nominal volume. To simplify the text, casks and barrels are referred to hereafter by the name “casks” only.</p>
+</clause>
+
+<clause id="_61fbd087-7adc-6eed-3496-442f651f0a0d_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_bc2f2d0e-b209-c4c3-7d13-af51e9fa1685_OIML_R_138">Nominal capacity, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_n</asciimath></stem></title>
+<p id="_77602a30-201a-f660-cb69-6eb6cc7352bd_OIML_R_138">Volume indicated on the vessel.</p>
+</clause>
+
+<clause id="_61081ec1-2609-418f-a321-e1cda353c87b_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_1b2a15fb-f3c6-f4ed-84e6-823e1a5bcaae_OIML_R_138">Conventional true capacity</title>
+<p id="_d9c9522d-4160-7bfa-7bf7-7a2cc774a947_OIML_R_138">For measuring container bottles and casks: contained volume of water at a reference temperature with an uncertainty appropriate for the given purpose.</p>
+
+<p id="_8b514a92-c851-0916-d871-a012f748ba48_OIML_R_138">For capacity serving measures: delivered volume of water at a reference temperature with an uncertainty appropriate for the given purpose. This volume is measured after prior wetting of the interior of the vessel and draining for 30 seconds.</p>
+</clause>
+
+<clause id="_5d69b2b9-8236-64a6-69a8-3976d522d021_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_aeb2f0f4-1a53-393b-a25e-b65eabc62156_OIML_R_138">Brim capacity, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_r</asciimath></stem></title>
+<p id="_dadac115-7748-a309-0f82-9ad0895dd607_OIML_R_138">Volume that the vessel is meant to contain when filled to the brim.</p>
+</clause>
+
+<clause id="_fb4e4eb7-35fd-86c1-6882-0edaccbd32de_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_afc2f630-33cc-fb3f-389d-aebe8ea7949c_OIML_R_138">Ullage (or headspace)</title>
+<p id="_f4cb35dd-fbe4-47d8-7f2c-971e321c71c8_OIML_R_138">Empty volume remaining in a container after it is filled.</p>
+</clause>
+
+<clause id="_8c17712a-6978-f69c-f14e-e4d31acfe538_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_51d256d0-24fe-12c8-a77b-65fce7b005d1_OIML_R_138">Gauge mark</title>
+<p id="_1125f039-57b9-604e-b32f-be956e637a5f_OIML_R_138">Mark, generally a line that indicates the nominal capacity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_n</asciimath></stem>.</p>
+</clause>
+
+<clause id="_668c1459-5ca7-6beb-95a6-ee309265a877_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_6b8c32fd-03e9-9986-b14e-fbbfbdc1d7aa_OIML_R_138">Filling orifice</title>
+<p id="_954779ff-dea7-a5fe-a2f3-06558d0d49c3_OIML_R_138">Opening in the cask wall defined by its section and the thickness of the cask walls.</p>
+</clause>
+</clause>
+
+<clause id="_db6e04a0-2704-70b2-30ac-2885aa8633ad_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_dd1eb1c1-f6b2-cf68-0c83-ced49df83dd4_OIML_R_138">Units of measurement</title>
+<p id="_b8410b95-48d1-d36c-f763-3a722fff135c_OIML_R_138">The units of measurement shall be the SI units.</p>
+</clause>
+
+<clause id="_81ba38f6-926d-5984-b1a6-8ad2d81bf06c_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_30e624f6-ae69-2b22-3664-524546e14ea6_OIML_R_138">Technical requirements</title>
+<clause id="_7f5654c3-3e46-c611-b0c3-3136a13276c8_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_28b42343-fe97-7631-5f65-466340096999_OIML_R_138">Nominal capacities</title>
+<clause id="_90cb38dc-5674-4527-2f8b-d694a801605f_OIML_R_138" inline-header="false" obligation="normative"><p id="_19d06512-dbd8-aa0c-6de4-37f560a989ee_OIML_R_138">Capacity serving measures and measuring container bottles</p>
+
+<p id="_4879a6b0-789f-7e8b-2794-6c9c87f2fe2b_OIML_R_138">Capacity serving measures and measuring container bottles shall have one of the nominal capacities given by the following formula:</p>
+
+<formula id="_1c2c5f86-8ce3-832c-9aca-533d3ba348a1_OIML_R_138"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+    <mo>=</mo>
+    <mi>x</mi>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mi>n</mi>
+    </msup>
+    <mtext>L</mtext>
+  </mstyle>
+</math><asciimath>V_n = x * 10^n "L"</asciimath></stem></formula>
+
+<p id="_6d987ca8-55c3-ea55-3e7d-b614b497a682_OIML_R_138">with <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem> = positive or negative integer, or zero<br/>
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>x</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>,</mo>
+    <mn>1.5</mn>
+    <mo>,</mo>
+    <mn>2</mn>
+    <mo>,</mo>
+    <mn>2.5</mn>
+    <mo>,</mo>
+    <mn>3</mn>
+    <mo>,</mo>
+    <mn>4</mn>
+  </mstyle>
+</math><asciimath>x = 1, 1.5, 2, 2.5, 3, 4</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>5</mn></mstyle></math><asciimath>5</asciimath></stem></p>
+
+<p id="_7649838c-c12d-1387-6ec5-81a60f90915c_OIML_R_138">and comprised between the following values:</p>
+
+<ul id="_fad53302-c38b-3831-9474-07e74d3ce6d8_OIML_R_138"><li><p id="_ee36b53c-e03f-352a-6666-d4b81da8e566_OIML_R_138">capacity serving measures [20 …​ 5000] <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mL)"</asciimath></stem></p>
+</li>
+<li><p id="_3cfe7cd4-e1fe-2ac6-0b6b-a2a4a4fc940a_OIML_R_138">measuring container bottles [50 …​ 5000] <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mL)"</asciimath></stem></p>
+</li>
+</ul>
+</clause>
+
+<clause id="_69095ef0-89db-8385-881d-51687a7be4d8_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_8ef10580-7f19-4bdd-36e3-1fe9eb04dfb8_OIML_R_138">Casks</title>
+<p id="_3daa20ee-384d-bc32-0a19-9d4be0df34d4_OIML_R_138">Casks shall have a nominal capacity equal to:</p>
+
+<ul id="_42fb7d23-f4a7-3d25-463e-fa726bb36409_OIML_R_138"><li><p id="_574ab8db-37b0-c4d1-4fc0-524ba097d762_OIML_R_138">a multiple of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>5 "unitsml(L)"</asciimath></stem> for <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+    <mo>≤</mo>
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>V_n &lt;= 100 "unitsml(L)"</asciimath></stem></p>
+</li>
+<li><p id="_9934df93-d5c7-1b20-7001-ee7d76fb32c1_OIML_R_138">a multiple of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>50</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>50 "unitsml(L)"</asciimath></stem> for <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+    <mo>&gt;</mo>
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>V_n &gt; 100 "unitsml(L)"</asciimath></stem></p>
+</li>
+</ul>
+</clause>
+
+<clause id="_022396b6-40c8-f7f1-21ae-39b257fd59b5_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_d72d434f-5d3f-5c8a-9e24-8f60f847f402_OIML_R_138">Exceptions</title>
+<p id="_4c810a28-c700-d58c-9047-aed0715aa9a0_OIML_R_138">When justified by local traditions or by special requirements, national regulations may allow
+additional values for nominal capacities or units (e.g. <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.33</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.33 "unitsml(L)"</asciimath></stem>).</p>
+</clause>
+</clause>
+
+<clause id="_06f20fe6-77d2-718e-571d-f1dfe1cfa4fd_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_df754b8c-de8c-5d39-3328-92fe131950c5_OIML_R_138">Material</title>
+<p id="_886a54be-0975-d7c6-620c-8b7e0b9fe84c_OIML_R_138">The vessels shall be sufficiently robust to withstand normal usage without distortions.</p>
+
+<p id="_924f5729-dfe3-f62c-63ea-75568c3625b0_OIML_R_138">For capacity serving measures and measuring container bottles, the materials used in construction should be sufficiently tough, rigid, non porous and stable to maintain accuracy during use.</p>
+
+<p id="_47b4d344-ffbb-e9ae-42cb-e3d02ba388fa_OIML_R_138">Casks may be manufactured in any material with strength, rigidity and toughness adequate for the intended use (e.g. solid wood, plywood, metal). National regulations may stipulate that the interior of certain casks must be covered with a protective permanent coating, compatible with the material used for construction and the liquids to be contained.</p>
+
+<p id="_5a799084-711a-696a-c78d-7948e44d391c_OIML_R_138">Vessels used only once, such as thin plastic or cardboard drinking capacities, must remain accurate during nominal filling, transportation and discharge functions.</p>
+</clause>
+
+<clause id="_d8c867f4-d673-d63a-6fe5-cd8acf0221a0_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_9f31fe71-e5d7-a179-7826-b242f87c04a1_OIML_R_138">Construction</title>
+<p id="_6b80d5d1-92d9-ef27-3e85-2bbc41852354_OIML_R_138">The total volume of vessels intended to contain liquids under pressure shall not increase more than
+0.5 % when subjected to an internal pressure of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_kPa">
+      <mstyle mathvariant="normal">
+        <mi>kPa</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>100 "unitsml(kPa)"</asciimath></stem> maintained for 48 hours.</p>
+
+<p id="_25c05ebd-7f44-7775-07ae-9a30ea83e392_OIML_R_138">The position of the filling orifice shall allow for complete filling of the casks.</p>
+</clause>
+
+<clause id="_eb4471b7-979f-7cd1-f738-db347fc97c03_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_66af349e-c171-d83b-7512-b43e384ddfc2_OIML_R_138">Resolution if gauge mark</title>
+<p id="_11a3a403-4466-5d95-2082-84bf5d2f3b2c_OIML_R_138">Vessels with gauge marks shall be so designed that at the nominal capacity, a variation in the contents
+equal to the maximum permissible error causes a change in the liquid level of at least <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2 "unitsml(mm)"</asciimath></stem>.</p>
+</clause>
+
+<clause id="_05d0b243-3ec5-390b-2d91-19bf72a91708_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_ffe80274-55ad-eca4-2518-7be1bc8566b5_OIML_R_138">Vertical position</title>
+<p id="_7ccfde7f-d935-c911-bc3f-f6d28c2d99e1_OIML_R_138">Vessels with gauge marks and measuring container bottles shall have a base wide enough to allow a vertical, stable position when resting on a flat horizontal surface. If not, a holder must be provided with the vessel.</p>
+</clause>
+
+<clause id="_602ea994-96ff-c748-82fd-84f280ebd5bf_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_c663f4a1-29ee-dfde-d421-a16b15f9d8b0_OIML_R_138">Filling requirements</title>
+<clause id="_b75bd242-365d-f60e-5011-57efa4417477_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_3689b896-07fc-d9fb-fb72-820db9fcfd92_OIML_R_138">Vessels with gauge marks</title>
+<p id="_2f09e6df-bdbe-08d7-e092-f64baf4c5d45_OIML_R_138">“Filled to the gauge mark” is when the lowest part of the meniscus formed by the liquid is tangential to the upper edge of the gauge mark.</p>
+</clause>
+
+<clause id="_fd203771-8a94-a123-868d-abef3151ddf9_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_e932bbb2-09cd-b9de-a901-b0e6e6ad9a76_OIML_R_138">Measuring container bottles</title>
+<p id="_e11311fc-22c5-aeda-2768-c9e06132b528_OIML_R_138">Depending on the specifications of the manufacturer, the surface of the liquid shall either be at the specified distance from the brim or have the specified ullage at the top.</p>
+</clause>
+
+<clause id="_0ded4073-84f1-bf5d-f210-5ecae0c29b24_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_2bea72f4-8eb4-b7c9-7d11-68dc68cf0172_OIML_R_138">Casks</title>
+<p id="_eaae7ffa-59c3-d191-6038-40f792291b5c_OIML_R_138">Casks shall be filled to the lower edge of the filling orifice.</p>
+</clause>
+</clause>
+</clause>
+
+<clause id="_8c69a8b4-8fcd-911a-a3ba-c4f02e8c4222_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_6b700363-ee00-e4cb-edb9-ddbd53ded3b4_OIML_R_138">Metrological requirements</title>
+<clause id="_d81968ed-878f-1d98-f498-ecbc833004a7_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_5ada1d87-ac20-03f6-6675-507c49645557_OIML_R_138">Maximum permissible errors</title>
+<clause id="_0d02e37b-8773-54bf-479b-b6ce337196f2_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_4e5db10b-896f-95d6-b3a5-13773f38bc77_OIML_R_138">Capacity serving measures</title>
+<table id="_beaefe2b-58c6-7433-7af5-26433d99a40e_OIML_R_138">
+<name id="_5a5cc467-57fb-849c-af3d-4cad4ea23ca8_OIML_R_138">Capacity serving measures</name>
+<thead><tr id="_e7bbabfa-c7e9-969e-41a6-5b04745792c6_OIML_R_138"><th id="_fd66d731-6af3-adfa-a4d6-375c9c953e70_OIML_R_138" colspan="2" valign="top" rowspan="2" align="center"/><th id="_bbacbe4c-6e96-f012-d39d-8cde22bc3c18_OIML_R_138" colspan="2" valign="top" align="center">Maximum permissible error (MPE)</th>
+</tr><tr id="_681a72e7-f822-0855-8b05-a7a423686df4_OIML_R_138"><th id="_781a75a0-b218-f7d4-0b87-d78ac7e36fcd_OIML_R_138" valign="top" align="center">Nominal capacity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_n</asciimath></stem></th>
+<th id="_f7070ddb-d875-a7ce-3f3a-89c302b1ee4c_OIML_R_138" valign="top" align="center">Brim capacity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_r</asciimath></stem></th>
+</tr></thead>
+<tbody><tr id="_6523b1b6-3a9d-95b6-a139-a37d3bbec231_OIML_R_138"><td id="_be588eed-edda-e84c-4a46-875626c1bb77_OIML_R_138" valign="top" rowspan="4" align="center">Transfer measures</td>
+<td id="_57136c41-6884-962c-3dde-f81f454677cf_OIML_R_138" valign="top" rowspan="2" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>&lt;</mo>
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>&lt; 100 "unitsml(mL)"</asciimath></stem></td>
+<td id="_05e4c4e8-1fc1-71fd-f567-224eb4ab6bf5_OIML_R_138" valign="top" rowspan="2" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>pm 2 "unitsml(mL)"</asciimath></stem></td>
+<td id="_2a037b2b-7986-aae8-9a43-042b1bf716a5_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>-0</mn></mstyle></math><asciimath>-0</asciimath></stem></td>
+</tr><tr id="_2e1d3b66-625c-3da7-038c-da0d46bad7d1_OIML_R_138"><td id="_adc3691c-e683-ef47-71e3-a5bde6ec3498_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>4</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>+ 4 "unitsml(mL)"</asciimath></stem></td>
+</tr><tr id="_b86368f2-b47e-e236-9f24-94c0520bdc10_OIML_R_138"><td id="_3af0f454-e859-5010-a8d1-5c4e1db37fb8_OIML_R_138" valign="top" rowspan="2" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>≥</mi>
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>&gt;= 100 "unitsml(mL)"</asciimath></stem></td>
+<td id="_bcec7bc0-8fbb-2738-cd24-ee7773ea609f_OIML_R_138" valign="top" rowspan="2" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>3</mn>
+    <mi>%</mi>
+  </mstyle>
+</math><asciimath>pm 3 %</asciimath></stem> of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_n</asciimath></stem></td>
+<td id="_792d817e-83a4-3b98-aebd-aedfb1c4e01d_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>-0</mn></mstyle></math><asciimath>-0</asciimath></stem></td>
+</tr><tr id="_dadfc445-3655-ffad-7745-0cd09169619e_OIML_R_138"><td id="_74ae7367-bde1-ac81-4ee0-ebf1e5a2570b_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>6</mn>
+    <mi>%</mi>
+  </mstyle>
+</math><asciimath>+ 6 %</asciimath></stem> of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_r</asciimath></stem></td>
+</tr><tr id="_14c5d0f9-ad70-0cda-7cf7-c553b42e2f81_OIML_R_138"><td id="_01af3a2b-165c-bcd4-2332-839c3f226414_OIML_R_138" valign="top" rowspan="4" align="center">Drinking measures</td>
+<td id="_308036de-31a0-6463-8610-2f357069d299_OIML_R_138" valign="top" rowspan="2" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>&lt;</mo>
+    <mn>200</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>&lt; 200 "unitsml(mL)"</asciimath></stem></td>
+<td id="_7bb792ce-2646-947b-d2b5-3b60912af74d_OIML_R_138" valign="top" rowspan="2" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>5</mn>
+    <mi>%</mi>
+  </mstyle>
+</math><asciimath>pm 5 %</asciimath></stem> of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_n</asciimath></stem></td>
+<td id="_719ec7e2-2de8-6ed3-a18e-217b89aeb098_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>-0</mn></mstyle></math><asciimath>-0</asciimath></stem></td>
+</tr><tr id="_5c41a62d-3bb2-6f2e-24d2-21e43f3a3a3c_OIML_R_138"><td id="_d4e03e00-68de-b481-8555-9d76a83d0a95_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>10</mn>
+    <mi>%</mi>
+  </mstyle>
+</math><asciimath>+ 10 %</asciimath></stem> of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_r</asciimath></stem></td>
+</tr><tr id="_cf521869-f785-d5b0-e171-90e8297848bb_OIML_R_138"><td id="_bc60c03d-6507-a911-70f5-a31241facbd5_OIML_R_138" valign="top" rowspan="2" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>≥</mi>
+    <mn>200</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>&gt;= 200 "unitsml(mL)"</asciimath></stem></td>
+<td id="_92a908a1-27e9-1d28-86ab-cea9aedd7f29_OIML_R_138" valign="top" rowspan="2" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mrow>
+      <mo>(</mo>
+      <mn>5</mn>
+      <mo rspace="thickmathspace">⁢</mo>
+      <mrow xref="U_NISTu365">
+        <mstyle mathvariant="normal">
+          <mi>mL</mi>
+        </mstyle>
+        
+        
+        
+        
+      </mrow>
+      <mo>+</mo>
+      <mn>2.5</mn>
+      <mi>%</mi>
+      <mo/>
+    </mrow>
+  </mstyle>
+</math><asciimath>pm (5 "unitsml(mL)" + 2.5 %</asciimath></stem> of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_n</asciimath></stem>)</td>
+<td id="_c796631e-da78-7a23-3353-4b53436b3b32_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>-0</mn></mstyle></math><asciimath>-0</asciimath></stem></td>
+</tr><tr id="_ad0af863-5641-c24c-26f8-9d7f9fc3fecf_OIML_R_138"><td id="_3b2379d1-7e5a-26c4-179a-1bbe2ff25eb6_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+    <mo>+</mo>
+    <mn>5</mn>
+    <mi>%</mi>
+  </mstyle>
+</math><asciimath>+ 10 "unitsml(mL)" + 5 %</asciimath></stem> of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_r</asciimath></stem></td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="_88544c16-a3af-6233-b33b-cc567796fd43_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_e1f500c5-7f9e-e6f4-561f-b4d7da07fc8a_OIML_R_138">Measuring container bottles</title>
+<table id="_5669a818-d6d9-c259-416d-f11947732b44_OIML_R_138">
+<name id="_1daec55c-e4d8-b801-616c-51ac445e0635_OIML_R_138">Measuring container bottles</name>
+<thead><tr id="_b0238976-80e7-4e2a-0145-03836f1a67bf_OIML_R_138"><th id="_3cb6bbcb-4c07-fd9d-c6ea-07bc34f8db00_OIML_R_138" valign="top" rowspan="2" align="center">Nominal capacity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_n</asciimath></stem> or
+
+Brim capacity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_r</asciimath></stem> in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mL)"</asciimath></stem></th>
+<th id="_403f1b88-f641-e7db-9241-bbb21067f5c7_OIML_R_138" colspan="2" valign="top" align="center">Maximum permissible error (MPE)</th>
+</tr><tr id="_229dd761-e889-1e38-26b6-3a969faa86f8_OIML_R_138"><th id="_15f61b02-1ba1-017f-8457-da9c25adca8c_OIML_R_138" valign="top" align="center">in % of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_n</asciimath></stem> or <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>r</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_r</asciimath></stem></th>
+<th id="_01a41393-3649-f6ff-32dd-ded7fd130d90_OIML_R_138" valign="top" align="center">in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mL)"</asciimath></stem></th>
+</tr></thead>
+<tbody><tr id="_27747279-be3f-f32f-67bc-63bec4458635_OIML_R_138"><td id="_45c5f86b-c48d-a4af-a763-6f19707e46c3_OIML_R_138" valign="top" align="center">from 50 to 100</td>
+<td id="_3c129bf0-5d31-faa4-7547-bf1296b9a7b1_OIML_R_138" valign="top" align="center">-</td>
+<td id="_af5500c5-f329-50ef-e6ae-285341cae898_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>3</mn>
+  </mstyle>
+</math><asciimath>pm 3</asciimath></stem></td>
+</tr><tr id="_b13b9bb1-889a-8702-56df-a99465b014a8_OIML_R_138"><td id="_4ec4278d-c239-5666-b92f-ed77e4f1ea23_OIML_R_138" valign="top" align="center">from 100 to 200</td>
+<td id="_ab039586-1cdc-3b33-996f-88511f28013c_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>3</mn>
+  </mstyle>
+</math><asciimath>pm 3</asciimath></stem></td>
+<td id="_498e4343-a27a-719d-4709-3df11af7bbc2_OIML_R_138" valign="top" align="center">-</td>
+</tr><tr id="_718a7ea2-015b-3528-3ba8-44956a5a5154_OIML_R_138"><td id="_b7a14381-abe3-8f75-c375-180562b474fb_OIML_R_138" valign="top" align="center">from 200 to 300</td>
+<td id="_c2adf211-8837-3528-3c2c-0b9ffb7a1424_OIML_R_138" valign="top" align="center">-</td>
+<td id="_706de760-167a-ee40-6bc5-03e1eac153bf_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>6</mn>
+  </mstyle>
+</math><asciimath>pm 6</asciimath></stem></td>
+</tr><tr id="_71a72b48-1667-6715-492d-eb0e3e8a9ca5_OIML_R_138"><td id="_73839a84-3f1f-d748-bb5d-8bdc36e7af17_OIML_R_138" valign="top" align="center">from 300 to 500</td>
+<td id="_1e4ec32e-35b0-2765-0063-e0172a3f59b9_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>2</mn>
+  </mstyle>
+</math><asciimath>pm 2</asciimath></stem></td>
+<td id="_743614a2-413c-5a16-6c68-6de2f6e7266c_OIML_R_138" valign="top" align="center">-</td>
+</tr><tr id="_1684808f-ce14-7ab4-f8c3-1f75cdde14db_OIML_R_138"><td id="_f3095315-09bf-043f-8432-b7755d43a81a_OIML_R_138" valign="top" align="center">from 500 to 1000</td>
+<td id="_58000d99-76ad-3288-c9b2-40a73be3141e_OIML_R_138" valign="top" align="center">-</td>
+<td id="_2e885142-f311-386c-54f6-27cb66387e47_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>10</mn>
+  </mstyle>
+</math><asciimath>pm 10</asciimath></stem></td>
+</tr><tr id="_a2811b98-713d-499f-decb-044f8314f8dc_OIML_R_138"><td id="_2181c6ea-8916-94e0-e11a-4711bbeed2d3_OIML_R_138" valign="top" align="center">from 1000 to 5000</td>
+<td id="_a39d71d5-85f5-d8ea-018e-b5398a9d4484_OIML_R_138" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>1</mn>
+  </mstyle>
+</math><asciimath>pm 1</asciimath></stem></td>
+<td id="_a68f6bbc-ebae-8f41-bee3-d227ab89e2b1_OIML_R_138" valign="top" align="center">-</td>
+</tr></tbody>
+</table>
+</clause>
+
+<clause id="_3a18c0ed-625e-62e3-63cc-4f7d7aa0cff1_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_790a96e4-5c07-dcae-b2be-1edc9537e6b0_OIML_R_138">Casks</title>
+<p id="_94839b59-43e4-8256-91e4-2b03af039255_OIML_R_138"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>0.5</mn>
+    <mi>%</mi>
+  </mstyle>
+</math><asciimath>pm 0.5 %</asciimath></stem> but not less than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.10 "unitsml(L)"</asciimath></stem> for casks made of metal which shall be designated by the letter “A” affixed to the vessel.</p>
+
+<p id="_ba9d8628-bf7b-cf13-da94-0f9c1112863c_OIML_R_138"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>1.0</mn>
+    <mi>%</mi>
+  </mstyle>
+</math><asciimath>pm 1.0 %</asciimath></stem> but not less than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.15</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu130">
+      <mstyle mathvariant="normal">
+        <mi>L</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.15 "unitsml(L)"</asciimath></stem> for casks made of other materials which shall be designated by the letter “B” affixed to the vessel.</p>
+</clause>
+
+<clause id="_46a8879a-bbd5-baaa-0d35-d5f65efe35d4_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_27fb9fde-1f01-727c-28c2-7edfc065d904_OIML_R_138">General</title>
+<p id="_a939e27e-b784-0dd8-db09-e80bda340d9a_OIML_R_138">Systematic exploitation of the maximum permissible errors is prohibited.</p>
+</clause>
+</clause>
+
+<clause id="_e8931c21-66f0-344e-c086-a7f261a83ac3_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_c7fc989c-47ab-9d06-41e4-7ee188c46ae0_OIML_R_138">Markings</title>
+<clause id="_bcab62bb-a203-15ce-7795-8f9c545f4229_OIML_R_138" anchor="cls-5.2.1_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_bda347ca-fdcb-3466-d453-6db184941cc0_OIML_R_138">Nominal capacity</title>
+<p id="_7d420791-5de4-c12f-0769-ac97450720a9_OIML_R_138">Every vessel for commercial transactions shall bear a clearly visible, easily readable and permanent
+indication of the nominal capacity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>V</mi>
+      <mi>n</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>V_n</asciimath></stem>. Markings shall be in SI units.</p>
+</clause>
+
+<clause id="_38d3f1fe-2183-ff21-360c-9d6d97156ca8_OIML_R_138" anchor="cls-5.2.2_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_b6d27128-909c-de85-bb60-c7ecaa60a144_OIML_R_138">Capacity serving measures</title>
+<p id="_3404230e-ed76-630b-83f4-391bb3effba8_OIML_R_138">In addition to the requirements of <xref target="cls-5.2.1_OIML_R_138"/>, capacity serving measures shall bear at least one filling mark.
+All filling marks shall be clearly visible and permanently marked. They must be at least <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(mm)"</asciimath></stem> long and in a horizontal plane when the measure stands on a horizontal flat surface.</p>
+
+<p id="_4d01b6e5-dfd0-67de-d041-a6e27864d8e8_OIML_R_138">On drinking measures with a capacity of more than 50 mL, the filling mark is at least <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(mm)"</asciimath></stem> from the brim.</p>
+
+<p id="_80c7fbf9-5cb9-c05c-9f01-1e15c46cd639_OIML_R_138">For foam building liquids the distance between the upper gauge mark and the brim shall be sufficient
+to allow for a complete filling to the mark but not less than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>20 "unitsml(mm)"</asciimath></stem>.</p>
+
+<p id="_0725fd51-cabf-f5b6-6f83-065351cba393_OIML_R_138">Exception: if the capacity of a serving or drinking measure is defined by its brim capacity, the requirement of  <xref target="cls-5.2.2_OIML_R_138"/> does not have to be fulfilled.</p>
+</clause>
+
+<clause id="_b49ddac9-cdad-6893-9e1e-688140b83ea3_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_87931174-a000-41c8-e5f7-99066cbc9a1d_OIML_R_138">Measuring container bottles</title>
+<p id="_c7c8de4c-3e08-a90a-6658-4d39cce4f5ff_OIML_R_138">In addition to the requirements of <xref target="cls-5.2.1_OIML_R_138"/>, measuring container bottles shall be marked with one of the following marks, either on the lower rim or the bottom:</p>
+
+<ul id="_51604bfb-7619-b841-6b92-42273373d589_OIML_R_138"><li><p id="_37c33226-3b3d-00f8-07de-ef10eb7deace_OIML_R_138">when filled to a constant level: the distance, expressed in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mL)"</asciimath></stem> followed by the symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mm)"</asciimath></stem> from the brim to the filling level corresponding to the nominal capacity; or</p>
+</li>
+<li><p id="_d1908c18-66ee-684b-5a99-5885501ab790_OIML_R_138">when filled to a constant ullage: the number, expressed in mL followed by the symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu365">
+      <mstyle mathvariant="normal">
+        <mi>mL</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mL)"</asciimath></stem> that is equal to the brim capacity.</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_65c0729f-ab52-5105-5772-143219341c7a_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_593b5564-f8ee-4105-da01-75a1d21c4b57_OIML_R_138">Compliance with the metrological specifications</title>
+<p id="_4facc39e-645a-0980-e041-875f1266b6fc_OIML_R_138">Every vessel for commercial transactions shall bear a mark identifying the company responsible for compliance with the metrological specifications applicable to the vessel.</p>
+</clause>
+
+<clause id="_af1e1d8e-8e26-8de9-10ee-6c58fbce7332_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_0ca1f241-970e-39b4-9764-26eeada8a6b6_OIML_R_138">Reference temperature</title>
+<p id="_885385c6-4708-d48c-2d75-2dee21964076_OIML_R_138">If the National Metrology Authority decides on a reference temperature other than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu23">
+      <mstyle mathvariant="normal">
+        <mi>°C</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>20 "unitsml(degC)"</asciimath></stem>, this temperature must be indicated next to every volume indication affixed to the vessel.</p>
+</clause>
+</clause>
+</clause>
+
+<clause id="_7bf3ab33-112a-bf91-e1d4-b95fe8fcee41_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_a3d58f6d-1f04-8caf-60bc-655ab32985fb_OIML_R_138">Metrological controls</title>
+<clause id="_6b75c16b-d0c8-9d87-b728-0722ba481d76_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_96f0b5ef-46de-cf08-0b19-5fa5a1280e84_OIML_R_138">Type approval</title>
+<p id="_df5b9e57-9e6f-2b28-d048-b5c1753546d4_OIML_R_138">The vessels for commercial transactions are not subject to type approval.</p>
+</clause>
+
+<clause id="_41b0ece0-62c5-3b20-6d88-1d6735e5455b_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_c55c9d8c-a47e-632f-dd03-87b05d2abe7d_OIML_R_138">Initial verification</title>
+<p id="_46020622-8dd2-134a-f29e-8dd274ec9845_OIML_R_138">The conformity of vessels used for commercial transactions to the prescribed specifications shall be controlled by the competent authority using a suitable statistical test. The controls shall preferably take place at the manufacturer’s plant or at the importer’s warehouse.</p>
+
+<p id="_a56a9cb5-05d2-0fcd-c8ec-62f940a808d9_OIML_R_138">The competent authority shall use a suitable test to perform the controls. An example is given in <xref target="annex-a_OIML_R_138"/>. In cases where a small number of vessels are concerned, the control may be replaced by individual initial verification.</p>
+
+<p id="_91d298d3-7805-e34e-5656-2c2d2ec3e1fe_OIML_R_138">Casks may be presented to the competent authority for legal metrology without an indication of the nominal capacity. In this case, the authority shall determine the conventional true capacity at a reference temperature when the container is filled according to the specifications and shall affix the value of the nominal capacity and the official mark of verification.</p>
+
+<p id="_1166dd25-93be-1180-9f17-0514998664dc_OIML_R_138">Capacity serving measures may be presented to the competent Legal Metrology Authority without marking. In this case, the authority shall affix the gauge mark, the value of the nominal capacity and the official verification mark.</p>
+</clause>
+
+<clause id="_ba08e0d4-f16d-7e1d-a667-d5d4d2b77891_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_3056496f-40ee-e7b3-da1b-fefa12cbe5a7_OIML_R_138">Subsequent verification or control</title>
+<p id="_6109c7ea-fb84-a4b5-984e-58a04517676c_OIML_R_138">Vessels made of glass are not subject to subsequent verification.</p>
+</clause>
+</clause>
+
+<clause id="_a8a9caaa-e77d-ae12-612b-387a064293b3_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_80731786-11ba-df52-16e6-f1d702a8ba3b_OIML_R_138">Measuring instruments used for official controls</title>
+<p id="_1f2044c5-891d-df5b-b476-c2b910190bd5_OIML_R_138">Measuring instruments used for official controls of vessels for commercial transactions shall be traceable to internationally supported realizations of the SI Units and have an uncertainty not greater than one-third of the maximum permissible error.</p>
+</clause>
+
+
+</sections><annex id="_9268f20c-4c27-d009-f76a-e09c4940dd0c_OIML_R_138" anchor="annex-a_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_846746cb-5e9e-50f8-d442-4a4235869fe1_OIML_R_138">Statistical test</title>
+<clause id="_bc14c5de-6b0c-0533-a372-d6881acd57ed_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_46658017-62a3-8664-e5af-839cbcb54141_OIML_R_138">Sampling</title>
+<p id="_ae53cc46-e8db-6196-865b-fa333eba4f61_OIML_R_138">The method of control set out in <xref target="annex-a_OIML_R_138"/> assumes that the distribution of actual capacities of the vessels in a batch submitted for inspection is near to a normal distribution.</p>
+
+<p id="_587e852d-97a8-8b7b-5440-e96b27754cf4_OIML_R_138">The sampling procedure shall conform as much as possible to sampling theory and shall be adapted to the manufacturing procedures of the manufacturer or to the conditions in which batches are presented by the importer.</p>
+</clause>
+
+<clause id="_86a2353d-2d8a-9750-e41f-937c9b90bda2_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_58f577f9-6392-7994-cb4b-922c4733dc07_OIML_R_138">Computation example</title>
+<p id="_792e3c99-9fe5-7c31-ac44-c6044a16a8a3_OIML_R_138">A sample of 35 vessels of the same type and manufacture shall be taken at random in one or several batches so that the sample is as representative as possible of the production.</p>
+
+<p id="_02720a82-b1bf-8741-760e-50852489a81d_OIML_R_138">The following computational procedure is taken from the International Standard ISO 3951:1989, letter code J, AQL = 2.5, normal control, unknown standard deviation.</p>
+
+<p id="_5d35a24d-4902-2caf-49d6-5cc06ba2fe9c_OIML_R_138">Compute the mean <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>x</mi>
+  </mstyle>
+</math><asciimath>x</asciimath></stem> of the capacities <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>x_i</asciimath></stem> of the vessels in the sample:</p>
+
+<formula id="_f0507dec-d3c2-90a0-f0f9-bb2d2ab190bd_OIML_R_138"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>x</mi>
+    <mo>=</mo>
+    <mrow>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mi>N</mi>
+      </munderover>
+      <mfrac>
+        <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+        </msub>
+        <mi>N</mi>
+      </mfrac>
+    </mrow>
+  </mstyle>
+</math><asciimath>x = sum_(i=1)^N x_i/N</asciimath></stem></formula>
+
+<p id="_8b0a24b0-a171-b28c-4e25-4f277c8f4b0b_OIML_R_138">with <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>N</mi>
+    <mo>=</mo>
+    <mn>35</mn>
+  </mstyle>
+</math><asciimath>N = 35</asciimath></stem>.</p>
+
+<p id="_45fcc7fe-9eb5-331e-e236-2dbf42f5be84_OIML_R_138">Compute the standard deviation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>s</mi>
+  </mstyle>
+</math><asciimath>s</asciimath></stem> of the capacities <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>x_i</asciimath></stem> of the vessels in the sample:</p>
+
+<formula id="_6e413c0b-eb32-003d-383b-2ba0afb4d8b1_OIML_R_138"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>s</mi>
+    <mo>=</mo>
+    <msqrt>
+      <mrow>
+        <munderover>
+          <mo>∑</mo>
+          <mrow>
+            <mi>i</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+          </mrow>
+          <mi>N</mi>
+        </munderover>
+        <mfrac>
+          <msup>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>x</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>−</mo>
+              <mi>x</mi>
+              <mo>)</mo>
+            </mrow>
+            <mn>2</mn>
+          </msup>
+          <mrow>
+            <mi>N</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+          </mrow>
+        </mfrac>
+      </mrow>
+    </msqrt>
+  </mstyle>
+</math><asciimath>s = sqrt( sum_(i=1)^N (x_i-x)^2/(N-1) )</asciimath></stem></formula>
+
+<p id="_ba5347ef-c16a-e61b-85a0-f38849f3da49_OIML_R_138">with <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>N</mi>
+    <mo>=</mo>
+    <mn>35</mn>
+  </mstyle>
+</math><asciimath>N = 35</asciimath></stem>.</p>
+
+<p id="_6bd6c38d-f106-ec40-6166-7a0ad32d6bd5_OIML_R_138">Compute the specified upper limit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>T</mi>
+      <mi>s</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>T_s</asciimath></stem>, the sum of the capacity to be verified and of the maximum permissible error for this capacity.</p>
+
+<p id="_4abb6c71-c7ed-0c62-18db-7d23503793cf_OIML_R_138">Compute the specified lower limit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>T</mi>
+      <mi>i</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>T_i</asciimath></stem>, the difference between the capacity to be verified and the maximum permissible error for this capacity.</p>
+</clause>
+
+<clause id="_5c09996b-6cf6-8fe8-f2b8-263ab9a49d65_OIML_R_138" inline-header="false" obligation="normative">
+<title id="_cbcba979-0cf9-7b28-cacd-fccd28c5d180_OIML_R_138">Acceptance criteria</title>
+<p id="_2561e83f-d9f0-d372-4ed1-39f49b244427_OIML_R_138">The batch shall be accepted if the values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>x</mi>
+  </mstyle>
+</math><asciimath>x</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>s</mi>
+  </mstyle>
+</math><asciimath>s</asciimath></stem> satisfy simultaneously the following three inequalities:</p>
+
+<formula id="_2d675394-6fc9-d9a6-76ed-53eb30373dc6_OIML_R_138"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>x</mi>
+    <mo>+</mo>
+    <mi>k</mi>
+    <mo>⋅</mo>
+    <mi>s</mi>
+    <mo>≤</mo>
+    <msub>
+      <mi>T</mi>
+      <mi>s</mi>
+    </msub>
+    <mo>,</mo>
+  </mstyle>
+</math><asciimath>x + k * s &lt;= T_s,</asciimath></stem></formula>
+
+<formula id="_bba45bc5-b05a-ee9a-98ef-9b5bbd8d6790_OIML_R_138"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>x</mi>
+    <mo>−</mo>
+    <mi>k</mi>
+    <mo>⋅</mo>
+    <mi>s</mi>
+    <mi>≥</mi>
+    <msub>
+      <mi>T</mi>
+      <mi>i</mi>
+    </msub>
+    <mo>,</mo>
+  </mstyle>
+</math><asciimath>x - k * s &gt;= T_i,</asciimath></stem></formula>
+
+<formula id="_184a7940-cea2-e36a-9ec0-d6ad0d80e979_OIML_R_138"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>s</mi>
+    <mo>≤</mo>
+    <mi>F</mi>
+    <mo>⋅</mo>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mi>T</mi>
+        <mi>s</mi>
+      </msub>
+      <mo>−</mo>
+      <msub>
+        <mi>T</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <mo>,</mo>
+  </mstyle>
+</math><asciimath>s &lt;= F * (T_s - T_i),</asciimath></stem></formula>
+
+<p id="_0c7f6d26-0c0b-da4b-dcdb-208a5b331703_OIML_R_138">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>1.57</mn>
+  </mstyle>
+</math><asciimath>k = 1.57</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>F</mi>
+    <mo>=</mo>
+    <mn>0.266</mn>
+  </mstyle>
+</math><asciimath>F = 0.266</asciimath></stem>.</p>
+</clause>
+</annex>
+<bibliography><references hidden="true" normative="false"/></bibliography></metanorma>
+  </doc-container>
+</metanorma-collection>
