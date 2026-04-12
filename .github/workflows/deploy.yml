@@ -76,6 +76,17 @@ jobs:
             --path-prefix /oiml-firelight/${{ matrix.collection.name }} \
             --current-rev main
 
+      - name: Patch deployed assets
+        run: |
+          cd dist/${{ matrix.collection.name }}
+          # Fix Non-slash-prepended path: return "/" when path equals prefix
+          sed -i \
+            -e 's|slashPrependedPath\.replace(pathPrefix, "") : slashPrependedPath|slashPrependedPath.replace(pathPrefix, "") || "/" : slashPrependedPath|g' \
+            -e 's|siteRootRelative\.replace(versionPrefix, "") : siteRootRelative|siteRootRelative.replace(versionPrefix, "") || "/" : siteRootRelative|g' \
+            bootstrap.js
+          # Strip source map references for CSS files whose maps aren't deployed
+          find . -name '*.css' -exec sed -i '/\/\*# sourceMappingURL/d' {} +
+
       - uses: actions/upload-artifact@v4
         with:
           name: fl-${{ matrix.collection.name }}
