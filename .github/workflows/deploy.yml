@@ -51,12 +51,12 @@ jobs:
 
       - name: Build anafero-cli locally
         run: |
-          cd firelight
+          cd firelight/packages/anafero-cli
           corepack enable
           yarn install
           yarn bp
-          cd -
-          CLI_TGZ=$(ls firelight/dist/riboseinc-anafero-*.tgz | head -1)
+          cd ../..
+          CLI_TGZ=$(ls firelight/packages/anafero-cli/dist/riboseinc-anafero-*.tgz | head -1)
           echo "Built CLI: $CLI_TGZ"
 
       - name: Create git repo for Firelight
@@ -93,7 +93,7 @@ jobs:
         env:
           NODE_OPTIONS: "--max_old_space_size=8192"
         run: |
-          CLI_TGZ=$(ls firelight/dist/riboseinc-anafero-*.tgz | head -1)
+          CLI_TGZ=$(ls firelight/packages/anafero-cli/dist/riboseinc-anafero-*.tgz | head -1)
           npx --node-options='--experimental-vm-modules --max_old_space_size=6144' \
             -y "$CLI_TGZ" build-site \
             --target-dir dist/${{ matrix.collection.name }} \
