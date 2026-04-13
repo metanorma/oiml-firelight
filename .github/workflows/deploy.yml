@@ -33,31 +33,8 @@ jobs:
     name: Build ${{ matrix.collection.name }}
 
     steps:
-      - name: Checkout oiml-firelight
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Checkout firelight with anafero-gui fix
-        uses: actions/checkout@v4
-        with:
-          repository: metanorma/firelight
-          ref: fix-todom-array-format
-          path: firelight
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-
-      - name: Build anafero-cli locally
-        run: |
-          cd firelight/packages/anafero-cli
-          corepack enable
-          yarn install
-          yarn bp
-          cd ../..
-          CLI_TGZ=$(ls firelight/packages/anafero-cli/dist/riboseinc-anafero-*.tgz | head -1)
-          echo "Built CLI: $CLI_TGZ"
 
       - name: Create git repo for Firelight
         run: |
@@ -93,9 +70,8 @@ jobs:
         env:
           NODE_OPTIONS: "--max_old_space_size=8192"
         run: |
-          CLI_TGZ=$(ls firelight/packages/anafero-cli/dist/riboseinc-anafero-*.tgz | head -1)
           npx --node-options='--experimental-vm-modules --max_old_space_size=6144' \
-            -y "$CLI_TGZ" build-site \
+            -y @riboseinc/anafero-cli@0.0.70 build-site \
             --target-dir dist/${{ matrix.collection.name }} \
             --path-prefix /oiml-firelight/${{ matrix.collection.name }} \
             --current-rev main
